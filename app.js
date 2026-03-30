@@ -3,7 +3,7 @@ dateEl.textContent = new Date().toLocaleDateString('en-US', {
   weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
 });
 
-// Animated <details> open/close
+// Animated <details> open/close — spans full width on desktop when open
 document.addEventListener('click', e => {
   const summary = e.target.closest('summary');
   if (!summary) return;
@@ -15,14 +15,16 @@ document.addEventListener('click', e => {
 
   if (details.open) {
     content.style.height = content.scrollHeight + 'px';
-    content.offsetHeight; // force reflow
+    content.offsetHeight;
     content.style.height = '0';
     content.addEventListener('transitionend', () => {
       details.removeAttribute('open');
+      details.classList.remove('spanning');
       content.style.height = '';
     }, { once: true });
   } else {
     details.setAttribute('open', '');
+    details.classList.add('spanning');
     const h = content.scrollHeight;
     content.style.height = '0';
     content.offsetHeight;

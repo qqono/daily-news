@@ -213,6 +213,10 @@ main {
 
 .single { grid-column: 1 / -1; }
 
+@media (min-width: 540px) {
+  .article.spanning { grid-column: 1 / -1; }
+}
+
 /* ── Footer ──────────────────────────────────────────────── */
 footer {
   text-align: center;
