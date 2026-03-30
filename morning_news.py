@@ -46,24 +46,26 @@ Search the web and compile a morning news digest. Return ONLY valid JSON (no mar
   "top_headlines": [
     {{"headline": "...", "summary": "2-3 sentence summary.", "source": "Source Name"}},
     {{"headline": "...", "summary": "2-3 sentence summary.", "source": "Source Name"}},
-    {{"headline": "...", "summary": "2-3 sentence summary.", "source": "Source Name"}},
     {{"headline": "...", "summary": "2-3 sentence summary.", "source": "Source Name"}}
   ],
   "tech_ai": [
+    {{"headline": "...", "summary": "2-3 sentence summary.", "source": "Source Name"}},
     {{"headline": "...", "summary": "2-3 sentence summary.", "source": "Source Name"}},
     {{"headline": "...", "summary": "2-3 sentence summary.", "source": "Source Name"}}
   ],
   "business_finance": [
     {{"headline": "...", "summary": "2-3 sentence summary.", "source": "Source Name"}},
+    {{"headline": "...", "summary": "2-3 sentence summary.", "source": "Source Name"}},
     {{"headline": "...", "summary": "2-3 sentence summary.", "source": "Source Name"}}
   ],
   "world_news": [
+    {{"headline": "...", "summary": "2-3 sentence summary.", "source": "Source Name"}},
     {{"headline": "...", "summary": "2-3 sentence summary.", "source": "Source Name"}},
     {{"headline": "...", "summary": "2-3 sentence summary.", "source": "Source Name"}}
   ]
 }}
 
-Use web search to find real, current news from today. Include the 4 biggest headlines of the day plus 2 trending stories each from Tech & AI, Business & Finance, and World News."""
+Use web search to find real, current news from today. Include the 3 biggest headlines of the day plus 3 trending stories each from Tech & AI, Business & Finance, and World News."""
 
 
 # ── Core functions ────────────────────────────────────────────────────────────
