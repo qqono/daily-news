@@ -154,11 +154,26 @@ def save_news_json(data: dict):
         json.dump(payload, f, indent=2)
 
 
+def git_push():
+    import subprocess
+    repo = os.path.dirname(os.path.abspath(__file__))
+    cmds = [
+        ["git", "add", "news.json"],
+        ["git", "commit", "-m", f"news: {TODAY}"],
+        ["git", "push"],
+    ]
+    for cmd in cmds:
+        result = subprocess.run(cmd, cwd=repo, capture_output=True, text=True)
+        print(result.stdout.strip() or result.stderr.strip())
+
+
 if __name__ == "__main__":
     print(f"[{datetime.now().strftime('%H:%M:%S')}] Fetching news...")
     data = fetch_news()
     print(f"[{datetime.now().strftime('%H:%M:%S')}] Saving news.json...")
     save_news_json(data)
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Pushing to GitHub...")
+    git_push()
     print(f"[{datetime.now().strftime('%H:%M:%S')}] Building email...")
     html = build_html(data)
     print(f"[{datetime.now().strftime('%H:%M:%S')}] Sending to {RECIPIENT_EMAIL}...")
