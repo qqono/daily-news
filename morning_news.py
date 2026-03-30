@@ -85,6 +85,17 @@ def fetch_news() -> dict:
             full_text = re.sub(r"```(?:json)?", "", full_text).strip()
             data = json.loads(full_text)
             log.info(f"News fetched after {iterations} API call(s)")
+            log.info("── Content ──────────────────────────────────────────")
+            for i, h in enumerate(data.get("top_headlines", []), 1):
+                log.info(f"  Headline {i}: {h['headline']} ({h['source']})")
+                log.info(f"    {h['summary']}")
+            for section in ("tech_ai", "business_finance", "world_news"):
+                item = data.get(section, {})
+                if item:
+                    label = section.replace("_", " & ").title()
+                    log.info(f"  {label}: {item['headline']} ({item['source']})")
+                    log.info(f"    {item['summary']}")
+            log.info("─────────────────────────────────────────────────────")
             return data
 
         messages.append({"role": "assistant", "content": response.content})
