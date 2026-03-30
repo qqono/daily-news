@@ -167,6 +167,16 @@ def git_push():
         print(result.stdout.strip() or result.stderr.strip())
 
 
+def netlify_deploy():
+    import subprocess
+    repo = os.path.dirname(os.path.abspath(__file__))
+    result = subprocess.run(
+        ["npx", "netlify-cli", "deploy", "--prod", "--dir", "."],
+        cwd=repo, capture_output=True, text=True
+    )
+    print(result.stdout.strip() or result.stderr.strip())
+
+
 if __name__ == "__main__":
     print(f"[{datetime.now().strftime('%H:%M:%S')}] Fetching news...")
     data = fetch_news()
@@ -174,6 +184,8 @@ if __name__ == "__main__":
     save_news_json(data)
     print(f"[{datetime.now().strftime('%H:%M:%S')}] Pushing to GitHub...")
     git_push()
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] Deploying to Netlify...")
+    netlify_deploy()
     print(f"[{datetime.now().strftime('%H:%M:%S')}] Building email...")
     html = build_html(data)
     print(f"[{datetime.now().strftime('%H:%M:%S')}] Sending to {RECIPIENT_EMAIL}...")
