@@ -1,4 +1,4 @@
-/* Rosé Pine palette */
+/* Rosé Pine — Main */
 :root {
   --base:    #191724;
   --surface: #1f1d2e;
@@ -23,54 +23,61 @@ body {
   background: var(--base);
   color: var(--text);
   min-height: 100vh;
+  font-size: 16px;
 }
 
+/* ── Header ─────────────────────────────────────────────── */
 header {
   background: var(--surface);
-  padding: 1.5rem 2rem;
-  border-bottom: 2px solid var(--overlay);
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid var(--overlay);
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .header-inner {
   max-width: 900px;
   margin: 0 auto;
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 0.75rem;
 }
 
 header h1 {
-  font-size: 1.6rem;
+  font-size: clamp(1.1rem, 4vw, 1.5rem);
   font-weight: 700;
   color: var(--rose);
-}
-
-#today-date, #news-date {
-  font-size: 0.8rem;
-  color: var(--muted);
   white-space: nowrap;
 }
 
-#news-date { margin-top: 0.25rem; font-size: 0.75rem; }
-
-main {
-  max-width: 900px;
-  margin: 2rem auto;
-  padding: 0 1.25rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
+#today-date, #news-date {
+  font-size: 0.75rem;
+  color: var(--muted);
+  text-align: right;
 }
 
-/* Section label */
+#news-date { margin-top: 0.2rem; }
+
+/* ── Main layout ─────────────────────────────────────────── */
+main {
+  max-width: 900px;
+  margin: 1.25rem auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+/* ── Section labels ──────────────────────────────────────── */
 .section-label {
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   font-weight: 700;
   letter-spacing: 1.2px;
   text-transform: uppercase;
-  margin-bottom: 0.9rem;
-  padding-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.4rem;
   border-bottom: 2px solid currentColor;
 }
 .label-red    { color: var(--love); }
@@ -78,40 +85,89 @@ main {
 .label-green  { color: var(--foam); }
 .label-yellow { color: var(--gold); }
 
-/* Grid */
+/* ── Grid ────────────────────────────────────────────────── */
 .section-grid {
   display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 0.75rem;
+  grid-template-columns: 1fr;          /* mobile: single column */
 }
 
-/* Cards */
+@media (min-width: 540px) {
+  .section-grid {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  }
+}
+
+/* ── Cards (details/summary) ─────────────────────────────── */
 .article {
   background: var(--surface);
-  border-radius: 8px;
-  padding: 1.25rem 1.4rem;
+  border-radius: 10px;
   border: 1px solid var(--overlay);
-  transition: border-color 0.15s, background 0.15s;
+  overflow: hidden;
+  transition: border-color 0.15s;
 }
 
-.article:hover {
-  background: var(--overlay);
+.article[open] {
   border-color: var(--hl-high);
 }
 
-.article h2 {
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.4;
-  margin-bottom: 0.5rem;
-  color: var(--text);
+.article summary {
+  position: relative;
+  padding: 1rem 2.5rem 1rem 1rem;   /* right space for chevron */
+  cursor: pointer;
+  list-style: none;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
 }
 
-.article p {
-  font-size: 0.88rem;
-  line-height: 1.65;
+.article summary::-webkit-details-marker { display: none; }
+
+.article summary:active {
+  background: var(--overlay);
+}
+
+.article h2 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text);
+  margin-bottom: 0.35rem;
+}
+
+.preview {
+  font-size: 0.82rem;
+  line-height: 1.5;
   color: var(--subtle);
-  margin-bottom: 0.6rem;
+}
+
+/* Chevron */
+.chevron {
+  position: absolute;
+  right: 0.9rem;
+  top: 50%;
+  transform: translateY(-50%) rotate(90deg);
+  font-size: 1.2rem;
+  color: var(--muted);
+  transition: transform 0.2s ease;
+  line-height: 1;
+}
+
+.article[open] .chevron {
+  transform: translateY(-50%) rotate(270deg);
+}
+
+/* Expanded content */
+.expanded {
+  padding: 0 1rem 1rem;
+  border-top: 1px solid var(--overlay);
+}
+
+.expanded p {
+  font-size: 0.88rem;
+  line-height: 1.7;
+  color: var(--subtle);
+  padding-top: 0.75rem;
+  margin-bottom: 0.5rem;
 }
 
 .source {
@@ -121,15 +177,16 @@ main {
 
 .single { grid-column: 1 / -1; }
 
-.error {
-  color: var(--love);
-  font-size: 0.9rem;
-  padding: 1rem;
-}
-
+/* ── Footer ──────────────────────────────────────────────── */
 footer {
   text-align: center;
   padding: 2rem 1rem;
   font-size: 0.75rem;
   color: var(--muted);
+}
+
+.error {
+  color: var(--love);
+  font-size: 0.9rem;
+  padding: 1rem;
 }

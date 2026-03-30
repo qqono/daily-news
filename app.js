@@ -4,12 +4,22 @@ dateEl.textContent = new Date().toLocaleDateString('en-US', {
 });
 
 function storyCard(item, sectionClass) {
-  const card = document.createElement('div');
+  const preview = item.summary.length > 120
+    ? item.summary.slice(0, 120).replace(/\s\S*$/, '') + '…'
+    : item.summary;
+
+  const card = document.createElement('details');
   card.className = `article ${sectionClass}`;
   card.innerHTML = `
-    <h2>${item.headline}</h2>
-    <p>${item.summary}</p>
-    <span class="source">— ${item.source}</span>
+    <summary>
+      <h2>${item.headline}</h2>
+      <p class="preview">${preview}</p>
+      <span class="chevron" aria-hidden="true">›</span>
+    </summary>
+    <div class="expanded">
+      <p>${item.summary}</p>
+      <span class="source">— ${item.source}</span>
+    </div>
   `;
   return card;
 }
@@ -30,15 +40,13 @@ fetch('news.json')
     document.getElementById('news-date').textContent = date;
     const container = document.getElementById('news-container');
 
-    // Top headlines — featured row
     const headlineCards = data.top_headlines.map(h => storyCard(h, 'featured'));
     container.appendChild(section('Top Headlines', 'label-red', headlineCards));
 
-    // Single-story sections
     const singles = [
-      { label: 'Tech & AI',          key: 'tech_ai',           cls: 'label-blue'   },
-      { label: 'Business & Finance', key: 'business_finance',  cls: 'label-green'  },
-      { label: 'World News',         key: 'world_news',        cls: 'label-yellow' },
+      { label: 'Tech & AI',          key: 'tech_ai',          cls: 'label-blue'   },
+      { label: 'Business & Finance', key: 'business_finance', cls: 'label-green'  },
+      { label: 'World News',         key: 'world_news',       cls: 'label-yellow' },
     ];
 
     singles.forEach(({ label, key, cls }) => {
@@ -49,5 +57,5 @@ fetch('news.json')
   })
   .catch(() => {
     document.getElementById('news-container').innerHTML =
-      '<p class="error">Could not load news.json. Serve the folder over HTTP (e.g. <code>python3 -m http.server</code>).</p>';
+      '<p class="error">Could not load news.json. Serve the folder over HTTP.</p>';
   });
