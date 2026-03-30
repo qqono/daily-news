@@ -106,6 +106,7 @@ main {
   display: grid;
   gap: 0.65rem;
   grid-template-columns: 1fr;
+  margin-bottom: 0.75rem;
 }
 
 @media (min-width: 540px) {
