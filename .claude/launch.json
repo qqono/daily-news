@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "daily-news",
+      "runtimeExecutable": "/Users/bbmini/.nvm/versions/node/v25.8.2/bin/npx",
+      "runtimeArgs": ["serve", "/Users/bbmini/Documents/Claude Code/Daily", "-p", "8765", "--no-clipboard"],
+      "port": 8765
+    }
+  ]
+}
