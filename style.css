@@ -68,11 +68,11 @@ header h1 {
   letter-spacing: -0.01em;
 }
 
-#today-date, #news-date {
+#news-date {
   font-size: 0.72rem;
   color: var(--muted);
-  text-align: right;
   line-height: 1.5;
+  margin-top: 0.15rem;
 }
 
 /* ── Main layout ─────────────────────────────────────────── */

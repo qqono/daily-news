@@ -46,14 +46,24 @@ Search the web and compile a morning news digest. Return ONLY valid JSON (no mar
   "top_headlines": [
     {{"headline": "...", "summary": "2-3 sentence summary.", "source": "Source Name"}},
     {{"headline": "...", "summary": "2-3 sentence summary.", "source": "Source Name"}},
+    {{"headline": "...", "summary": "2-3 sentence summary.", "source": "Source Name"}},
     {{"headline": "...", "summary": "2-3 sentence summary.", "source": "Source Name"}}
   ],
-  "tech_ai": {{"headline": "...", "summary": "2-3 sentence summary.", "source": "Source Name"}},
-  "business_finance": {{"headline": "...", "summary": "2-3 sentence summary.", "source": "Source Name"}},
-  "world_news": {{"headline": "...", "summary": "2-3 sentence summary.", "source": "Source Name"}}
+  "tech_ai": [
+    {{"headline": "...", "summary": "2-3 sentence summary.", "source": "Source Name"}},
+    {{"headline": "...", "summary": "2-3 sentence summary.", "source": "Source Name"}}
+  ],
+  "business_finance": [
+    {{"headline": "...", "summary": "2-3 sentence summary.", "source": "Source Name"}},
+    {{"headline": "...", "summary": "2-3 sentence summary.", "source": "Source Name"}}
+  ],
+  "world_news": [
+    {{"headline": "...", "summary": "2-3 sentence summary.", "source": "Source Name"}},
+    {{"headline": "...", "summary": "2-3 sentence summary.", "source": "Source Name"}}
+  ]
 }}
 
-Use web search to find real, current news from today. Include the 3 biggest headlines of the day plus 1 trending topic each from Tech & AI, Business & Finance, and World News."""
+Use web search to find real, current news from today. Include the 4 biggest headlines of the day plus 2 trending stories each from Tech & AI, Business & Finance, and World News."""
 
 
 # ── Core functions ────────────────────────────────────────────────────────────
@@ -90,11 +100,12 @@ def fetch_news() -> dict:
                 log.info(f"  Headline {i}: {h['headline']} ({h['source']})")
                 log.info(f"    {h['summary']}")
             for section in ("tech_ai", "business_finance", "world_news"):
-                item = data.get(section, {})
-                if item:
+                items = data.get(section, [])
+                if items:
                     label = section.replace("_", " & ").title()
-                    log.info(f"  {label}: {item['headline']} ({item['source']})")
-                    log.info(f"    {item['summary']}")
+                    for item in items:
+                        log.info(f"  {label}: {item['headline']} ({item['source']})")
+                        log.info(f"    {item['summary']}")
             log.info("─────────────────────────────────────────────────────")
             return data
 
@@ -156,6 +167,9 @@ def build_html(data: dict) -> str:
         </div>"""
 
     headlines_html = "".join(story_html(h) for h in data["top_headlines"])
+    tech_html     = "".join(story_html(h) for h in data["tech_ai"])
+    biz_html      = "".join(story_html(h) for h in data["business_finance"])
+    world_html    = "".join(story_html(h) for h in data["world_news"])
 
     return f"""<!DOCTYPE html>
 <html>
@@ -169,20 +183,20 @@ def build_html(data: dict) -> str:
           <div style="font-size:13px;color:#aab;margin-top:4px;">{TODAY}</div>
         </td></tr>
         <tr><td style="padding:28px 36px 10px;">
-          <div style="font-size:11px;font-weight:700;color:#e63946;letter-spacing:1.2px;text-transform:uppercase;margin-bottom:16px;">Top 3 Headlines</div>
+          <div style="font-size:11px;font-weight:700;color:#e63946;letter-spacing:1.2px;text-transform:uppercase;margin-bottom:16px;">Top Headlines</div>
           {headlines_html}
         </td></tr>
         <tr><td style="padding:10px 36px;">
           <div style="font-size:11px;font-weight:700;color:#457b9d;letter-spacing:1.2px;text-transform:uppercase;margin-bottom:12px;">Tech & AI</div>
-          {story_html(data['tech_ai'])}
+          {tech_html}
         </td></tr>
         <tr><td style="padding:10px 36px;">
           <div style="font-size:11px;font-weight:700;color:#2a9d8f;letter-spacing:1.2px;text-transform:uppercase;margin-bottom:12px;">Business & Finance</div>
-          {story_html(data['business_finance'])}
+          {biz_html}
         </td></tr>
         <tr><td style="padding:10px 36px 28px;">
           <div style="font-size:11px;font-weight:700;color:#e9c46a;letter-spacing:1.2px;text-transform:uppercase;margin-bottom:12px;">World News</div>
-          {story_html(data['world_news'])}
+          {world_html}
         </td></tr>
         <tr><td style="background:#f9f9f9;padding:16px 36px;border-top:1px solid #eee;">
           <div style="font-size:12px;color:#bbb;text-align:center;">Compiled by Claude · Delivered daily at 9 AM Sydney</div>

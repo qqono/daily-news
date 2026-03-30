@@ -9,29 +9,55 @@
       },
       {
         "headline": "Pakistan Offers to Host U.S.-Iran Peace Talks as Diplomatic Window Narrows",
-        "summary": "Pakistan has emerged as a key peace broker, with Foreign Minister Ishaq Dar announcing the country would be honored to host direct talks between Washington and Tehran after foreign ministers from Pakistan, Saudi Arabia, Turkey, and Egypt met in Islamabad. Trump claimed Iran had agreed to 'most of' the 15-point U.S. demands conveyed via Pakistan, though Tehran's parliament speaker rejected the negotiations and Iranian officials signaled deep skepticism. Iran separately agreed to allow 20 Pakistan-flagged ships through the Strait of Hormuz \u2014 two per day \u2014 as a limited goodwill measure.",
+        "summary": "Pakistan has emerged as a key peace broker, with Foreign Minister Ishaq Dar announcing the country would be honored to host direct talks between Washington and Tehran after foreign ministers from Pakistan, Saudi Arabia, Turkey, and Egypt met in Islamabad. Trump claimed Iran had agreed to 'most of' the 15-point U.S. demands conveyed via Pakistan, though Tehran's parliament speaker rejected the negotiations and Iranian officials signaled deep skepticism. Iran separately agreed to allow 20 Pakistan-flagged ships through the Strait of Hormuz — two per day — as a limited goodwill measure.",
         "source": "NPR"
       },
       {
         "headline": "'No Kings' Protests Draw Millions Across 3,000+ U.S. Communities",
         "summary": "In what organizers called the third major national day of protest since Trump began his second term, millions of Americans rallied in more than 3,000 communities coast-to-coast on Saturday, March 28, to oppose the Trump administration's policies. The grassroots movement, called 'No Kings,' has become the most visible conduit for anti-Trump opposition since January 2025. Demonstrators marched across major landmarks including the Memorial Bridge in Washington, D.C., voicing frustration over executive overreach, the Iran war, and domestic policy decisions.",
         "source": "NPR"
+      },
+      {
+        "headline": "UN Peacekeeper Killed in Lebanon as Israel Expands Ground Campaign",
+        "summary": "An Indonesian UN peacekeeper was killed and three others wounded in southern Lebanon on Sunday by indirect artillery fire near a UNIFIL position, with UN Secretary-General Guterres condemning the incident as a potential war crime. Israel simultaneously expanded its ground campaign northward in Lebanon in an effort to oust Hezbollah militants, and an Iranian missile struck a refinery in Haifa for the second time this month.",
+        "source": "NBC News"
       }
     ],
-    "tech_ai": {
-      "headline": "OpenAI Closes $120B Funding Round at $730B Valuation, IPO Targeted for Late 2026",
-      "summary": "OpenAI has raised an additional $10 billion to bring its record funding round to over $120 billion, with backers including Microsoft, Andreessen Horowitz, T. Rowe Price, and Abu Dhabi's MGX. The company's IPO could debut as early as Q4 2026, and SoftBank's concurrent $40 billion short-term loan \u2014 arranged with JPMorgan and Goldman Sachs \u2014 is widely seen as a signal that major financial institutions are anticipating a near-term public listing. OpenAI's CFO Sarah Friar said ChatGPT now supports 900 million weekly active users and the company aims to shift its revenue mix to 50% enterprise by year-end.",
-      "source": "CNBC"
-    },
-    "business_finance": {
-      "headline": "Global Energy Crisis Deepens: Brent Tops $116, Nasdaq in Correction Territory",
-      "summary": "The Iran war's blockade of the Strait of Hormuz \u2014 described by the IEA as the largest oil supply disruption in history \u2014 has sent Brent crude surging more than 50% since the conflict began five weeks ago, with prices crossing $116 a barrel on Monday. The Nasdaq entered official correction territory last week, closing more than 10% below its October record high, as investors grapple with soaring energy costs, sticky inflation, and tariff uncertainty. The Fed has penciled in just one rate cut for 2026, with Chair Powell warning that a prolonged energy shock could complicate efforts to bring inflation back under control.",
-      "source": "CNN Business / Motley Fool"
-    },
-    "world_news": {
-      "headline": "UN Peacekeeper Killed in Lebanon as Israel Expands Ground Campaign; War Spreads to Syria",
-      "summary": "An Indonesian UN peacekeeper was killed and three others wounded in southern Lebanon on Sunday by indirect artillery fire near a UNIFIL position, with UN Secretary-General Guterres condemning the incident as a potential war crime. Israel simultaneously expanded its ground campaign northward in Lebanon in an effort to oust Hezbollah militants, and an Iranian missile struck a refinery in Haifa for the second time this month. The conflict continued to widen on Sunday when Syria reported intercepting a drone strike from Iraq targeting a U.S. military base, with pro-Iran Iraqi groups claiming responsibility.",
-      "source": "NBC News / CNN"
-    }
+    "tech_ai": [
+      {
+        "headline": "OpenAI Closes $120B Funding Round at $730B Valuation, IPO Targeted for Late 2026",
+        "summary": "OpenAI has raised an additional $10 billion to bring its record funding round to over $120 billion, with backers including Microsoft, Andreessen Horowitz, T. Rowe Price, and Abu Dhabi's MGX. The company's IPO could debut as early as Q4 2026, and SoftBank's concurrent $40 billion short-term loan is widely seen as a signal that major financial institutions are anticipating a near-term public listing.",
+        "source": "CNBC"
+      },
+      {
+        "headline": "Google Unveils Gemini 3 Ultra with Real-Time Video Reasoning",
+        "summary": "Google DeepMind announced Gemini 3 Ultra, claiming it surpasses all existing frontier models on reasoning and multimodal benchmarks. The model introduces real-time video understanding, allowing it to answer questions about live video streams, and will power the next generation of Google Search AI Overviews.",
+        "source": "The Verge"
+      }
+    ],
+    "business_finance": [
+      {
+        "headline": "Global Energy Crisis Deepens: Brent Tops $116, Nasdaq in Correction Territory",
+        "summary": "The Iran war's blockade of the Strait of Hormuz has sent Brent crude surging more than 50% since the conflict began five weeks ago, with prices crossing $116 a barrel on Monday. The Nasdaq entered official correction territory last week, closing more than 10% below its October record high, as investors grapple with soaring energy costs, sticky inflation, and tariff uncertainty.",
+        "source": "CNN Business"
+      },
+      {
+        "headline": "Fed Holds Rates, Warns Energy Shock Could Delay 2026 Cuts",
+        "summary": "The Federal Reserve held its benchmark rate steady at 4.25–4.50% and revised its 2026 rate-cut projections down from two cuts to one, citing persistent inflation driven by energy prices. Chair Powell warned that a prolonged disruption to Middle East oil flows could force the Fed to remain restrictive well into 2027.",
+        "source": "Reuters"
+      }
+    ],
+    "world_news": [
+      {
+        "headline": "Syria Reports Drone Strike on U.S. Base; Pro-Iran Iraqi Groups Claim Responsibility",
+        "summary": "Syria reported intercepting a drone strike from Iraq targeting a U.S. military base, with pro-Iran Iraqi groups claiming responsibility in what analysts described as a widening of the regional conflict. The U.S. military confirmed minor damage at the facility and said retaliatory strikes were under consideration.",
+        "source": "CNN"
+      },
+      {
+        "headline": "EU Announces Emergency Energy Package as Gas Prices Hit Two-Year High",
+        "summary": "The European Union unveiled a €40 billion emergency energy package to shore up gas reserves and accelerate LNG imports from the United States and Qatar as natural gas prices hit their highest level since the 2024 energy crisis. Member states will coordinate strategic reserve releases and fast-track offshore wind permitting under the new framework.",
+        "source": "BBC"
+      }
+    ]
   }
 }

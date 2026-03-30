@@ -1,8 +1,3 @@
-const dateEl = document.getElementById('today-date');
-dateEl.textContent = new Date().toLocaleDateString('en-US', {
-  weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
-});
-
 // Animated <details> open/close — spans full width on desktop when open
 document.addEventListener('click', e => {
   const summary = e.target.closest('summary');
@@ -81,15 +76,16 @@ fetch('news.json')
     const headlineCards = data.top_headlines.map(h => storyCard(h, 'accent-love'));
     container.appendChild(section('Top Headlines', 'label-red', 'accent-love', headlineCards));
 
-    const singles = [
-      { label: 'Tech & AI',          key: 'tech_ai',          colorCls: 'label-blue',   accentCls: 'accent-pine'   },
-      { label: 'Business & Finance', key: 'business_finance', colorCls: 'label-green',  accentCls: 'accent-foam'   },
-      { label: 'World News',         key: 'world_news',       colorCls: 'label-yellow', accentCls: 'accent-gold'   },
+    const categories = [
+      { label: 'Tech & AI',          key: 'tech_ai',          colorCls: 'label-blue',   accentCls: 'accent-pine' },
+      { label: 'Business & Finance', key: 'business_finance', colorCls: 'label-green',  accentCls: 'accent-foam' },
+      { label: 'World News',         key: 'world_news',       colorCls: 'label-yellow', accentCls: 'accent-gold' },
     ];
 
-    singles.forEach(({ label, key, colorCls, accentCls }) => {
-      if (data[key]) {
-        container.appendChild(section(label, colorCls, accentCls, [storyCard(data[key], accentCls)]));
+    categories.forEach(({ label, key, colorCls, accentCls }) => {
+      const items = data[key];
+      if (items && items.length) {
+        container.appendChild(section(label, colorCls, accentCls, items.map(h => storyCard(h, accentCls))));
       }
     });
 
