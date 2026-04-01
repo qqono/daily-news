@@ -7,6 +7,7 @@ import logging
 import smtplib
 import re
 import subprocess
+import time
 import urllib.request
 from datetime import datetime
 from email.mime.multipart import MIMEMultipart
@@ -104,12 +105,23 @@ def fetch_news() -> dict:
     while True:
         iterations += 1
         log.info(f"API call #{iterations} (model: claude-sonnet-4-6)")
-        response = client.messages.create(
-            model="claude-sonnet-4-6",
-            max_tokens=4096,
-            tools=[{"type": "web_search_20250305", "name": "web_search"}],
-            messages=messages,
-        )
+        for _attempt in range(6):
+            try:
+                response = client.messages.create(
+                    model="claude-sonnet-4-6",
+                    max_tokens=8192,
+                    tools=[{"type": "web_search_20250305", "name": "web_search"}],
+                    messages=messages,
+                )
+                break
+            except anthropic.RateLimitError:
+                wait = 60 * (_attempt + 1)
+                log.warning(f"Rate limited — waiting {wait}s before retry {_attempt + 1}/6")
+                time.sleep(wait)
+        else:
+            raise RuntimeError("Rate limit exceeded after 6 attempts")
+
+        log.info(f"  stop_reason={response.stop_reason}")
 
         tool_uses   = [b for b in response.content if b.type == "tool_use"]
         text_blocks = [b for b in response.content if b.type == "text"]
@@ -118,24 +130,36 @@ def fetch_news() -> dict:
             queries = [tu.input.get("query", "") for tu in tool_uses if hasattr(tu, "input")]
             log.info(f"Web searches: {queries}")
 
-        if response.stop_reason == "end_turn" or not tool_uses:
-            full_text = " ".join(b.text for b in text_blocks)
-            full_text = re.sub(r"```(?:json)?", "", full_text).strip()
-            data = json.loads(full_text)
-            log.info(f"News fetched after {iterations} API call(s)")
-            log.info("── Content ──────────────────────────────────────────")
-            for i, h in enumerate(data.get("top_headlines", []), 1):
-                log.info(f"  Headline {i}: {h['headline']} ({h['source']})")
-                log.info(f"    {h['summary']}")
-            for section in ("tech_ai", "business_finance", "world_news"):
-                items = data.get(section, [])
-                if items:
-                    label = section.replace("_", " & ").title()
-                    for item in items:
-                        log.info(f"  {label}: {item['headline']} ({item['source']})")
-                        log.info(f"    {item['summary']}")
-            log.info("─────────────────────────────────────────────────────")
-            return data
+        if response.stop_reason == "max_tokens":
+            raise RuntimeError(f"Response truncated after {iterations} call(s) — increase max_tokens")
+
+        if response.stop_reason == "end_turn":
+            raw_text = " ".join(b.text for b in text_blocks)
+            log.info(f"  end_turn: text_blocks={len(text_blocks)}, raw_len={len(raw_text)}, tool_uses={len(tool_uses)}")
+            # Strip code fences then extract the JSON object from wherever it sits in the text
+            raw_text = re.sub(r"```(?:json)?", "", raw_text)
+            m = re.search(r'(\{[\s\S]*\})', raw_text)
+            full_text = m.group(1).strip() if m else ""
+            log.info(f"  extracted json len={len(full_text)}")
+            if full_text:
+                data = json.loads(full_text)
+                log.info(f"News fetched after {iterations} API call(s)")
+                log.info("── Content ──────────────────────────────────────────")
+                for i, h in enumerate(data.get("top_headlines", []), 1):
+                    log.info(f"  Headline {i}: {h['headline']} ({h['source']})")
+                    log.info(f"    {h['summary']}")
+                for section in ("tech_ai", "business_finance", "world_news"):
+                    items = data.get(section, [])
+                    if items:
+                        label = section.replace("_", " & ").title()
+                        for item in items:
+                            log.info(f"  {label}: {item['headline']} ({item['source']})")
+                            log.info(f"    {item['summary']}")
+                log.info("─────────────────────────────────────────────────────")
+                return data
+            elif not tool_uses:
+                raise RuntimeError("end_turn with no text and no tool_uses — model returned nothing")
+            # else: end_turn with tool_uses but no text — fall through to process tool calls
 
         messages.append({"role": "assistant", "content": response.content})
         tool_results = []
@@ -157,23 +181,46 @@ def fetch_x_trending() -> list:
     while True:
         iterations += 1
         log.info(f"X trending API call #{iterations}")
-        response = client.messages.create(
-            model="claude-sonnet-4-6",
-            max_tokens=1024,
-            tools=[{"type": "web_search_20250305", "name": "web_search"}],
-            messages=messages,
-        )
+        for _attempt in range(6):
+            try:
+                response = client.messages.create(
+                    model="claude-sonnet-4-6",
+                    max_tokens=2048,
+                    tools=[{"type": "web_search_20250305", "name": "web_search"}],
+                    messages=messages,
+                )
+                break
+            except anthropic.RateLimitError:
+                wait = 60 * (_attempt + 1)
+                log.warning(f"Rate limited — waiting {wait}s before retry {_attempt + 1}/6")
+                time.sleep(wait)
+        else:
+            raise RuntimeError("X trending rate limit exceeded after 6 attempts")
         tool_uses   = [b for b in response.content if b.type == "tool_use"]
         text_blocks = [b for b in response.content if b.type == "text"]
 
-        if response.stop_reason == "end_turn" or not tool_uses:
-            full_text = " ".join(b.text for b in text_blocks)
-            full_text = re.sub(r"```(?:json)?", "", full_text).strip()
-            data = json.loads(full_text)
-            log.info(f"Fetched {len(data)} X trending topics")
-            for i, t in enumerate(data, 1):
-                log.info(f"  X {i}: {t['topic']} ({t.get('posts', '')}) [{t.get('category', '')}]")
-            return data
+        log.info(f"  stop_reason={response.stop_reason}, tool_uses={len(tool_uses)}, text_blocks={len(text_blocks)}")
+
+        if response.stop_reason == "max_tokens":
+            raise RuntimeError("X trending response truncated — increase max_tokens")
+
+        if response.stop_reason == "end_turn":
+            raw_text = " ".join(b.text for b in text_blocks)
+            log.info(f"  X end_turn: text_blocks={len(text_blocks)}, raw_len={len(raw_text)}, tool_uses={len(tool_uses)}")
+            raw_text = re.sub(r"```(?:json)?", "", raw_text)
+            # Extract JSON array or object from the response
+            m = re.search(r'(\[[\s\S]*\]|\{[\s\S]*\})', raw_text)
+            full_text = m.group(1).strip() if m else ""
+            log.info(f"  X extracted json len={len(full_text)}")
+            if full_text:
+                data = json.loads(full_text)
+                log.info(f"Fetched {len(data)} X trending topics")
+                for i, t in enumerate(data, 1):
+                    log.info(f"  X {i}: {t['topic']} ({t.get('posts', '')}) [{t.get('category', '')}]")
+                return data
+            elif not tool_uses:
+                raise RuntimeError("X trending: end_turn with no text and no tool_uses — model returned nothing")
+            # else: end_turn with tool_uses but no text — fall through to process tool calls
 
         messages.append({"role": "assistant", "content": response.content})
         tool_results = []
