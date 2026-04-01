@@ -1,141 +1,313 @@
 {
-  "date": "Tuesday, 31 March 2026",
+  "date": "Thursday, 02 April 2026",
   "data": {
     "top_headlines": [
       {
-        "headline": "Trump Floats Seizing Iran's Kharg Island as Brent Crude Surges Past $116/Barrel",
-        "summary": "President Trump told the Financial Times he is actively considering seizing Iran's Kharg Island, which handles roughly 90% of Tehran's oil exports, comparing a potential move to U.S. operations in Venezuela. Brent crude rose 3.5% to cross $116 a barrel on Monday after Trump's comments and fresh Houthi strikes on Israel deepened fears of further escalation. Iran has responded by moving additional military personnel and air defenses to the island, and a military expert warned that a U.S. ground operation there could result in mounting casualties.",
-        "source": "Reuters",
+        "headline": "Trump Claims Iran Has Requested Ceasefire, Sets Strait of Hormuz Reopening as Condition",
+        "summary": "President Trump stated via social media that Iran's president has asked the U.S. for a ceasefire in the ongoing conflict, saying the request would only be considered after the Strait of Hormuz is reopened to shipping. Iran's IRGC countered that the strait remains 'fully' under its control, and Iran's Foreign Minister Araghchi said he has 'no faith' in talks. Trump is scheduled to address the nation on the Iran war, while also suggesting the U.S. may reconsider its NATO membership over what he described as the alliance's insufficient support for the war effort.",
+        "source": "Al Jazeera / CNN",
         "lean": "center"
       },
       {
-        "headline": "Pakistan Offers to Host U.S.-Iran Peace Talks as Diplomatic Window Narrows",
-        "summary": "Pakistan has emerged as a key peace broker, with Foreign Minister Ishaq Dar announcing the country would be honored to host direct talks between Washington and Tehran after foreign ministers from Pakistan, Saudi Arabia, Turkey, and Egypt met in Islamabad. Trump claimed Iran had agreed to 'most of' the 15-point U.S. demands conveyed via Pakistan, though Tehran's parliament speaker rejected the negotiations and Iranian officials signaled deep skepticism. Iran separately agreed to allow 20 Pakistan-flagged ships through the Strait of Hormuz — two per day — as a limited goodwill measure.",
-        "source": "AP",
-        "lean": "center"
+        "headline": "NASA Artemis II Crew Launches on First Crewed Lunar Mission Since 1972",
+        "summary": "NASA launched its Artemis II mission on Wednesday, sending four astronauts \u2014 commander Reid Wiseman, pilot Victor Glover, astronaut Christina Koch, and Canadian astronaut Jeremy Hansen \u2014 on a nine-day journey around the moon. The mission marks the first time humans have traveled toward the moon in over 50 years, and if successful will be the first to carry a woman, a person of color, and a non-American near the lunar surface. The crew is expected to splash down in the Pacific Ocean on April 10 and will not land on the moon but will fly a free-return trajectory around it.",
+        "source": "CBS News / NPR",
+        "lean": "center-left"
       },
       {
-        "headline": "'No Kings' Protests Draw Millions Across 3,000+ U.S. Communities",
-        "summary": "In what organizers called the third major national day of protest since Trump began his second term, millions of Americans rallied in more than 3,000 communities coast-to-coast on Saturday, March 28, to oppose the Trump administration's policies. The grassroots movement, called 'No Kings,' has become the most visible conduit for anti-Trump opposition since January 2025. Demonstrators marched across major landmarks including the Memorial Bridge in Washington, D.C., voicing frustration over executive overreach, the Iran war, and domestic policy decisions.",
-        "source": "BBC",
-        "lean": "center"
+        "headline": "Federal Judge Rules Trump's Executive Order to Defund NPR and PBS Unconstitutional",
+        "summary": "A U.S. District Court judge found that President Trump's executive order calling for the defunding of NPR and PBS violated the First Amendment. The ruling represents a legal setback for the administration's effort to cut public media funding. The decision is expected to face further legal challenge.",
+        "source": "NPR / CNN",
+        "lean": "center-left"
       }
     ],
     "tech_ai": [
       {
-        "headline": "OpenAI Closes $120B Funding Round at $730B Valuation, IPO Targeted for Late 2026",
-        "summary": "OpenAI has raised an additional $10 billion to bring its record funding round to over $120 billion, with backers including Microsoft, Andreessen Horowitz, T. Rowe Price, and Abu Dhabi's MGX. The company's IPO could debut as early as Q4 2026, and SoftBank's concurrent $40 billion short-term loan is widely seen as a signal that major financial institutions are anticipating a near-term public listing.",
-        "source": "Bloomberg",
+        "headline": "SpaceX Reported to Have Filed S-1 With SEC Ahead of Landmark 2026 IPO",
+        "summary": "Confidential reports indicate SpaceX has filed its S-1 registration paperwork with the SEC, targeting a public market valuation between $1.5 trillion and $1.75 trillion, with a potential debut as early as June 2026. The company, which recently absorbed Elon Musk's xAI at a combined $1.25 trillion valuation, would represent the largest IPO in history if it proceeds at that price. Index providers including S&P Dow Jones, FTSE Russell, and Nasdaq are reportedly considering fast-track rules to add SpaceX to major indices almost immediately after listing.",
+        "source": "Bloomberg / CNBC",
         "lean": "center"
       },
       {
-        "headline": "Google Unveils Gemini 3 Ultra with Real-Time Video Reasoning",
-        "summary": "Google DeepMind announced Gemini 3 Ultra, claiming it surpasses all existing frontier models on reasoning and multimodal benchmarks. The model introduces real-time video understanding, allowing it to answer questions about live video streams, and will power the next generation of Google Search AI Overviews.",
-        "source": "Reuters",
+        "headline": "OpenAI Surpasses $25 Billion in Annualized Revenue, Eyes Late-2026 Public Listing",
+        "summary": "OpenAI has surpassed $25 billion in annualized revenue and is reportedly taking early steps toward a public listing potentially as soon as late 2026, having closed a funding round at a $730 billion valuation backed by Amazon, SoftBank, Nvidia, and Microsoft. The company has been transitioning to a for-profit Public Benefit Corporation structure to satisfy both public market fiduciary requirements and regulatory safety concerns. Rival Anthropic is approaching $19 billion in annualized revenue and is also widely expected to pursue an IPO in a similar timeframe.",
+        "source": "Bloomberg / CNBC",
         "lean": "center"
       },
       {
-        "headline": "Meta Releases Llama 4 Scout Under Open Licence, Challenging Closed AI Models",
-        "summary": "Meta has released Llama 4 Scout, a 17-billion-parameter model that the company claims outperforms GPT-4o on several benchmarks, under a permissive open-source licence. The release intensifies competition with OpenAI and Google at a moment when the AI industry is debating the long-term viability of open versus proprietary development.",
-        "source": "AP",
+        "headline": "Iran's IRGC Issues Threat List Targeting Apple, Google, Nvidia and Other Tech Giants",
+        "summary": "Iran's Islamic Revolutionary Guard Corps released a list of 18 potential targets for retaliation \u2014 including major U.S. technology companies such as Apple, Google, Meta, and Nvidia \u2014 threatening strikes if further assassinations of Iranian leaders occur. The threat marks an escalation in Iran's rhetorical posture toward Western corporate and technology interests amid the ongoing conflict. Markets responded with initial volatility before recovering on hopes of a potential ceasefire.",
+        "source": "CNBC / Time",
         "lean": "center"
       }
     ],
     "business_finance": [
       {
-        "headline": "Global Energy Crisis Deepens: Brent Tops $116, Nasdaq in Correction Territory",
-        "summary": "The Iran war's blockade of the Strait of Hormuz has sent Brent crude surging more than 50% since the conflict began five weeks ago, with prices crossing $116 a barrel on Monday. The Nasdaq entered official correction territory last week, closing more than 10% below its October record high, as investors grapple with soaring energy costs, sticky inflation, and tariff uncertainty.",
-        "source": "Bloomberg",
+        "headline": "IEA Warns Oil Supply Crunch Will Worsen in April as Hormuz Closure Enters Second Month",
+        "summary": "The International Energy Agency warned Thursday that the oil supply crunch will worsen in April if the Strait of Hormuz remains closed, with analysts estimating the world has already lost 4.5\u20135 million barrels per day of supply \u2014 approximately 5% of global output. Oil industry executives have cautioned that the strait needs to reopen by mid-April or disruptions will escalate sharply, with Brent crude settling near $99 per barrel. The IEA has described the Hormuz closure as the 'largest supply disruption in the history of the global oil market.'",
+        "source": "CNBC / Bloomberg",
         "lean": "center"
       },
       {
-        "headline": "Fed Holds Rates, Warns Energy Shock Could Delay 2026 Cuts",
-        "summary": "The Federal Reserve held its benchmark rate steady at 4.25–4.50% and revised its 2026 rate-cut projections down from two cuts to one, citing persistent inflation driven by energy prices. Chair Powell warned that a prolonged disruption to Middle East oil flows could force the Fed to remain restrictive well into 2027.",
-        "source": "Reuters",
-        "lean": "center"
+        "headline": "IMF Warns Iran War Will Drive Higher Prices and Slower Global Growth",
+        "summary": "The IMF issued a warning that the ongoing Middle East conflict stemming from the Iran war will lead to higher inflation and slower global economic growth, as energy supply disruptions ripple through international markets. European economies are particularly exposed, with the ECB having already postponed planned interest rate cuts and raised its 2026 inflation forecast. Experts have slashed 2026 and 2027 growth forecasts for Germany, Europe's largest economy, while governments across the continent are introducing measures to cushion consumers from rising energy prices.",
+        "source": "The Guardian / Reuters",
+        "lean": "center-left"
       },
       {
-        "headline": "U.S. Tariff Escalation Rattles Asian Markets; Yen Drops to 6-Month Low",
-        "summary": "New U.S. tariffs on semiconductor and steel imports from South Korea and Japan sent Asian equity markets lower on Tuesday, with the Nikkei 225 falling 2.1% and the yen weakening to its lowest level since October. Trade analysts warned the measures could trigger retaliatory actions and further disrupt already-strained global supply chains.",
-        "source": "AFP",
+        "headline": "Markets Rally as Iran Ceasefire Signals Lift Stocks; U.S. Gas Prices Top $4 a Gallon",
+        "summary": "U.S. equity markets rose sharply Thursday \u2014 with the Dow Jones gaining over 290 points and the Nasdaq up more than 1% \u2014 as Trump's reported ceasefire signal from Iran fueled a relief rally in stocks and Treasury yields. However, U.S. average gasoline prices topped $4 per gallon for the first time since 2022, driven by the Hormuz oil supply disruption. Crude oil traded near $99 per barrel as traders weighed the prospects of a negotiated end to the conflict against continued physical supply shortfalls.",
+        "source": "Yahoo Finance / CNBC",
         "lean": "center"
       }
     ],
     "world_news": [
       {
-        "headline": "Syria Reports Drone Strike on U.S. Base; Pro-Iran Iraqi Groups Claim Responsibility",
-        "summary": "Syria reported intercepting a drone strike from Iraq targeting a U.S. military base, with pro-Iran Iraqi groups claiming responsibility in what analysts described as a widening of the regional conflict. The U.S. military confirmed minor damage at the facility and said retaliatory strikes were under consideration.",
-        "source": "AP",
+        "headline": "Lebanon Conflict Widens as Hezbollah, Houthis Launch Fresh Attacks on Israel",
+        "summary": "Israel said it killed a senior Hezbollah commander in a strike on Beirut, as Iran-backed Houthi rebels in Yemen launched a barrage of ballistic missiles at southern Israel in a joint operation with Iran and Hezbollah. At least 16 people, including a child, were wounded after Iranian missile fragments hit Israel's Tel Aviv and Bnei Brak. Israeli forces have intensified bombing in Lebanon since early March following Hezbollah cross-border attacks that began after the U.S.-Israeli joint assault on Iran.",
+        "source": "CNN / Al Jazeera",
         "lean": "center"
       },
       {
-        "headline": "EU Announces Emergency Energy Package as Gas Prices Hit Two-Year High",
-        "summary": "The European Union unveiled a €40 billion emergency energy package to shore up gas reserves and accelerate LNG imports from the United States and Qatar as natural gas prices hit their highest level since the 2024 energy crisis. Member states will coordinate strategic reserve releases and fast-track offshore wind permitting under the new framework.",
-        "source": "BBC",
+        "headline": "King Charles III to Proceed with April State Visit to the United States",
+        "summary": "King Charles III is going ahead with a planned state visit to the United States in April, despite calls from some quarters for the ceremonial event to be cancelled amid diplomatic tensions. The visit is expected to coincide with celebrations of the 250th anniversary of American independence. Buckingham Palace confirmed the visit is proceeding as scheduled.",
+        "source": "ABC News / NBC News",
         "lean": "center"
       },
       {
-        "headline": "India and Bangladesh Agree to Border Demarcation Talks After Months of Stalemate",
-        "summary": "India and Bangladesh have agreed to resume formal border demarcation talks that stalled in late 2025 following a change in the Bangladeshi government. The announcement, made jointly in Dhaka, covers approximately 6.5 kilometres of disputed riverine boundary and is seen as a significant step toward stabilising relations between the two neighbours.",
-        "source": "Reuters",
+        "headline": "Rohingya Refugees in Bangladesh Face Sharp Food Aid Cuts as Crisis Deepens",
+        "summary": "Hundreds of thousands of Rohingya refugees in Bangladesh's overcrowded camps in Cox's Bazar are facing significant reductions in food assistance starting this week, raising alarm throughout the increasingly desperate community. The cuts affect one of the world's largest refugee populations, numbering over one million people in the camps. Humanitarian organizations have warned the reductions could have severe consequences for an already vulnerable population.",
+        "source": "AP / NPR",
         "lean": "center"
       }
     ],
     "music": [
       {
-        "headline": "Kendrick Lamar Opens 'GNX World Tour' to Record Ticket Demand, 12 Stadiums Added",
-        "summary": "Kendrick Lamar's first major stadium tour since winning five Grammy Awards has broken presale records on Ticketmaster, with 12 additional dates announced within hours after initial allocations sold out. The tour, supporting his 2025 album 'GNX', will visit North America, Europe, and Australia through October.",
+        "headline": "BTS Tops Billboard 200 and Hot 100 Simultaneously With Comeback Album 'ARIRANG'",
+        "summary": "BTS scored their seventh No. 1 album on the Billboard 200 with 'ARIRANG,' earning 641,000 equivalent album units in its opening week \u2014 the biggest week for any group album in more than a decade. Lead single 'Swim' simultaneously debuted at No. 1 on the Billboard Hot 100, making BTS only the second act ever to top both charts at the same time, a feat they first achieved in 2020 with 'BE.' All 13 eligible tracks from the 14-song album charted on the Hot 100, and BTS also became the first artist to claim the entire top 10 of the Billboard Global Excl. U.S. chart with songs from a single release. The group's world tour in support of the album launches April 9 in Goyang, South Korea.",
         "source": "Billboard",
         "lean": "center"
       },
       {
-        "headline": "Spotify Reports Music Streaming Revenue Overtook Downloads a Decade Ago — Now Faces AI Licensing Crisis",
-        "summary": "Spotify's annual transparency report reveals that AI-generated tracks now account for an estimated 8% of all streams, prompting calls from major labels for new licensing frameworks. Universal Music Group and Sony Music have jointly proposed a minimum human-authorship threshold for royalty eligibility.",
-        "source": "Rolling Stone",
-        "lean": "center"
+        "headline": "RAYE's Critically Acclaimed Second Album 'This Music May Contain Hope' Earns 88 Critic Score",
+        "summary": "RAYE's second studio album 'This Music May Contain Hope' has been met with widespread critical acclaim, earning an 88 critic score and emerging as one of the highest-rated albums of 2026 so far. The British singer-songwriter, who independently released her acclaimed debut 'My 21st Century Blues' in 2023, is currently touring the album on her 'This Tour May Contain New Music' run. The album follows viral singles including 'Where Is My Husband!', which was named one of NME's best songs of 2025.",
+        "source": "Album of the Year / NME",
+        "lean": "center-left"
       },
       {
-        "headline": "Oasis Reunion Tour Grosses $400M, Becomes Highest-Earning Rock Tour of the Decade",
-        "summary": "The Oasis reunion tour, which concluded its final leg in Buenos Aires on Saturday, has officially become the highest-grossing rock tour since 2015 according to Pollstar data. The brothers Gallagher drew a combined 5.2 million attendees across 88 shows in 22 countries over 14 months.",
+        "headline": "Mitski Kicks Off 'Nothing's About to Happen to Me' World Tour in Los Angeles",
+        "summary": "Mitski begins a three-night residency at Hollywood High in Los Angeles on April 2, opening her 2026 global tour in support of new album 'Nothing's About to Happen to Me.' The indie artist released the album's second single, 'I'll Change For You,' alongside the tour announcement, following the lead single 'Where's My Phone?'. The extensive tour will subsequently take Mitski to Istanbul, Paris, Amsterdam, London's Royal Albert Hall, Sydney Opera House, and multiple dates across Southeast Asia.",
         "source": "NME",
-        "lean": "center"
+        "lean": "center-left"
+      }
+    ],
+    "hacker_news": [
+      {
+        "title": "Is BGP Safe Yet? No. Test Your ISP",
+        "url": "https://isbgpsafeyet.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=47600382",
+        "score": 57,
+        "by": "janandonly",
+        "comments": 23
+      },
+      {
+        "title": "Claude Code Unpacked : A visual guide",
+        "url": "https://ccunpacked.dev/",
+        "hn_url": "https://news.ycombinator.com/item?id=47597085",
+        "score": 732,
+        "by": "autocracy101",
+        "comments": 251
+      },
+      {
+        "title": "Show HN: Sycamore \u2013 next gen Rust web UI library using fine-grained reactivity",
+        "url": "https://sycamore.dev",
+        "hn_url": "https://news.ycombinator.com/item?id=47599956",
+        "score": 39,
+        "by": "lukechu10",
+        "comments": 27
+      },
+      {
+        "title": "CERN levels up with new superconducting karts",
+        "url": "https://home.cern/news/news/engineering/cern-levels-new-superconducting-karts",
+        "hn_url": "https://news.ycombinator.com/item?id=47597935",
+        "score": 242,
+        "by": "fnands",
+        "comments": 52
+      },
+      {
+        "title": "Show HN: Baton \u2013 A desktop app for developing with AI agents",
+        "url": "https://getbaton.dev/",
+        "hn_url": "https://news.ycombinator.com/item?id=47599771",
+        "score": 22,
+        "by": "tordrt",
+        "comments": 20
+      },
+      {
+        "title": "Intuiting Pratt Parsing",
+        "url": "https://louis.co.nz/2026/03/26/pratt-parsing.html",
+        "hn_url": "https://news.ycombinator.com/item?id=47573450",
+        "score": 73,
+        "by": "signa11",
+        "comments": 17
+      },
+      {
+        "title": "Show HN: CLI to order groceries via reverse-engineered REWE API (Haskell)",
+        "url": "https://github.com/yannick-cw/korb",
+        "hn_url": "https://news.ycombinator.com/item?id=47571183",
+        "score": 138,
+        "by": "wazHFsRy",
+        "comments": 52
+      },
+      {
+        "title": "Claude Wrote a Full FreeBSD Remote Kernel RCE with Root Shell (CVE-2026-4747)",
+        "url": "https://github.com/califio/publications/blob/main/MADBugs/CVE-2026-4747/write-up.md",
+        "hn_url": "https://news.ycombinator.com/item?id=47597119",
+        "score": 120,
+        "by": "ishqdehlvi",
+        "comments": 40
+      },
+      {
+        "title": "Consider the Greenland Shark (2020)",
+        "url": "https://www.lrb.co.uk/the-paper/v42/n09/katherine-rundell/consider-the-greenland-shark",
+        "hn_url": "https://news.ycombinator.com/item?id=47539945",
+        "score": 18,
+        "by": "mooreds",
+        "comments": 1
+      }
+    ],
+    "hacker_news_top": [
+      {
+        "title": "Claude Code's source code has been leaked via a map file in their NPM registry",
+        "url": "https://twitter.com/Fried_rice/status/2038894956459290963",
+        "hn_url": "https://news.ycombinator.com/item?id=47584540",
+        "score": 2007,
+        "by": "treexs",
+        "comments": 992
+      },
+      {
+        "title": "Axios compromised on NPM \u2013 Malicious versions drop remote access trojan",
+        "url": "https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan",
+        "hn_url": "https://news.ycombinator.com/item?id=47582220",
+        "score": 1881,
+        "by": "mtud",
+        "comments": 758
+      },
+      {
+        "title": "The Claude Code Source Leak: fake tools, frustration regexes, undercover mode",
+        "url": "https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/",
+        "hn_url": "https://news.ycombinator.com/item?id=47586778",
+        "score": 1262,
+        "by": "alex000kim",
+        "comments": 512
+      },
+      {
+        "title": "Oracle slashes 30k jobs",
+        "url": "https://rollingout.com/2026/03/31/oracle-slashes-30000-jobs-with-a-cold-6/",
+        "hn_url": "https://news.ycombinator.com/item?id=47587935",
+        "score": 882,
+        "by": "pje",
+        "comments": 805
+      },
+      {
+        "title": "Artemis II is not safe to fly",
+        "url": "https://idlewords.com/2026/03/artemis_ii_is_not_safe_to_fly.htm",
+        "hn_url": "https://news.ycombinator.com/item?id=47582043",
+        "score": 846,
+        "by": "idlewords",
+        "comments": 584
+      },
+      {
+        "title": "How to turn anything into a router",
+        "url": "https://nbailey.ca/post/router/",
+        "hn_url": "https://news.ycombinator.com/item?id=47574034",
+        "score": 766,
+        "by": "yabones",
+        "comments": 259
+      },
+      {
+        "title": "Claude Code Unpacked : A visual guide",
+        "url": "https://ccunpacked.dev/",
+        "hn_url": "https://news.ycombinator.com/item?id=47597085",
+        "score": 732,
+        "by": "autocracy101",
+        "comments": 251
+      },
+      {
+        "title": "Fedware: Government apps that spy harder than the apps they ban",
+        "url": "https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/",
+        "hn_url": "https://news.ycombinator.com/item?id=47577761",
+        "score": 670,
+        "by": "speckx",
+        "comments": 268
+      },
+      {
+        "title": "Ollama is now powered by MLX on Apple Silicon in preview",
+        "url": "https://ollama.com/blog/mlx",
+        "hn_url": "https://news.ycombinator.com/item?id=47582482",
+        "score": 624,
+        "by": "redundantly",
+        "comments": 350
+      },
+      {
+        "title": "GitHub backs down, kills Copilot pull-request ads after backlash",
+        "url": "https://www.theregister.com/2026/03/30/github_copilot_ads_pull_requests/",
+        "hn_url": "https://news.ycombinator.com/item?id=47582984",
+        "score": 588,
+        "by": "_____k",
+        "comments": 362
       }
     ],
     "x_trending": [
-      {"topic": "#Hormuz", "posts": "892K posts", "category": "World"},
-      {"topic": "#NoKings", "posts": "743K posts", "category": "Politics"},
-      {"topic": "Gemini 3 Ultra", "posts": "512K posts", "category": "Tech"},
-      {"topic": "#OpenAI", "posts": "389K posts", "category": "Tech"},
-      {"topic": "Brent Crude", "posts": "278K posts", "category": "Finance"},
-      {"topic": "#IranNuclear", "posts": "241K posts", "category": "World"},
-      {"topic": "Federal Reserve", "posts": "198K posts", "category": "Finance"},
-      {"topic": "#UNIFIL", "posts": "176K posts", "category": "World"},
-      {"topic": "Llama 4", "posts": "154K posts", "category": "Tech"},
-      {"topic": "#TariffWar", "posts": "134K posts", "category": "Finance"}
-    ],
-    "hacker_news_top": [
-      {"title": "Linus Torvalds on 30 Years of Linux: Reflections and Regrets", "url": "https://news.ycombinator.com/item?id=43499001", "hn_url": "https://news.ycombinator.com/item?id=43499001", "score": 4821, "by": "torvalds_fan", "comments": 891},
-      {"title": "The Mathematics Behind Modern Cryptographic Hash Functions", "url": "https://news.ycombinator.com/item?id=43498112", "hn_url": "https://news.ycombinator.com/item?id=43498112", "score": 3944, "by": "cryptomath", "comments": 412},
-      {"title": "We Rewrote Our Entire Backend in Rust — Here's What We Learned", "url": "https://news.ycombinator.com/item?id=43497023", "hn_url": "https://news.ycombinator.com/item?id=43497023", "score": 3612, "by": "rustdev88", "comments": 735},
-      {"title": "Ask HN: What CS books genuinely changed how you think?", "url": "https://news.ycombinator.com/item?id=43495944", "hn_url": "https://news.ycombinator.com/item?id=43495944", "score": 3289, "by": "csreader", "comments": 1124},
-      {"title": "How DNS Actually Works: A Deep Dive", "url": "https://news.ycombinator.com/item?id=43494855", "hn_url": "https://news.ycombinator.com/item?id=43494855", "score": 2876, "by": "dnsnerds", "comments": 298},
-      {"title": "The Unreasonable Effectiveness of Simple Heuristics in Machine Learning", "url": "https://news.ycombinator.com/item?id=43493766", "hn_url": "https://news.ycombinator.com/item?id=43493766", "score": 2543, "by": "mlpractice", "comments": 341},
-      {"title": "SQLite: The Most Widely Deployed Database in the World (2026 Edition)", "url": "https://news.ycombinator.com/item?id=43492677", "hn_url": "https://news.ycombinator.com/item?id=43492677", "score": 2198, "by": "sqlitelover", "comments": 467},
-      {"title": "The History of the Unix Pipe: How | Changed Computing", "url": "https://news.ycombinator.com/item?id=43491588", "hn_url": "https://news.ycombinator.com/item?id=43491588", "score": 1987, "by": "unixhist", "comments": 213},
-      {"title": "Building a Compiler from Scratch in 30 Days", "url": "https://news.ycombinator.com/item?id=43490499", "hn_url": "https://news.ycombinator.com/item?id=43490499", "score": 1754, "by": "compilercraft", "comments": 388},
-      {"title": "Why Functional Programming Hasn't Taken Over (And Why That's OK)", "url": "https://news.ycombinator.com/item?id=43489410", "hn_url": "https://news.ycombinator.com/item?id=43489410", "score": 1621, "by": "fp_pragmatist", "comments": 592}
-    ],
-    "hacker_news": [
-      {"title": "Show HN: I built a local-first vector DB in pure SQLite", "url": "https://news.ycombinator.com/item?id=43521001", "hn_url": "https://news.ycombinator.com/item?id=43521001", "score": 847, "by": "vektorguru", "comments": 213},
-      {"title": "The economics of open source AI models are broken", "url": "https://news.ycombinator.com/item?id=43520882", "hn_url": "https://news.ycombinator.com/item?id=43520882", "score": 712, "by": "thrawnca", "comments": 341},
-      {"title": "Postgres 18 Beta 1 Released", "url": "https://www.postgresql.org/about/news/postgresql-18-beta-1-released-3062/", "hn_url": "https://news.ycombinator.com/item?id=43519744", "score": 634, "by": "pg_fanatic", "comments": 178},
-      {"title": "Ask HN: What's your stack for AI agents in production?", "url": "https://news.ycombinator.com/item?id=43518901", "hn_url": "https://news.ycombinator.com/item?id=43518901", "score": 589, "by": "agent_deployer", "comments": 402},
-      {"title": "How Git's object store actually works (deep dive)", "url": "https://news.ycombinator.com/item?id=43517623", "hn_url": "https://news.ycombinator.com/item?id=43517623", "score": 521, "by": "gitologist", "comments": 95},
-      {"title": "Gemini 3 Ultra benchmarks vs. Claude and GPT-5 — a closer look", "url": "https://news.ycombinator.com/item?id=43516455", "hn_url": "https://news.ycombinator.com/item?id=43516455", "score": 498, "by": "benchmarkbro", "comments": 267},
-      {"title": "A tiny Rust HTTP server in 200 lines", "url": "https://news.ycombinator.com/item?id=43515302", "hn_url": "https://news.ycombinator.com/item?id=43515302", "score": 437, "by": "rustacean99", "comments": 112},
-      {"title": "The case against microservices (2026 update)", "url": "https://news.ycombinator.com/item?id=43514188", "hn_url": "https://news.ycombinator.com/item?id=43514188", "score": 389, "by": "monolith_fan", "comments": 318},
-      {"title": "Cloudflare Workers now supports Python natively", "url": "https://news.ycombinator.com/item?id=43513071", "hn_url": "https://news.ycombinator.com/item?id=43513071", "score": 356, "by": "cfdev", "comments": 143},
-      {"title": "Why your LLM context window is smaller than you think", "url": "https://news.ycombinator.com/item?id=43511944", "hn_url": "https://news.ycombinator.com/item?id=43511944", "score": 312, "by": "tokenizer42", "comments": 89}
+      {
+        "topic": "#IranWar",
+        "posts": "2.1M posts",
+        "category": "World"
+      },
+      {
+        "topic": "Birthright Citizenship",
+        "posts": "1.4M posts",
+        "category": "Politics"
+      },
+      {
+        "topic": "#Italia",
+        "posts": "1.2M posts",
+        "category": "Sports"
+      },
+      {
+        "topic": "#LiberationDay",
+        "posts": "987K posts",
+        "category": "Finance"
+      },
+      {
+        "topic": "NATO",
+        "posts": "934K posts",
+        "category": "World"
+      },
+      {
+        "topic": "#NoKings",
+        "posts": "876K posts",
+        "category": "Politics"
+      },
+      {
+        "topic": "Strait of Hormuz",
+        "posts": "812K posts",
+        "category": "World"
+      },
+      {
+        "topic": "Supreme Court",
+        "posts": "743K posts",
+        "category": "Politics"
+      },
+      {
+        "topic": "#WorldCup2026",
+        "posts": "698K posts",
+        "category": "Sports"
+      },
+      {
+        "topic": "#Tariffs",
+        "posts": "521K posts",
+        "category": "Finance"
+      }
     ]
   }
 }
