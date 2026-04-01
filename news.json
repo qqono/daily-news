@@ -5,59 +5,137 @@
       {
         "headline": "Trump Floats Seizing Iran's Kharg Island as Brent Crude Surges Past $116/Barrel",
         "summary": "President Trump told the Financial Times he is actively considering seizing Iran's Kharg Island, which handles roughly 90% of Tehran's oil exports, comparing a potential move to U.S. operations in Venezuela. Brent crude rose 3.5% to cross $116 a barrel on Monday after Trump's comments and fresh Houthi strikes on Israel deepened fears of further escalation. Iran has responded by moving additional military personnel and air defenses to the island, and a military expert warned that a U.S. ground operation there could result in mounting casualties.",
-        "source": "CNN"
+        "source": "Reuters",
+        "lean": "center"
       },
       {
         "headline": "Pakistan Offers to Host U.S.-Iran Peace Talks as Diplomatic Window Narrows",
         "summary": "Pakistan has emerged as a key peace broker, with Foreign Minister Ishaq Dar announcing the country would be honored to host direct talks between Washington and Tehran after foreign ministers from Pakistan, Saudi Arabia, Turkey, and Egypt met in Islamabad. Trump claimed Iran had agreed to 'most of' the 15-point U.S. demands conveyed via Pakistan, though Tehran's parliament speaker rejected the negotiations and Iranian officials signaled deep skepticism. Iran separately agreed to allow 20 Pakistan-flagged ships through the Strait of Hormuz — two per day — as a limited goodwill measure.",
-        "source": "NPR"
+        "source": "AP",
+        "lean": "center"
       },
       {
         "headline": "'No Kings' Protests Draw Millions Across 3,000+ U.S. Communities",
         "summary": "In what organizers called the third major national day of protest since Trump began his second term, millions of Americans rallied in more than 3,000 communities coast-to-coast on Saturday, March 28, to oppose the Trump administration's policies. The grassroots movement, called 'No Kings,' has become the most visible conduit for anti-Trump opposition since January 2025. Demonstrators marched across major landmarks including the Memorial Bridge in Washington, D.C., voicing frustration over executive overreach, the Iran war, and domestic policy decisions.",
-        "source": "NPR"
-      },
-      {
-        "headline": "UN Peacekeeper Killed in Lebanon as Israel Expands Ground Campaign",
-        "summary": "An Indonesian UN peacekeeper was killed and three others wounded in southern Lebanon on Sunday by indirect artillery fire near a UNIFIL position, with UN Secretary-General Guterres condemning the incident as a potential war crime. Israel simultaneously expanded its ground campaign northward in Lebanon in an effort to oust Hezbollah militants, and an Iranian missile struck a refinery in Haifa for the second time this month.",
-        "source": "NBC News"
+        "source": "BBC",
+        "lean": "center"
       }
     ],
     "tech_ai": [
       {
         "headline": "OpenAI Closes $120B Funding Round at $730B Valuation, IPO Targeted for Late 2026",
         "summary": "OpenAI has raised an additional $10 billion to bring its record funding round to over $120 billion, with backers including Microsoft, Andreessen Horowitz, T. Rowe Price, and Abu Dhabi's MGX. The company's IPO could debut as early as Q4 2026, and SoftBank's concurrent $40 billion short-term loan is widely seen as a signal that major financial institutions are anticipating a near-term public listing.",
-        "source": "CNBC"
+        "source": "Bloomberg",
+        "lean": "center"
       },
       {
         "headline": "Google Unveils Gemini 3 Ultra with Real-Time Video Reasoning",
         "summary": "Google DeepMind announced Gemini 3 Ultra, claiming it surpasses all existing frontier models on reasoning and multimodal benchmarks. The model introduces real-time video understanding, allowing it to answer questions about live video streams, and will power the next generation of Google Search AI Overviews.",
-        "source": "The Verge"
+        "source": "Reuters",
+        "lean": "center"
+      },
+      {
+        "headline": "Meta Releases Llama 4 Scout Under Open Licence, Challenging Closed AI Models",
+        "summary": "Meta has released Llama 4 Scout, a 17-billion-parameter model that the company claims outperforms GPT-4o on several benchmarks, under a permissive open-source licence. The release intensifies competition with OpenAI and Google at a moment when the AI industry is debating the long-term viability of open versus proprietary development.",
+        "source": "AP",
+        "lean": "center"
       }
     ],
     "business_finance": [
       {
         "headline": "Global Energy Crisis Deepens: Brent Tops $116, Nasdaq in Correction Territory",
         "summary": "The Iran war's blockade of the Strait of Hormuz has sent Brent crude surging more than 50% since the conflict began five weeks ago, with prices crossing $116 a barrel on Monday. The Nasdaq entered official correction territory last week, closing more than 10% below its October record high, as investors grapple with soaring energy costs, sticky inflation, and tariff uncertainty.",
-        "source": "CNN Business"
+        "source": "Bloomberg",
+        "lean": "center"
       },
       {
         "headline": "Fed Holds Rates, Warns Energy Shock Could Delay 2026 Cuts",
         "summary": "The Federal Reserve held its benchmark rate steady at 4.25–4.50% and revised its 2026 rate-cut projections down from two cuts to one, citing persistent inflation driven by energy prices. Chair Powell warned that a prolonged disruption to Middle East oil flows could force the Fed to remain restrictive well into 2027.",
-        "source": "Reuters"
+        "source": "Reuters",
+        "lean": "center"
+      },
+      {
+        "headline": "U.S. Tariff Escalation Rattles Asian Markets; Yen Drops to 6-Month Low",
+        "summary": "New U.S. tariffs on semiconductor and steel imports from South Korea and Japan sent Asian equity markets lower on Tuesday, with the Nikkei 225 falling 2.1% and the yen weakening to its lowest level since October. Trade analysts warned the measures could trigger retaliatory actions and further disrupt already-strained global supply chains.",
+        "source": "AFP",
+        "lean": "center"
       }
     ],
     "world_news": [
       {
         "headline": "Syria Reports Drone Strike on U.S. Base; Pro-Iran Iraqi Groups Claim Responsibility",
         "summary": "Syria reported intercepting a drone strike from Iraq targeting a U.S. military base, with pro-Iran Iraqi groups claiming responsibility in what analysts described as a widening of the regional conflict. The U.S. military confirmed minor damage at the facility and said retaliatory strikes were under consideration.",
-        "source": "CNN"
+        "source": "AP",
+        "lean": "center"
       },
       {
         "headline": "EU Announces Emergency Energy Package as Gas Prices Hit Two-Year High",
         "summary": "The European Union unveiled a €40 billion emergency energy package to shore up gas reserves and accelerate LNG imports from the United States and Qatar as natural gas prices hit their highest level since the 2024 energy crisis. Member states will coordinate strategic reserve releases and fast-track offshore wind permitting under the new framework.",
-        "source": "BBC"
+        "source": "BBC",
+        "lean": "center"
+      },
+      {
+        "headline": "India and Bangladesh Agree to Border Demarcation Talks After Months of Stalemate",
+        "summary": "India and Bangladesh have agreed to resume formal border demarcation talks that stalled in late 2025 following a change in the Bangladeshi government. The announcement, made jointly in Dhaka, covers approximately 6.5 kilometres of disputed riverine boundary and is seen as a significant step toward stabilising relations between the two neighbours.",
+        "source": "Reuters",
+        "lean": "center"
       }
+    ],
+    "music": [
+      {
+        "headline": "Kendrick Lamar Opens 'GNX World Tour' to Record Ticket Demand, 12 Stadiums Added",
+        "summary": "Kendrick Lamar's first major stadium tour since winning five Grammy Awards has broken presale records on Ticketmaster, with 12 additional dates announced within hours after initial allocations sold out. The tour, supporting his 2025 album 'GNX', will visit North America, Europe, and Australia through October.",
+        "source": "Billboard",
+        "lean": "center"
+      },
+      {
+        "headline": "Spotify Reports Music Streaming Revenue Overtook Downloads a Decade Ago — Now Faces AI Licensing Crisis",
+        "summary": "Spotify's annual transparency report reveals that AI-generated tracks now account for an estimated 8% of all streams, prompting calls from major labels for new licensing frameworks. Universal Music Group and Sony Music have jointly proposed a minimum human-authorship threshold for royalty eligibility.",
+        "source": "Rolling Stone",
+        "lean": "center"
+      },
+      {
+        "headline": "Oasis Reunion Tour Grosses $400M, Becomes Highest-Earning Rock Tour of the Decade",
+        "summary": "The Oasis reunion tour, which concluded its final leg in Buenos Aires on Saturday, has officially become the highest-grossing rock tour since 2015 according to Pollstar data. The brothers Gallagher drew a combined 5.2 million attendees across 88 shows in 22 countries over 14 months.",
+        "source": "NME",
+        "lean": "center"
+      }
+    ],
+    "x_trending": [
+      {"topic": "#Hormuz", "posts": "892K posts", "category": "World"},
+      {"topic": "#NoKings", "posts": "743K posts", "category": "Politics"},
+      {"topic": "Gemini 3 Ultra", "posts": "512K posts", "category": "Tech"},
+      {"topic": "#OpenAI", "posts": "389K posts", "category": "Tech"},
+      {"topic": "Brent Crude", "posts": "278K posts", "category": "Finance"},
+      {"topic": "#IranNuclear", "posts": "241K posts", "category": "World"},
+      {"topic": "Federal Reserve", "posts": "198K posts", "category": "Finance"},
+      {"topic": "#UNIFIL", "posts": "176K posts", "category": "World"},
+      {"topic": "Llama 4", "posts": "154K posts", "category": "Tech"},
+      {"topic": "#TariffWar", "posts": "134K posts", "category": "Finance"}
+    ],
+    "hacker_news_top": [
+      {"title": "Linus Torvalds on 30 Years of Linux: Reflections and Regrets", "url": "https://news.ycombinator.com/item?id=43499001", "hn_url": "https://news.ycombinator.com/item?id=43499001", "score": 4821, "by": "torvalds_fan", "comments": 891},
+      {"title": "The Mathematics Behind Modern Cryptographic Hash Functions", "url": "https://news.ycombinator.com/item?id=43498112", "hn_url": "https://news.ycombinator.com/item?id=43498112", "score": 3944, "by": "cryptomath", "comments": 412},
+      {"title": "We Rewrote Our Entire Backend in Rust — Here's What We Learned", "url": "https://news.ycombinator.com/item?id=43497023", "hn_url": "https://news.ycombinator.com/item?id=43497023", "score": 3612, "by": "rustdev88", "comments": 735},
+      {"title": "Ask HN: What CS books genuinely changed how you think?", "url": "https://news.ycombinator.com/item?id=43495944", "hn_url": "https://news.ycombinator.com/item?id=43495944", "score": 3289, "by": "csreader", "comments": 1124},
+      {"title": "How DNS Actually Works: A Deep Dive", "url": "https://news.ycombinator.com/item?id=43494855", "hn_url": "https://news.ycombinator.com/item?id=43494855", "score": 2876, "by": "dnsnerds", "comments": 298},
+      {"title": "The Unreasonable Effectiveness of Simple Heuristics in Machine Learning", "url": "https://news.ycombinator.com/item?id=43493766", "hn_url": "https://news.ycombinator.com/item?id=43493766", "score": 2543, "by": "mlpractice", "comments": 341},
+      {"title": "SQLite: The Most Widely Deployed Database in the World (2026 Edition)", "url": "https://news.ycombinator.com/item?id=43492677", "hn_url": "https://news.ycombinator.com/item?id=43492677", "score": 2198, "by": "sqlitelover", "comments": 467},
+      {"title": "The History of the Unix Pipe: How | Changed Computing", "url": "https://news.ycombinator.com/item?id=43491588", "hn_url": "https://news.ycombinator.com/item?id=43491588", "score": 1987, "by": "unixhist", "comments": 213},
+      {"title": "Building a Compiler from Scratch in 30 Days", "url": "https://news.ycombinator.com/item?id=43490499", "hn_url": "https://news.ycombinator.com/item?id=43490499", "score": 1754, "by": "compilercraft", "comments": 388},
+      {"title": "Why Functional Programming Hasn't Taken Over (And Why That's OK)", "url": "https://news.ycombinator.com/item?id=43489410", "hn_url": "https://news.ycombinator.com/item?id=43489410", "score": 1621, "by": "fp_pragmatist", "comments": 592}
+    ],
+    "hacker_news": [
+      {"title": "Show HN: I built a local-first vector DB in pure SQLite", "url": "https://news.ycombinator.com/item?id=43521001", "hn_url": "https://news.ycombinator.com/item?id=43521001", "score": 847, "by": "vektorguru", "comments": 213},
+      {"title": "The economics of open source AI models are broken", "url": "https://news.ycombinator.com/item?id=43520882", "hn_url": "https://news.ycombinator.com/item?id=43520882", "score": 712, "by": "thrawnca", "comments": 341},
+      {"title": "Postgres 18 Beta 1 Released", "url": "https://www.postgresql.org/about/news/postgresql-18-beta-1-released-3062/", "hn_url": "https://news.ycombinator.com/item?id=43519744", "score": 634, "by": "pg_fanatic", "comments": 178},
+      {"title": "Ask HN: What's your stack for AI agents in production?", "url": "https://news.ycombinator.com/item?id=43518901", "hn_url": "https://news.ycombinator.com/item?id=43518901", "score": 589, "by": "agent_deployer", "comments": 402},
+      {"title": "How Git's object store actually works (deep dive)", "url": "https://news.ycombinator.com/item?id=43517623", "hn_url": "https://news.ycombinator.com/item?id=43517623", "score": 521, "by": "gitologist", "comments": 95},
+      {"title": "Gemini 3 Ultra benchmarks vs. Claude and GPT-5 — a closer look", "url": "https://news.ycombinator.com/item?id=43516455", "hn_url": "https://news.ycombinator.com/item?id=43516455", "score": 498, "by": "benchmarkbro", "comments": 267},
+      {"title": "A tiny Rust HTTP server in 200 lines", "url": "https://news.ycombinator.com/item?id=43515302", "hn_url": "https://news.ycombinator.com/item?id=43515302", "score": 437, "by": "rustacean99", "comments": 112},
+      {"title": "The case against microservices (2026 update)", "url": "https://news.ycombinator.com/item?id=43514188", "hn_url": "https://news.ycombinator.com/item?id=43514188", "score": 389, "by": "monolith_fan", "comments": 318},
+      {"title": "Cloudflare Workers now supports Python natively", "url": "https://news.ycombinator.com/item?id=43513071", "hn_url": "https://news.ycombinator.com/item?id=43513071", "score": 356, "by": "cfdev", "comments": 143},
+      {"title": "Why your LLM context window is smaller than you think", "url": "https://news.ycombinator.com/item?id=43511944", "hn_url": "https://news.ycombinator.com/item?id=43511944", "score": 312, "by": "tokenizer42", "comments": 89}
     ]
   }
 }

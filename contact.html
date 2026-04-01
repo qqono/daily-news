@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>bbNews — Contact</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <h1>bbNews</h1>
+    </div>
+  </header>
+
+  <main class="contact-main">
+    <div class="contact-wrap">
+      <h2>Get in touch</h2>
+      <p>Have feedback, a suggestion, or spotted an error? Send a message below.</p>
+
+      <form name="contact" method="POST" data-netlify="true" class="contact-form">
+        <input type="hidden" name="form-name" value="contact" />
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required placeholder="Your name" />
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="you@example.com" />
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required rows="5" placeholder="What's on your mind?"></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send message</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>Delivered daily at 9 AM Sydney</footer>
+
+  <script src="nav.js"></script>
+</body>
+</html>

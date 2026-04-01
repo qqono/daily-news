@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>bbNews — Home</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <h1>bbNews</h1>
+      <div id="news-date"></div>
+    </div>
+  </header>
+
+  <main class="home-main">
+    <div class="home-hero">
+      <h2>Your morning briefing,<br>curated without bias.</h2>
+      <p>bbNews aggregates top headlines from globally recognised wire services and cross-ideological sources — so you get the full picture, every day.</p>
+      <a href="index.html" class="home-cta">Read today's news</a>
+    </div>
+
+    <div class="home-grid">
+      <div class="home-card accent-love">
+        <div class="home-card-label label-red">Top Headlines</div>
+        <p>The 3 biggest stories of the day, sourced from AP, Reuters, and BBC.</p>
+      </div>
+      <div class="home-card accent-pine">
+        <div class="home-card-label label-blue">Tech &amp; AI</div>
+        <p>The latest in artificial intelligence, software, and the tech industry.</p>
+      </div>
+      <div class="home-card accent-foam">
+        <div class="home-card-label label-green">Business &amp; Finance</div>
+        <p>Markets, macro, and the economic stories moving money.</p>
+      </div>
+      <div class="home-card accent-gold">
+        <div class="home-card-label label-yellow">World News</div>
+        <p>International affairs and geopolitics beyond the headlines.</p>
+      </div>
+      <div class="home-card accent-rose">
+        <div class="home-card-label label-rose">Music</div>
+        <p>Albums, tours, and industry news from Billboard, Rolling Stone, and NME.</p>
+      </div>
+      <div class="home-card accent-iris">
+        <div class="home-card-label label-iris">HN Trending</div>
+        <p>Top posts from Hacker News, pulled live every morning.</p>
+      </div>
+      <div class="home-card accent-foam-x">
+        <div class="home-card-label label-foam">Trending on X</div>
+        <p>What the world is talking about on X right now.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>Delivered daily at 9 AM Sydney</footer>
+
+  <script src="nav.js"></script>
+  <script>
+    fetch('news.json').then(r => r.json()).then(({ date }) => {
+      document.getElementById('news-date').textContent = date;
+    }).catch(() => {});
+  </script>
+</body>
+</html>
