@@ -121,7 +121,7 @@
         "title": "Microsoft suspends dev accounts for high-profile open source projects",
         "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-suspends-dev-accounts-for-high-profile-open-source-projects/",
         "hn_url": "https://news.ycombinator.com/item?id=47716412",
-        "score": 203,
+        "score": 209,
         "by": "N19PEDL2",
         "comments": 47
       },
@@ -131,15 +131,15 @@
         "hn_url": "https://news.ycombinator.com/item?id=47716809",
         "score": 38,
         "by": "jnord",
-        "comments": 14
+        "comments": 15
       },
       {
         "title": "France Launches Government Linux Desktop Plan as Windows Exit Begins",
         "url": "https://www.numerique.gouv.fr/sinformer/espace-presse/souverainete-numerique-reduction-dependances-extra-europeennes/",
         "hn_url": "https://news.ycombinator.com/item?id=47716043",
-        "score": 599,
+        "score": 601,
         "by": "embedding-shape",
-        "comments": 263
+        "comments": 266
       },
       {
         "title": "ETH Zurich demonstrates 17,000 qubit array with 99.91% fidelity",
@@ -153,9 +153,17 @@
         "title": "How NASA built Artemis II\u2019s fault-tolerant computer",
         "url": "https://cacm.acm.org/news/how-nasa-built-artemis-iis-fault-tolerant-computer/",
         "hn_url": "https://news.ycombinator.com/item?id=47704804",
-        "score": 456,
+        "score": 457,
         "by": "speckx",
         "comments": 176
+      },
+      {
+        "title": "FBI used iPhone notification data to retrieve deleted Signal messages",
+        "url": "https://9to5mac.com/2026/04/09/fbi-used-iphone-notification-data-to-retrieve-deleted-signal-messages/",
+        "hn_url": "https://news.ycombinator.com/item?id=47716490",
+        "score": 84,
+        "by": "01-_-",
+        "comments": 29
       },
       {
         "title": "Show HN: Keeper \u2013 embedded secret store for Go (help me break it)",
@@ -166,20 +174,12 @@
         "comments": 21
       },
       {
-        "title": "FBI used iPhone notification data to retrieve deleted Signal messages",
-        "url": "https://9to5mac.com/2026/04/09/fbi-used-iphone-notification-data-to-retrieve-deleted-signal-messages/",
-        "hn_url": "https://news.ycombinator.com/item?id=47716490",
-        "score": 80,
-        "by": "01-_-",
-        "comments": 29
-      },
-      {
         "title": "I still prefer MCP over skills",
         "url": "https://david.coffee/i-still-prefer-mcp-over-skills/",
         "hn_url": "https://news.ycombinator.com/item?id=47712718",
         "score": 262,
         "by": "gmays",
-        "comments": 223
+        "comments": 226
       },
       {
         "title": "Model-Based Testing for Dungeons & Dragons",
@@ -195,7 +195,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=47708818",
         "score": 558,
         "by": "PaulHoule",
-        "comments": 265
+        "comments": 266
       }
     ],
     "hacker_news_top": [
@@ -235,9 +235,9 @@
         "title": "France Launches Government Linux Desktop Plan as Windows Exit Begins",
         "url": "https://www.numerique.gouv.fr/sinformer/espace-presse/souverainete-numerique-reduction-dependances-extra-europeennes/",
         "hn_url": "https://news.ycombinator.com/item?id=47716043",
-        "score": 599,
+        "score": 601,
         "by": "embedding-shape",
-        "comments": 263
+        "comments": 266
       },
       {
         "title": "ML promises to be profoundly weird",
@@ -269,7 +269,7 @@
         "hn_url": "https://news.ycombinator.com/item?id=47708818",
         "score": 558,
         "by": "PaulHoule",
-        "comments": 265
+        "comments": 266
       },
       {
         "title": "Help Keep Thunderbird Alive",
