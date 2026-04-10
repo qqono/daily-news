@@ -1,321 +1,285 @@
 {
-  "date": "Thursday, 09 April 2026",
+  "date": "Friday, 10 April 2026",
   "data": {
     "top_headlines": [
       {
-        "headline": "U.S.-Iran Two-Week Ceasefire Takes Hold But Remains Fragile as Lebanon Strikes Continue",
-        "summary": "The United States and Iran agreed to a two-week ceasefire brokered by Pakistan, halting more than 40 days of U.S.-Israeli strikes on Iran in exchange for Tehran reopening the Strait of Hormuz to shipping. The agreement is described as fragile: Iran's Revolutionary Guard Corps claimed Hormuz shipping had stopped again after continued Israeli strikes on Lebanon, which both Washington and Jerusalem say are not covered by the ceasefire. Delegations from both sides are expected to meet in Islamabad on Friday to negotiate a more lasting accord.",
+        "headline": "Ceasefire or no ceasefire, the Middle East's reshuffling is not yet done",
+        "summary": "Both sides have reason to end the war but share no common ground.",
+        "source": "BBC",
+        "lean": "center-left",
+        "url": "https://www.bbc.com/news/articles/cp3l4yk5rlgo?at_medium=RSS&at_campaign=rss"
+      },
+      {
+        "headline": "\u2018Closer to a break than ever\u2019: Can NATO survive if Trump pulls the US out?",
+        "summary": "The war in Iran has deepened a rift in the transatlantic alliance, raising questions about whether it can endure.",
         "source": "Al Jazeera",
-        "lean": "center-left"
+        "lean": "center-left",
+        "url": "https://www.aljazeera.com/news/2026/4/10/closer-to-a-break-than-ever-can-nato-survive-if-trump-pulls-the-us-out?traffic_source=rss"
       },
       {
-        "headline": "Global Markets Surge and Oil Plunges on Iran Ceasefire News; Energy Prices Remain Elevated",
-        "summary": "Oil prices fell as much as 16% following the ceasefire announcement, with U.S. crude dropping to around $94 per barrel \u2014 still more than 40% above pre-war levels. Wall Street posted its largest single-day Dow gain since April 2025, while Asian and European benchmarks also surged sharply. Analysts cautioned that the relief rally may be short-lived given the ceasefire's fragility, unresolved trust deficits, and a backlog of 187 tankers stranded in the Gulf.",
-        "source": "CNBC",
-        "lean": "center"
-      },
-      {
-        "headline": "Democrat-Backed Chris Taylor Wins Wisconsin Supreme Court Race, Expanding Liberal Majority to 5-2",
-        "summary": "Wisconsin appeals court judge Chris Taylor defeated Republican-backed Maria Lazar by approximately 20 percentage points in the April 7 state Supreme Court election, the fourth consecutive victory for liberal-backed candidates in the battleground state. Taylor's win expands the court's liberal majority from 4-3 to 5-2, cementing liberal control until at least 2030. The race attracted significantly less national spending than Wisconsin's previous two high-profile judicial contests.",
-        "source": "Associated Press (via PBS NewsHour)",
-        "lean": "center"
+        "headline": "VP Vance to lead U.S. team in Iran peace talks. And, Artemis II to return to Earth",
+        "summary": "Vice President Vance is heading to Pakistan to lead a U.S. team in talks aimed at ending the war in Iran. And, Artemis II is set to return to Earth today.",
+        "source": "NPR",
+        "lean": "center-left",
+        "url": "https://www.npr.org/2026/04/10/g-s1-117023/up-first-newsletter-iran-us-israel-jd-vance-artemis-two-melania-trump-fema-funds"
       }
     ],
     "tech_ai": [
       {
-        "headline": "Meta Debuts Muse Spark, Its First Proprietary AI Model From Superintelligence Labs",
-        "summary": "Meta unveiled Muse Spark, the first AI model produced by its Meta Superintelligence Labs unit led by Chief AI Officer Alexandr Wang, marking a pivot away from the company's prior open-source Llama strategy. The model, described as competitive with leading models from OpenAI, Anthropic, and Google on several benchmarks, will power Meta AI across Facebook, Instagram, WhatsApp, and Meta's Ray-Ban glasses in the coming weeks. Meta's planned AI capital expenditures for 2026 are projected at between $115 billion and $135 billion, nearly double its 2025 spending.",
-        "source": "Bloomberg",
-        "lean": "center"
+        "headline": "Dad stuck in support nightmare after teen lied about age on Discord",
+        "summary": "Data dump confirms dad's suspicions that Discord knew teen's age prior to hack.",
+        "source": "Ars Technica",
+        "lean": "center-left",
+        "url": "https://arstechnica.com/tech-policy/2026/04/dad-stuck-in-support-nightmare-after-teen-lied-about-age-on-discord/"
       },
       {
-        "headline": "Anthropic Restricts New Claude Mythos Model to Cybersecurity Defense, Citing Power and Risk",
-        "summary": "Anthropic is limiting access to its new Claude Mythos Preview model, steering it toward defensive cybersecurity work rather than a broad public release, after the model demonstrated the ability to identify thousands of zero-day vulnerabilities across major operating systems and browsers. The company launched Project Glasswing with partners including Amazon, Apple, Google, Microsoft, and Nvidia to use the model to identify and fix high-severity software vulnerabilities. The move signals a growing focus among frontier AI labs on controlling deployment of their most capable models.",
-        "source": "TechCrunch (via Tech Startups)",
-        "lean": "center-left"
+        "headline": "Fear and loathing at OpenAI",
+        "summary": "Sam Altman's tenure at OpenAI has been\u2026 messy. Messy to the point where Altman was briefly fired from his role as CEO, only to be reinstated days later, at which point he began reshaping the organization permanently. This week, The New Yorker published a deep look at Altman, his time at OpenAI, and the questions [&#8230;]",
+        "source": "The Verge",
+        "lean": "center-left",
+        "url": "https://www.theverge.com/podcast/909621/openai-sam-altman-drama-vergecast"
       },
       {
-        "headline": "Greece to Ban Social Media for Under-15s from 2027, Calls for EU-Wide Framework",
-        "summary": "Greece announced it will prohibit children under the age of 15 from accessing social media platforms starting January 1, 2027, citing concerns about anxiety, sleep disruption, and addictive design. Prime Minister Kyriakos Mitsotakis also called on the European Commission to establish an EU-wide framework for age verification and enforcement. The move is one of Europe's most sweeping national-level digital restrictions targeting minors.",
-        "source": "Tech Startups",
-        "lean": "center"
+        "headline": "Snap gets closer to releasing new AI glasses after years-long hiatus",
+        "summary": "Specs has long been teasing the next version of its augmented reality glasses. A new partnership with Qualcomm promises some movement in that department.",
+        "source": "TechCrunch",
+        "lean": "center",
+        "url": "https://techcrunch.com/2026/04/10/snap-gets-closer-to-releasing-new-ai-glasses-after-years-long-hiatus/"
       }
     ],
     "business_finance": [
       {
-        "headline": "Oil Below $100 After Iran Ceasefire, But Prices Remain Far Above Pre-War Levels",
-        "summary": "Brent crude fell 13% to settle around $94.80 per barrel and U.S. WTI crude dropped more than 15% following the U.S.-Iran ceasefire announcement, though both benchmarks remain more than 40% above the roughly $70 per barrel price seen before the conflict began in late February. The Ras Laffan LNG complex in Qatar suffered damage reducing its export capacity by 17%, and analysts estimate the cost of rebuilding Middle East energy infrastructure could exceed $25 billion. The International Air Transport Association warned it could take months for jet fuel supplies and prices to normalize even if the Strait of Hormuz stays open.",
-        "source": "Reuters / Renewable Matter",
-        "lean": "center"
-      },
-      {
-        "headline": "Wall Street Posts Biggest Rally in a Year on Iran Ceasefire; S&P 500 Closes Up 2.5%",
-        "summary": "The S&P 500 rose 2.5%, the Nasdaq gained 2.8%, and the Dow Jones jumped 1,325 points on Wednesday \u2014 the index's largest single-day percentage gain since April 2025. Asian indices led by South Korea's Kospi surged nearly 7%, while Germany's DAX jumped more than 5% and Europe's Stoxx 600 rose 3.8%. JPMorgan strategists wrote that the S&P 500 could climb further \"as euphoria returns to markets,\" though investors remain cautious given unresolved questions about the ceasefire's durability.",
-        "source": "NBC News",
-        "lean": "center-left"
-      },
-      {
-        "headline": "FedEx Reaches Tentative Deal With Pilots' Union After Five Years of Negotiations",
-        "summary": "FedEx and its pilots' union reached a tentative agreement, ending more than five years of contract negotiations, according to Bloomberg. The deal comes as the air freight and logistics industry faces elevated operating costs linked to surging jet fuel prices stemming from the disruption to Strait of Hormuz tanker traffic. Additional details of the agreement had not been disclosed at time of publication.",
+        "headline": "Stocks Rise on In-Line CPI Ahead of US-Iran Talks: Markets Wrap",
+        "summary": "The first inflation snapshot of the war-fueled spike in energy costs matched expectations, driving stocks higher ahead of this weekend\u2019s planned talks between the US and Iran.",
         "source": "Bloomberg",
-        "lean": "center"
+        "lean": "center",
+        "url": "https://www.bloomberg.com/news/articles/2026-04-09/stock-market-today-dow-s-p-live-updates"
+      },
+      {
+        "headline": "Consumer prices rose 3.3% in March, as energy prices spiked due to Iran conflict",
+        "summary": "The consumer price index was expected to show a 3.3% year-over-year gain in March, according to the Dow Jones consensus.",
+        "source": "CNBC",
+        "lean": "center",
+        "url": "https://www.cnbc.com/2026/04/10/cpi-inflation-report-march-2026.html"
+      },
+      {
+        "headline": "US inflation jumps to highest level in almost two years",
+        "summary": "A surge in prices at the pump due to the Iran war has pushed the inflation rate to 3.3%.",
+        "source": "BBC Business",
+        "lean": "center-left",
+        "url": "https://www.bbc.com/news/articles/cde56g80xp5o?at_medium=RSS&at_campaign=rss"
       }
     ],
     "world_news": [
       {
-        "headline": "Vietnam's National Assembly Elects Le Minh Hung as New Prime Minister for 2026-2031 Term",
-        "summary": "Vietnam's 16th National Assembly unanimously elected Politburo member Le Minh Hung as the country's new prime minister on April 7, with all 495 legislators present voting in favor. Hung, 56, a former Governor of the State Bank of Vietnam, replaces outgoing Premier Pham Minh Chinh and pledged to target annual economic growth of at least 10% driven by innovation and digital transformation. The same session confirmed party General Secretary To Lam as State President, consolidating significant political authority in a single figure.",
-        "source": "Xinhua / Reuters",
-        "lean": "center"
+        "headline": "Trump says Iran's handling of Strait of Hormuz is 'not the agreement we have'",
+        "summary": "The US president accused Iran of \"doing a very poor job\" with the waterway as Israel and Lebanon to begin peace talks.",
+        "source": "BBC World",
+        "lean": "center-left",
+        "url": "https://www.bbc.com/news/articles/cge0xre3d27o?at_medium=RSS&at_campaign=rss"
       },
       {
-        "headline": "UK's Wireless Festival Cancelled After Home Office Bans Kanye West From Entering Country",
-        "summary": "London's Wireless Festival, scheduled for July 10-12 at Finsbury Park, was cancelled after the UK Home Office withdrew Ye's (formerly Kanye West) Electronic Travel Authorisation on the grounds that his presence would not be \"conducive to the public good,\" citing his history of antisemitic statements. Festival organisers confirmed all ticket holders will receive automatic full refunds. Prime Minister Keir Starmer said the artist \"should never have been invited to headline Wireless.\"",
-        "source": "Rolling Stone / BBC",
-        "lean": "center-left"
+        "headline": "\u2018Closer to a break than ever\u2019: Can NATO survive if Trump pulls the US out?",
+        "summary": "The war in Iran has deepened a rift in the transatlantic alliance, raising questions about whether it can endure.",
+        "source": "Al Jazeera",
+        "lean": "center-left",
+        "url": "https://www.aljazeera.com/news/2026/4/10/closer-to-a-break-than-ever-can-nato-survive-if-trump-pulls-the-us-out?traffic_source=rss"
       },
       {
-        "headline": "VP Vance to Lead U.S. Delegation to Islamabad for Iran Peace Talks Beginning Saturday",
-        "summary": "Vice President JD Vance, along with special envoy Steve Witkoff and Jared Kushner, are set to travel to Islamabad, Pakistan, for negotiations aimed at converting the two-week U.S.-Iran ceasefire into a more permanent agreement. Pakistani Prime Minister Shehbaz Sharif, whose government brokered the ceasefire, invited both delegations to Islamabad and called for a broader cessation of hostilities. Significant gaps remain between the two sides, particularly over uranium enrichment, sanctions, and the scope of U.S. military presence in the region.",
-        "source": "CNN",
-        "lean": "center-left"
+        "headline": "VP Vance to lead U.S. team in Iran peace talks. And, Artemis II to return to Earth",
+        "summary": "Vice President Vance is heading to Pakistan to lead a U.S. team in talks aimed at ending the war in Iran. And, Artemis II is set to return to Earth today.",
+        "source": "NPR World",
+        "lean": "center-left",
+        "url": "https://www.npr.org/2026/04/10/g-s1-117023/up-first-newsletter-iran-us-israel-jd-vance-artemis-two-melania-trump-fema-funds"
       }
     ],
     "music": [
       {
-        "headline": "Rolling Stones Tease New Album 'Foreign Tongues' With Cryptic 'The Cockroaches' Campaign Ahead of April 11 Reveal",
-        "summary": "Mysterious posters bearing the name 'The Cockroaches' \u2014 a pseudonym the Rolling Stones have used for secret shows since 1977 \u2014 appeared across London this week, directing fans to thecockroaches.com, a site registered to Universal Music, the band's label. Reports indicate the Stones plan to officially announce their 25th studio album, reportedly titled 'Foreign Tongues,' with lead single 'Mr Charm' on Saturday, April 11. Guitarist Ronnie Wood confirmed new music was coming in 2026, though a full tour has been ruled out due to Keith Richards's scheduling constraints.",
-        "source": "NME / Noise11",
-        "lean": "center"
+        "headline": "KATSEYE Talk \u2018Sister Forever\u2019 Manon and Beyonc\u00e9 Inspiration For Coachella Debut: \u2018The Most Iconic\u2019",
+        "summary": "This weekend's performance will feature the live debut of the group's new song, \"Pinky Up,\" which does not feature on-hiatus member Manon Bannerman.",
+        "source": "Billboard",
+        "lean": "center",
+        "url": "https://www.billboard.com/music/pop/katseye-talk-sister-forever-manon-beyonce-inspiration-coachella-1236219762/"
       },
       {
-        "headline": "Bleachers Announce New Album 'Everyone For 10 Minutes' and Kick Off Rolling Stone Rock Tour",
-        "summary": "Bleachers have announced their fifth studio album, 'Everyone For 10 Minutes,' due May 22 via Dirty Hit, alongside lead singles 'You And Forever' and 'Dirty Wedding Dress.' The band will headline the first stop of the 2026 Rolling Stone Rock Tour at the Fillmore New Orleans on May 20 \u2014 two nights before the album's release \u2014 with public tickets on sale today, April 9. Bleachers also announced a major UK and European headline tour for November\u2013December 2026, their largest overseas run to date.",
-        "source": "Rolling Stone / NME",
-        "lean": "center-left"
+        "headline": "Watch BTS debut \u2018ARIRANG\u2019 songs as they kick off 2026 world stadium tour at Goyang Stadium",
+        "summary": "They played \u2018Come Over\u2019, \u2018Please\u2019, \u2018Into The Sun\u2019 and more live for the first time The post Watch BTS debut &#8216;ARIRANG&#8217; songs as they kick off 2026 world stadium tour at Goyang Stadium appeared first on NME.",
+        "source": "NME",
+        "lean": "center-left",
+        "url": "https://www.nme.com/news/music/watch-bts-debut-arirang-songs-2026-world-stadium-tour-footage-setlist-3939527?utm_source=rss&utm_medium=rss&utm_campaign=watch-bts-debut-arirang-songs-2026-world-stadium-tour-footage-setlist"
       },
       {
-        "headline": "Wireless Festival Collapse Renews Debate Over Artists With Hate Speech Records Booking Major UK Festivals",
-        "summary": "The sudden cancellation of Wireless Festival following the UK government's ban on Ye has prompted broader discussion in the British music industry about due-diligence processes when booking controversial headliners. Sponsors Pepsi and Diageo had already withdrawn before the cancellation, and the Jewish Leadership Council, London Mayor Sadiq Khan, and Prime Minister Keir Starmer all publicly condemned the booking. Wireless organisers acknowledged that 'multiple stakeholders were consulted in advance' and that 'no concerns were highlighted at the time.'",
-        "source": "BBC / Rolling Stone",
-        "lean": "center-left"
+        "headline": "Foo Fighters Reflect on Mortality on Thrashing Single \u2018Of All People\u2019",
+        "summary": "The rock band will release their new album, Your Favorite Toy, later this month",
+        "source": "Rolling Stone",
+        "lean": "center-left",
+        "url": "https://www.rollingstone.com/music/music-news/foo-fighters-of-all-people-single-1235544743/"
       }
     ],
     "hacker_news": [
       {
-        "title": "LittleSnitch for Linux",
-        "url": "https://obdev.at/products/littlesnitch-linux/index.html",
-        "hn_url": "https://news.ycombinator.com/item?id=47697870",
-        "score": 382,
-        "by": "pluc",
-        "comments": 126
+        "title": "Microsoft suspends dev accounts for high-profile open source projects",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-suspends-dev-accounts-for-high-profile-open-source-projects/",
+        "hn_url": "https://news.ycombinator.com/item?id=47716412",
+        "score": 203,
+        "by": "N19PEDL2",
+        "comments": 47
       },
       {
-        "title": "Open Source Security at Astral",
-        "url": "https://astral.sh/blog/open-source-security-at-astral",
-        "hn_url": "https://news.ycombinator.com/item?id=47699181",
+        "title": "Intel 486 CPU announced April 10, 1989",
+        "url": "https://dfarq.homeip.net/intel-486-cpu-announced-april-10-1989/",
+        "hn_url": "https://news.ycombinator.com/item?id=47716809",
+        "score": 38,
+        "by": "jnord",
+        "comments": 14
+      },
+      {
+        "title": "France Launches Government Linux Desktop Plan as Windows Exit Begins",
+        "url": "https://www.numerique.gouv.fr/sinformer/espace-presse/souverainete-numerique-reduction-dependances-extra-europeennes/",
+        "hn_url": "https://news.ycombinator.com/item?id=47716043",
+        "score": 599,
+        "by": "embedding-shape",
+        "comments": 263
+      },
+      {
+        "title": "ETH Zurich demonstrates 17,000 qubit array with 99.91% fidelity",
+        "url": "https://ethz.ch/en/news-and-events/eth-news/news/2026/04/a-new-trick-brings-stability-to-quantum-operations.html",
+        "hn_url": "https://news.ycombinator.com/item?id=47713495",
+        "score": 152,
+        "by": "joko42",
+        "comments": 32
+      },
+      {
+        "title": "How NASA built Artemis II\u2019s fault-tolerant computer",
+        "url": "https://cacm.acm.org/news/how-nasa-built-artemis-iis-fault-tolerant-computer/",
+        "hn_url": "https://news.ycombinator.com/item?id=47704804",
+        "score": 456,
+        "by": "speckx",
+        "comments": 176
+      },
+      {
+        "title": "Show HN: Keeper \u2013 embedded secret store for Go (help me break it)",
+        "url": "https://github.com/agberohq/keeper",
+        "hn_url": "https://news.ycombinator.com/item?id=47715339",
+        "score": 37,
+        "by": "babawere",
+        "comments": 21
+      },
+      {
+        "title": "FBI used iPhone notification data to retrieve deleted Signal messages",
+        "url": "https://9to5mac.com/2026/04/09/fbi-used-iphone-notification-data-to-retrieve-deleted-signal-messages/",
+        "hn_url": "https://news.ycombinator.com/item?id=47716490",
+        "score": 80,
+        "by": "01-_-",
+        "comments": 29
+      },
+      {
+        "title": "I still prefer MCP over skills",
+        "url": "https://david.coffee/i-still-prefer-mcp-over-skills/",
+        "hn_url": "https://news.ycombinator.com/item?id=47712718",
+        "score": 262,
+        "by": "gmays",
+        "comments": 223
+      },
+      {
+        "title": "Model-Based Testing for Dungeons & Dragons",
+        "url": "https://www.loskutoff.com/blog/model-based-testing-dnd/",
+        "hn_url": "https://news.ycombinator.com/item?id=47674894",
         "score": 50,
-        "by": "vinhnx",
-        "comments": 0
-      },
-      {
-        "title": "I ported Mac OS X to the Nintendo Wii",
-        "url": "https://bryankeller.github.io/2026/04/08/porting-mac-os-x-nintendo-wii.html",
-        "hn_url": "https://news.ycombinator.com/item?id=47691730",
-        "score": 1403,
-        "by": "blkhp19",
-        "comments": 237
-      },
-      {
-        "title": "The Importance of Being Idle",
-        "url": "https://theamericanscholar.org/the-importance-of-being-idle/",
-        "hn_url": "https://news.ycombinator.com/item?id=47666639",
-        "score": 87,
-        "by": "Caiero",
+        "by": "Firfi",
         "comments": 10
       },
       {
-        "title": "USB for Software Developers: An introduction to writing userspace USB drivers",
-        "url": "https://werwolv.net/posts/usb_for_sw_devs/",
-        "hn_url": "https://news.ycombinator.com/item?id=47695012",
-        "score": 242,
-        "by": "WerWolv",
-        "comments": 30
-      },
-      {
-        "title": "Understanding the Kalman filter with a simple radar example",
-        "url": "https://kalmanfilter.net",
-        "hn_url": "https://news.ycombinator.com/item?id=47693153",
-        "score": 286,
-        "by": "alex_be",
-        "comments": 35
-      },
-      {
-        "title": "Six (and a half) intuitions for KL divergence",
-        "url": "https://www.perfectlynormal.co.uk/blog-kl-divergence",
-        "hn_url": "https://news.ycombinator.com/item?id=47678690",
-        "score": 49,
-        "by": "jxmorris12",
-        "comments": 2
-      },
-      {
-        "title": "They're made out of meat (1991)",
-        "url": "http://www.terrybisson.com/theyre-made-out-of-meat-2/",
-        "hn_url": "https://news.ycombinator.com/item?id=47688678",
-        "score": 466,
-        "by": "surprisetalk",
-        "comments": 133
-      },
-      {
-        "title": "Muse Spark: Scaling towards personal superintelligence",
-        "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/?_fb_noscript=1",
-        "hn_url": "https://news.ycombinator.com/item?id=47692043",
-        "score": 307,
-        "by": "chabons",
-        "comments": 314
-      },
-      {
-        "title": "ML promises to be profoundly weird",
-        "url": "https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess",
-        "hn_url": "https://news.ycombinator.com/item?id=47689648",
-        "score": 436,
-        "by": "pabs3",
-        "comments": 450
+        "title": "Native Instant Space Switching on macOS",
+        "url": "https://arhan.sh/blog/native-instant-space-switching-on-macos/",
+        "hn_url": "https://news.ycombinator.com/item?id=47708818",
+        "score": 558,
+        "by": "PaulHoule",
+        "comments": 265
       }
     ],
     "hacker_news_top": [
       {
-        "title": "Git commands I run before reading any code",
-        "url": "https://piechowski.io/post/git-commands-before-reading-code/",
-        "hn_url": "https://news.ycombinator.com/item?id=47687273",
-        "score": 1906,
-        "by": "grepsedawk",
-        "comments": 403
-      },
-      {
-        "title": "Project Glasswing: Securing critical software for the AI era",
-        "url": "https://www.anthropic.com/glasswing",
-        "hn_url": "https://news.ycombinator.com/item?id=47679121",
-        "score": 1485,
-        "by": "Ryan5453",
-        "comments": 798
-      },
-      {
         "title": "I ported Mac OS X to the Nintendo Wii",
         "url": "https://bryankeller.github.io/2026/04/08/porting-mac-os-x-nintendo-wii.html",
         "hn_url": "https://news.ycombinator.com/item?id=47691730",
-        "score": 1403,
+        "score": 1867,
         "by": "blkhp19",
-        "comments": 237
+        "comments": 315
       },
       {
-        "title": "Veracrypt project update",
-        "url": "https://sourceforge.net/p/veracrypt/discussion/general/thread/9620d7a4b3/",
-        "hn_url": "https://news.ycombinator.com/item?id=47686549",
-        "score": 1175,
-        "by": "super256",
+        "title": "EFF is leaving X",
+        "url": "https://www.eff.org/deeplinks/2026/04/eff-leaving-x",
+        "hn_url": "https://news.ycombinator.com/item?id=47706268",
+        "score": 1346,
+        "by": "gregsadetsky",
+        "comments": 1167
+      },
+      {
+        "title": "LittleSnitch for Linux",
+        "url": "https://obdev.at/products/littlesnitch-linux/index.html",
+        "hn_url": "https://news.ycombinator.com/item?id=47697870",
+        "score": 1325,
+        "by": "pluc",
         "comments": 436
-      },
-      {
-        "title": "Lunar Flyby",
-        "url": "https://www.nasa.gov/gallery/lunar-flyby/",
-        "hn_url": "https://news.ycombinator.com/item?id=47676509",
-        "score": 934,
-        "by": "kipi",
-        "comments": 238
-      },
-      {
-        "title": "System Card: Claude Mythos Preview [pdf]",
-        "url": "https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf",
-        "hn_url": "https://news.ycombinator.com/item?id=47679258",
-        "score": 825,
-        "by": "be7a",
-        "comments": 631
-      },
-      {
-        "title": "Show HN: Brutalist Concrete Laptop Stand (2024)",
-        "url": "https://sam-burns.com/posts/concrete-laptop-stand/",
-        "hn_url": "https://news.ycombinator.com/item?id=47673360",
-        "score": 776,
-        "by": "sam-bee",
-        "comments": 233
       },
       {
         "title": "US cities are axing Flock Safety surveillance technology",
         "url": "https://www.cnet.com/home/security/when-flock-comes-to-town-why-cities-are-axing-the-controversial-surveillance-technology/",
         "hn_url": "https://news.ycombinator.com/item?id=47689237",
-        "score": 675,
+        "score": 753,
         "by": "giuliomagnifico",
-        "comments": 394
+        "comments": 426
       },
       {
-        "title": "Are We Idiocracy Yet?",
-        "url": "https://idiocracy.wtf/",
-        "hn_url": "https://news.ycombinator.com/item?id=47672818",
-        "score": 626,
-        "by": "jdiiufccuskal",
-        "comments": 540
+        "title": "France Launches Government Linux Desktop Plan as Windows Exit Begins",
+        "url": "https://www.numerique.gouv.fr/sinformer/espace-presse/souverainete-numerique-reduction-dependances-extra-europeennes/",
+        "hn_url": "https://news.ycombinator.com/item?id=47716043",
+        "score": 599,
+        "by": "embedding-shape",
+        "comments": 263
       },
       {
-        "title": "GLM-5.1: Towards Long-Horizon Tasks",
-        "url": "https://z.ai/blog/glm-5.1",
-        "hn_url": "https://news.ycombinator.com/item?id=47677853",
-        "score": 608,
-        "by": "zixuanlimit",
-        "comments": 251
+        "title": "ML promises to be profoundly weird",
+        "url": "https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess",
+        "hn_url": "https://news.ycombinator.com/item?id=47689648",
+        "score": 598,
+        "by": "pabs3",
+        "comments": 591
+      },
+      {
+        "title": "Meta removes ads for social media addiction litigation",
+        "url": "https://www.axios.com/2026/04/09/meta-social-media-addiction-ads",
+        "hn_url": "https://news.ycombinator.com/item?id=47703419",
+        "score": 596,
+        "by": "giuliomagnifico",
+        "comments": 242
+      },
+      {
+        "title": "Microsoft terminates VeraCrypt account, halting Windows updates",
+        "url": "https://www.404media.co/microsoft-abruptly-terminates-veracrypt-account-halting-windows-updates/",
+        "hn_url": "https://news.ycombinator.com/item?id=47690977",
+        "score": 579,
+        "by": "donohoe",
+        "comments": 238
+      },
+      {
+        "title": "Native Instant Space Switching on macOS",
+        "url": "https://arhan.sh/blog/native-instant-space-switching-on-macos/",
+        "hn_url": "https://news.ycombinator.com/item?id=47708818",
+        "score": 558,
+        "by": "PaulHoule",
+        "comments": 265
+      },
+      {
+        "title": "Help Keep Thunderbird Alive",
+        "url": "https://updates.thunderbird.net/en-US/thunderbird/140.0/apr26-1e/donate/",
+        "hn_url": "https://news.ycombinator.com/item?id=47700388",
+        "score": 551,
+        "by": "playfultones",
+        "comments": 375
       }
     ],
-    "x_trending": [
-      {
-        "topic": "Strait of Hormuz Ceasefire",
-        "posts": "2.1M posts",
-        "category": "World"
-      },
-      {
-        "topic": "#25thAmendment",
-        "posts": "1.4M posts",
-        "category": "Politics"
-      },
-      {
-        "topic": "Strait of Hormuz Tolls",
-        "posts": "987K posts",
-        "category": "World"
-      },
-      {
-        "topic": "Iran Ceasefire Violations",
-        "posts": "874K posts",
-        "category": "World"
-      },
-      {
-        "topic": "Stock Market Rally",
-        "posts": "763K posts",
-        "category": "Finance"
-      },
-      {
-        "topic": "FIFA World Cup Iran",
-        "posts": "651K posts",
-        "category": "Sports"
-      },
-      {
-        "topic": "TACO (Trump Always Chickens Out)",
-        "posts": "589K posts",
-        "category": "Politics"
-      },
-      {
-        "topic": "Pakistan Mediation",
-        "posts": "412K posts",
-        "category": "World"
-      },
-      {
-        "topic": "#Impeachment",
-        "posts": "398K posts",
-        "category": "Politics"
-      },
-      {
-        "topic": "Oil Prices Crash",
-        "posts": "344K posts",
-        "category": "Finance"
-      }
-    ]
+    "x_trending": []
   }
 }
