@@ -1,201 +1,201 @@
 {
-  "date": "Sunday, 12 April 2026",
+  "date": "Monday, 13 April 2026",
   "data": {
     "top_headlines": [
       {
-        "headline": "'It's a special thing to be on Planet Earth': Artemis crew welcomed home in Houston",
-        "summary": "The four astronauts flew around the Moon in a nine-day voyage that took them further from Earth than any humans in history.",
+        "headline": "'A truly historic moment': BBC reports from Hungary as P\u00e9ter Magyar set to become new PM",
+        "summary": "Rajini Vaidyanathan broadcasts from outside Hungary's parliament as crowds hear about the prime minister's concession.",
         "source": "BBC",
         "lean": "center-left",
-        "url": "https://www.bbc.com/news/videos/cd7jzj9rg1qo?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.com/news/videos/c2lwrjwg29lo?at_medium=RSS&at_campaign=rss"
       },
       {
-        "headline": "Fury beats Makhmudov in heavyweight boxing comeback, then calls out Joshua",
-        "summary": "Tyson Fury beats Arslanbek Makhmudov in a unanimous points decision as he makes his heavyweight comeback.",
+        "headline": "These are people Israel killed in Lebanon on a single day",
+        "summary": "In a matter of minutes, Israel killed more than 350 people across Lebanon on Wednesday, April 8.",
         "source": "Al Jazeera",
         "lean": "center-left",
-        "url": "https://www.aljazeera.com/sports/2026/4/11/fury-beats-makhmudov-in-heavyweight-boxing-comeback-then-calls-out-joshua?traffic_source=rss"
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/4/12/these-are-people-israel-killed-in-lebanon-on-a-single-day?traffic_source=rss"
       },
       {
-        "headline": "Trump touts newly released plans for D.C. triumphal arch",
-        "summary": "The proposed 250-feet-tall, white-and-gilded monument would stand on the National Mall in Washington, D.C., by the Potomac River.",
+        "headline": "Viktor Orb\u00e1n concedes defeat in historic Hungary election",
+        "summary": "Hungarians turned out in historic numbers to vote against Prime Minister Viktor Orb\u00e1n's and his Fidesz party. NPR's Rob Schmitz discusses with reporter Esme Nicholson and political scientist Abel Bojar.",
         "source": "NPR",
         "lean": "center-left",
-        "url": "https://www.npr.org/2026/04/11/nx-s1-5782027/trump-triumphal-arch-plans-architecture"
+        "url": "https://www.npr.org/2026/04/12/nx-s1-5773324/viktor-orban-concedes-defeat-in-historic-hungary-election"
       }
     ],
     "tech_ai": [
       {
-        "headline": "AI models are terrible at betting on soccer\u2014especially xAI Grok",
-        "summary": "Systems from Google, OpenAI, Anthropic, and xAI struggle with the Premier League.",
+        "headline": "Shock from Iran war has Trump's vision for US energy dominance flailing",
+        "summary": "Record domestic oil and gas production hasn't saved US drivers from price spikes.",
         "source": "Ars Technica",
         "lean": "center-left",
-        "url": "https://arstechnica.com/ai/2026/04/ai-models-are-terrible-at-betting-on-soccer-especially-xai-grok/"
+        "url": "https://arstechnica.com/science/2026/04/shock-from-iran-war-has-trumps-vision-for-us-energy-dominance-flailing/"
       },
       {
-        "headline": "Google says Polymarket bets showing up in News was an \u2018error\u2019",
-        "summary": "Polymarket bets started popping up in Google News alongside legitimate news articles. But now those results aren't showing, and Google says they were never supposed to.\u2026",
+        "headline": "Room for the Moon is thrillingly weird experimental pop",
+        "summary": "For obvious reasons, I've had Moon on the mind all week. So I was trying to figure out what I should recommend this week that would thematically fit. Brian Eno's Apollo: Atmospheres and Soundtracks is incredible, and if you haven't listened to it, go do that now. But it also seemed a bit on the [&#8230;]",
         "source": "The Verge",
         "lean": "center-left",
-        "url": "https://www.theverge.com/tech/910691/google-news-polymarket-bets-error"
+        "url": "https://www.theverge.com/entertainment/910826/room-for-the-moon-is-thrillingly-weird-experimental-pop"
       },
       {
-        "headline": "Kalshi wins temporary pause in Arizona criminal case",
-        "summary": "The Commodity Futures Trading Commission announced Friday that it has won a temporary restraining order preventing Arizona from pursuing its criminal case against Kalshi.",
+        "headline": "Trump officials may be encouraging banks to test Anthropic\u2019s Mythos model",
+        "summary": "The report is particularly surprising since the Department of Defense recently declared Anthropic a supply-chain risk.",
         "source": "TechCrunch",
         "lean": "center",
-        "url": "https://techcrunch.com/2026/04/11/kalshi-wins-temporary-pause-in-arizona-criminal-case/"
+        "url": "https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model/"
       }
     ],
     "business_finance": [
       {
-        "headline": "World Finance Chiefs Head to IMF With a Sense of D\u00e9j\u00e0 Vu",
-        "summary": "Economic policymakers are about to gather in Washington to assess the damage President Donald Trump\u2019s war on Iran has caused to growth in the Middle East and beyond.",
+        "headline": "Oil Surges With Gas as US Blockade of Hormuz Escalates Crisis",
+        "summary": "Oil and natural gas surged as the US moved to blockade the Strait of Hormuz after weekend talks between Washington and Tehran failed to yield a deal, escalating a global energy crisis that\u2019s rocked markets.",
         "source": "Bloomberg",
         "lean": "center",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-11/world-finance-chiefs-head-to-imf-with-a-sense-of-deja-vu"
+        "url": "https://www.bloomberg.com/news/articles/2026-04-12/latest-oil-market-news-and-analysis-for-april-13"
       },
       {
-        "headline": "U.S.-Iran peace summit in Pakistan concludes with no deal, talks to continue on Sunday",
-        "summary": "Two American warships transited through the Strait of Hormuz for the first time since the start of the conflict.",
+        "headline": "Oil prices surge above $100 as U.S. Navy to blockade Iran's ports after peace talks fail",
+        "summary": "President Donald Trump said he ordered the U.S. Navy to find and interdict any ship in international waters that has paid a toll to Iran to transit the strait.",
         "source": "CNBC",
         "lean": "center",
-        "url": "https://www.cnbc.com/2026/04/11/us-iran-talks-set-to-begin-in-islamabad-after-delegations-arrive.html"
+        "url": "https://www.cnbc.com/2026/04/12/oil-prices-iran-war-strait-hormuz-blockade.html"
       },
       {
-        "headline": "EU airline industry warns of fuel shortages if Strait of Hormuz stays closed",
-        "summary": "Airports Council International (ACI) Europe said its members had \"increasing concerns\" about the availability of jet fuel.",
+        "headline": "Faisal Islam: Why the government is relaxed about Chinese car imports",
+        "summary": "The UK government believes the rise of China's car industry could be good for UK consumers and industry.",
         "source": "BBC Business",
         "lean": "center-left",
-        "url": "https://www.bbc.com/news/articles/c3w37ggp011o?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.com/news/articles/cnv82v3n6yqo?at_medium=RSS&at_campaign=rss"
       }
     ],
     "world_news": [
       {
-        "headline": "'It's a special thing to be on Planet Earth': Artemis crew welcomed home in Houston",
-        "summary": "The four astronauts flew around the Moon in a nine-day voyage that took them further from Earth than any humans in history.",
+        "headline": "Trump's blockade threat raises risks and leaves predicaments unchanged",
+        "summary": "The conflict is now a test of wills - Iran\u2019s capacity to absorb strikes versus Trump\u2019s tolerance for the war's costs.",
         "source": "BBC World",
         "lean": "center-left",
-        "url": "https://www.bbc.com/news/videos/cd7jzj9rg1qo?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.com/news/articles/c8dl5mly2rzo?at_medium=RSS&at_campaign=rss"
       },
       {
-        "headline": "Fury beats Makhmudov in heavyweight boxing comeback, then calls out Joshua",
-        "summary": "Tyson Fury beats Arslanbek Makhmudov in a unanimous points decision as he makes his heavyweight comeback.",
+        "headline": "These are people Israel killed in Lebanon on a single day",
+        "summary": "In a matter of minutes, Israel killed more than 350 people across Lebanon on Wednesday, April 8.",
         "source": "Al Jazeera",
         "lean": "center-left",
-        "url": "https://www.aljazeera.com/sports/2026/4/11/fury-beats-makhmudov-in-heavyweight-boxing-comeback-then-calls-out-joshua?traffic_source=rss"
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/4/12/these-are-people-israel-killed-in-lebanon-on-a-single-day?traffic_source=rss"
       },
       {
-        "headline": "Pakistan hosts historic face-to-face talks between the US and Iran",
-        "summary": "In Pakistan's capital, Islamabad, officials from the US and Iran met to discuss a possible end to the war that's engulfed much of the Middle East.",
+        "headline": "After failed peace talks, President Trump threatens to blockade the Strait of Hormuz",
+        "summary": "Less than a day after peace talks between the US and Iran failed, President Trump said that he will blockade the Strait of Hormuz.",
         "source": "NPR World",
         "lean": "center-left",
-        "url": "https://www.npr.org/2026/04/11/nx-s1-5779725/pakistan-hosts-historic-face-to-face-talks-between-the-us-and-iran"
+        "url": "https://www.npr.org/2026/04/12/nx-s1-5782653/after-failed-peace-talks-president-trump-threatens-to-blockade-the-strait-of-hormuz"
       }
     ],
     "music": [
       {
-        "headline": "Zac Brown Band Steps Up to the Plate for NBC\u2019s \u2018Sunday Night Baseball\u2019 Opening",
-        "summary": "The band's MLB intro features a reimagined version of Emerson, Lake &#38; Palmer\u2019s \u201cKarn Evil 9, 1st Impression Part 2.\u201d",
+        "headline": "KATSEYE Raves About Their \u2018Joint Slay\u2019 With HUNTR/X at Coachella 2026",
+        "summary": "The group also shared their thoughts on playing new single \"Pinky Up\" for the first time during an \"electric\" performance at the California festival.",
         "source": "Billboard",
         "lean": "center",
-        "url": "https://www.billboard.com/music/music-news/zac-brown-band-sunday-night-baseball-song-nbc-1236220984/"
+        "url": "https://www.billboard.com/music/music-news/katseye-coachella-2026-interview-1236221222/"
       },
       {
-        "headline": "Check out The Rolling Stones\u2019 taster of bluesy new music as The Cockroaches",
-        "summary": "The band have been sharing cryptic clues around London about a new album in recent weeks The post Check out The Rolling Stones&#8217; taster of bluesy new music as The Cockroaches appeared first on NME.",
+        "headline": "David Byrne brings out plenty of Talking Heads classics at theatrical Coachella 2026 set",
+        "summary": "His trademark choreography and stagecraft was on full display in a crowdpleasing performance The post David Byrne brings out plenty of Talking Heads classics at theatrical Coachella 2026 set appeared first on NME.",
         "source": "NME",
         "lean": "center-left",
-        "url": "https://www.nme.com/news/music/check-out-the-rolling-stones-taster-of-bluesy-new-music-as-the-cockroaches-3939719?utm_source=rss&utm_medium=rss&utm_campaign=check-out-the-rolling-stones-taster-of-bluesy-new-music-as-the-cockroaches"
+        "url": "https://www.nme.com/news/music/david-byrne-brings-out-plenty-of-talking-heads-classics-at-theatrical-coachella-2026-set-3939850?utm_source=rss&utm_medium=rss&utm_campaign=david-byrne-brings-out-plenty-of-talking-heads-classics-at-theatrical-coachella-2026-set"
       },
       {
-        "headline": "Alabama Shakes Tackle These Crazy Times on New Song \u2018American Dream\u2019",
-        "summary": "Ahead of trio's North American spring tour, Brittany Howard and company share second new track since reuniting",
+        "headline": "David Byrne Took Us Home Where \u2018Life During Wartime\u2019 Is Bleak, But Coachella Set Offered Hope",
+        "summary": "The avant-pop musician reflected on the state of the world through themes of love and our shared humanity at the desert fest on Saturday",
         "source": "Rolling Stone",
         "lean": "center-left",
-        "url": "https://www.rollingstone.com/music/music-news/alabama-shakes-new-song-american-dream-1235545402/"
+        "url": "https://www.rollingstone.com/music/music-news/david-byrne-performance-coachella-2026-1235543489/"
       }
     ],
     "hacker_news": [
       {
-        "title": "Small models also found the vulnerabilities that Mythos found",
-        "url": "https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier",
-        "hn_url": "https://news.ycombinator.com/item?id=47732020",
-        "score": 685,
-        "by": "dominicq",
-        "comments": 187
+        "title": "The peril of laziness lost",
+        "url": "https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/",
+        "hn_url": "https://news.ycombinator.com/item?id=47743628",
+        "score": 216,
+        "by": "gpm",
+        "comments": 69
       },
       {
-        "title": "Apple Silicon and Virtual Machines: Beating the 2 VM Limit (2023)",
-        "url": "https://khronokernel.com/macos/2023/08/08/AS-VM.html",
-        "hn_url": "https://news.ycombinator.com/item?id=47733971",
-        "score": 88,
-        "by": "krackers",
-        "comments": 28
+        "title": "Bring Back Idiomatic Design",
+        "url": "https://essays.johnloeber.com/p/4-bring-back-idiomatic-design",
+        "hn_url": "https://news.ycombinator.com/item?id=47738827",
+        "score": 407,
+        "by": "phil294",
+        "comments": 203
       },
       {
-        "title": "447 TB/cm\u00b2 at zero retention energy \u2013 atomic-scale memory on fluorographane",
-        "url": "https://zenodo.org/records/19513269",
-        "hn_url": "https://news.ycombinator.com/item?id=47733561",
-        "score": 88,
-        "by": "iliatoli",
-        "comments": 41
+        "title": "DIY Soft Drinks",
+        "url": "https://blinry.org/diy-soft-drinks/",
+        "hn_url": "https://news.ycombinator.com/item?id=47741701",
+        "score": 173,
+        "by": "_Microft",
+        "comments": 34
       },
       {
-        "title": "How We Broke Top AI Agent Benchmarks: And What Comes Next",
-        "url": "https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/",
-        "hn_url": "https://news.ycombinator.com/item?id=47733217",
-        "score": 153,
-        "by": "Anon84",
-        "comments": 41
+        "title": "Ask HN: What Are You Working On? (April 2026)",
+        "url": "https://news.ycombinator.com/item?id=47741527",
+        "hn_url": "https://news.ycombinator.com/item?id=47741527",
+        "score": 87,
+        "by": "david927",
+        "comments": 213
       },
       {
-        "title": "Dark Castle",
-        "url": "https://darkcastle.co.uk/",
-        "hn_url": "https://news.ycombinator.com/item?id=47733521",
-        "score": 72,
-        "by": "evo_9",
-        "comments": 6
+        "title": "Google removes \"Doki Doki Literature Club\" from Google Play",
+        "url": "https://bsky.app/profile/serenityforge.com/post/3mj3r4nbiws2t",
+        "hn_url": "https://news.ycombinator.com/item?id=47743730",
+        "score": 193,
+        "by": "super256",
+        "comments": 68
       },
       {
-        "title": "Pijul a FOSS distributed version control system",
-        "url": "https://pijul.org/",
-        "hn_url": "https://news.ycombinator.com/item?id=47672941",
-        "score": 38,
-        "by": "kouosi",
-        "comments": 5
+        "title": "I gave every train in New York an instrument",
+        "url": "https://www.trainjazz.com/",
+        "hn_url": "https://news.ycombinator.com/item?id=47719490",
+        "score": 175,
+        "by": "joshuawolk",
+        "comments": 36
       },
       {
-        "title": "How to build a `Git diff` driver",
-        "url": "https://www.jvt.me/posts/2026/04/11/how-git-diff-driver/",
-        "hn_url": "https://news.ycombinator.com/item?id=47732697",
-        "score": 58,
-        "by": "zdw",
-        "comments": 3
+        "title": "Most people can't juggle one ball",
+        "url": "https://www.lesswrong.com/posts/jTGbKKGqs5EdyYoRc/most-people-can-t-juggle-one-ball",
+        "hn_url": "https://news.ycombinator.com/item?id=47702887",
+        "score": 187,
+        "by": "surprisetalk",
+        "comments": 69
       },
       {
-        "title": "Advanced Mac Substitute is an API-level reimplementation of 1980s-era Mac OS",
-        "url": "https://www.v68k.org/advanced-mac-substitute/",
-        "hn_url": "https://news.ycombinator.com/item?id=47731506",
-        "score": 166,
-        "by": "zdw",
-        "comments": 45
+        "title": "Show HN: boringBar \u2013 a taskbar-style dock replacement for macOS",
+        "url": "https://boringbar.app/",
+        "hn_url": "https://news.ycombinator.com/item?id=47742200",
+        "score": 198,
+        "by": "a-ve",
+        "comments": 124
       },
       {
-        "title": "Cirrus Labs to join OpenAI",
-        "url": "https://cirruslabs.org/",
-        "hn_url": "https://news.ycombinator.com/item?id=47730194",
-        "score": 218,
-        "by": "seekdeep",
-        "comments": 111
+        "title": "Show HN: Claudraband \u2013 Claude Code for the Power User",
+        "url": "https://github.com/halfwhey/claudraband",
+        "hn_url": "https://news.ycombinator.com/item?id=47741889",
+        "score": 78,
+        "by": "halfwhey",
+        "comments": 19
       },
       {
-        "title": "What Is a Property?",
-        "url": "https://alperenkeles.com/posts/what-is-a-property/",
-        "hn_url": "https://news.ycombinator.com/item?id=47674075",
-        "score": 36,
-        "by": "alpaylan",
-        "comments": 7
+        "title": "Show HN: Oberon System 3 runs natively on Raspberry Pi 3 (with ready SD card)",
+        "url": "https://github.com/rochus-keller/OberonSystem3Native/releases",
+        "hn_url": "https://news.ycombinator.com/item?id=47739174",
+        "score": 149,
+        "by": "Rochus",
+        "comments": 35
       }
     ],
     "hacker_news_top": [
@@ -203,89 +203,89 @@
         "title": "Filing the corners off my MacBooks",
         "url": "https://kentwalters.com/posts/corners/",
         "hn_url": "https://news.ycombinator.com/item?id=47724352",
-        "score": 1285,
+        "score": 1360,
         "by": "normanvalentine",
-        "comments": 599
+        "comments": 646
       },
       {
         "title": "Artemis II safely splashes down",
         "url": "https://www.cbsnews.com/live-updates/artemis-ii-splashdown-return/",
         "hn_url": "https://news.ycombinator.com/item?id=47725583",
-        "score": 1215,
+        "score": 1265,
         "by": "areoform",
-        "comments": 387
-      },
-      {
-        "title": "1D Chess",
-        "url": "https://rowan441.github.io/1dchess/chess.html",
-        "hn_url": "https://news.ycombinator.com/item?id=47719740",
-        "score": 955,
-        "by": "burnt-resistor",
-        "comments": 158
-      },
-      {
-        "title": "France Launches Government Linux Desktop Plan as Windows Exit Begins",
-        "url": "https://www.numerique.gouv.fr/sinformer/espace-presse/souverainete-numerique-reduction-dependances-extra-europeennes/",
-        "hn_url": "https://news.ycombinator.com/item?id=47716043",
-        "score": 849,
-        "by": "embedding-shape",
-        "comments": 1
+        "comments": 440
       },
       {
         "title": "Small models also found the vulnerabilities that Mythos found",
         "url": "https://aisle.com/blog/ai-cybersecurity-after-mythos-the-jagged-frontier",
         "hn_url": "https://news.ycombinator.com/item?id=47732020",
-        "score": 685,
+        "score": 1225,
         "by": "dominicq",
-        "comments": 187
+        "comments": 321
       },
       {
-        "title": "Installing every* Firefox extension",
-        "url": "https://jack.cab/blog/every-firefox-extension",
-        "hn_url": "https://news.ycombinator.com/item?id=47724118",
-        "score": 625,
-        "by": "RohanAdwankar",
-        "comments": 75
+        "title": "I run multiple $10K MRR companies on a $20/month tech stack",
+        "url": "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack",
+        "hn_url": "https://news.ycombinator.com/item?id=47736555",
+        "score": 802,
+        "by": "tradertef",
+        "comments": 455
       },
       {
-        "title": "FBI used iPhone notification data to retrieve deleted Signal messages",
-        "url": "https://9to5mac.com/2026/04/09/fbi-used-iphone-notification-data-to-retrieve-deleted-signal-messages/",
-        "hn_url": "https://news.ycombinator.com/item?id=47716490",
-        "score": 612,
-        "by": "01-_-",
-        "comments": 302
+        "title": "Tell HN: docker pull fails in spain due to football cloudflare block",
+        "url": "https://news.ycombinator.com/item?id=47738883",
+        "hn_url": "https://news.ycombinator.com/item?id=47738883",
+        "score": 604,
+        "by": "littlecranky67",
+        "comments": 233
       },
       {
-        "title": "France to ditch Windows for Linux to reduce reliance on US tech",
-        "url": "https://techcrunch.com/2026/04/10/france-to-ditch-windows-for-linux-to-reduce-reliance-on-us-tech/",
-        "hn_url": "https://news.ycombinator.com/item?id=47719486",
-        "score": 588,
-        "by": "Teever",
-        "comments": 680
+        "title": "Pro Max 5x quota exhausted in 1.5 hours despite moderate usage",
+        "url": "https://github.com/anthropics/claude-code/issues/45756",
+        "hn_url": "https://news.ycombinator.com/item?id=47739260",
+        "score": 508,
+        "by": "cmaster11",
+        "comments": 473
       },
       {
-        "title": "WireGuard makes new Windows release following Microsoft signing resolution",
-        "url": "https://lists.zx2c4.com/pipermail/wireguard/2026-April/009561.html",
-        "hn_url": "https://news.ycombinator.com/item?id=47719942",
-        "score": 535,
-        "by": "zx2c4",
-        "comments": 155
+        "title": "Exploiting the most prominent AI agent benchmarks",
+        "url": "https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/",
+        "hn_url": "https://news.ycombinator.com/item?id=47733217",
+        "score": 487,
+        "by": "Anon84",
+        "comments": 122
       },
       {
-        "title": "You can't trust macOS Privacy and Security settings",
-        "url": "https://eclecticlight.co/2026/04/10/why-you-cant-trust-privacy-security/",
-        "hn_url": "https://news.ycombinator.com/item?id=47719602",
-        "score": 491,
-        "by": "zdw",
-        "comments": 165
+        "title": "France's government is ditching Windows for Linux, says US tech a strategic risk",
+        "url": "https://www.xda-developers.com/frances-government-ditching-windows-for-linux/",
+        "hn_url": "https://news.ycombinator.com/item?id=47728653",
+        "score": 480,
+        "by": "pabs3",
+        "comments": 280
+      },
+      {
+        "title": "Show HN: Pardonned.com \u2013 A searchable database of US Pardons",
+        "url": "https://news.ycombinator.com/item?id=47727960",
+        "hn_url": "https://news.ycombinator.com/item?id=47727960",
+        "score": 478,
+        "by": "vidluther",
+        "comments": 262
+      },
+      {
+        "title": "Anthropic downgraded cache TTL on March 6th",
+        "url": "https://github.com/anthropics/claude-code/issues/46829",
+        "hn_url": "https://news.ycombinator.com/item?id=47736476",
+        "score": 452,
+        "by": "lsdmtme",
+        "comments": 345
       }
     ],
     "x_trending": [
       {
-        "topic": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1507, Part 1 (Thread #1654)",
+        "topic": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1508, Part 1 (Thread #1655)",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1si8obz/rworldnews_live_thread_russian_invasion_of/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1sj42hn/rworldnews_live_thread_russian_invasion_of/"
       },
       {
         "topic": "/r/WorldNews Discussion Thread: US and Israel launch attack on Iran; Iran retaliates (Thread #15)",
@@ -294,52 +294,52 @@
         "url": "https://www.reddit.com/r/worldnews/comments/1shqn32/rworldnews_discussion_thread_us_and_israel_launch/"
       },
       {
-        "topic": "Mexico\u2019s Socialist President to Roll Out Universal Healthcare",
+        "topic": "Hungary's Prime Minister Orban has congratulated Magyar on election victory",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1siw777/mexicos_socialist_president_to_roll_out_universal/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1sjnv1y/hungarys_prime_minister_orban_has_congratulated/"
       },
       {
-        "topic": "Ukraine has warned that former members of a disbanded special police unit, who fled to Russia after ",
+        "topic": "Orb\u00e1n on course to lose Hungary\u2019s election, according to early results",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1sirxmv/ukraine_has_warned_that_former_members_of_a/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1sjn8ym/orb\u00e1n_on_course_to_lose_hungarys_election/"
       },
       {
-        "topic": "U.S. warships cross Strait of Hormuz for first time since Iran war began",
+        "topic": "President Trump Announces U.S Navy to Detain Vessels Paying Iranian Hormuz Toll",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1sikvuy/us_warships_cross_strait_of_hormuz_for_first_time/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1sjjx5u/president_trump_announces_us_navy_to_detain/"
       },
       {
-        "topic": "Prostitution of minors in France rises by 43 percent in four years",
+        "topic": "Trump Hits Out At Starmer As UK Confirms It Won't Join His Strait Of Hormuz Blockade",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1siiri1/prostitution_of_minors_in_france_rises_by_43/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1sjpelr/trump_hits_out_at_starmer_as_uk_confirms_it_wont/"
       },
       {
-        "topic": "Russia held them for years \u2014Ukraine just brought home 182 prisoners, including Mariupol\u2019s defenders",
+        "topic": "Polls closed with a record-high turnout in Hungary\u2019s high-stakes general election, with a freshly re",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1sil4y9/russia_held_them_for_years_ukraine_just_brought/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1sjkfy9/polls_closed_with_a_recordhigh_turnout_in/"
       },
       {
-        "topic": "Pope Leo XIV denounces the \u2018delusion of omnipotence\u2019 he says fuels the US-Israeli war in Iran",
+        "topic": "Trump says U.S. will blockade Strait of Hormuz after Iran peace talks fail",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1sit5bu/pope_leo_xiv_denounces_the_delusion_of/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1sjdzn5/trump_says_us_will_blockade_strait_of_hormuz/"
       },
       {
-        "topic": "Sam Altman Tries, Fails to Distract From Damning 'New Yorker' Expos\u00e9",
+        "topic": "Hacker Uses Claude and ChatGPT to Breach Multiple Government Agencies",
         "posts": "r/technology",
         "category": "r/technology",
-        "url": "https://www.reddit.com/r/technology/comments/1sitk60/sam_altman_tries_fails_to_distract_from_damning/"
+        "url": "https://www.reddit.com/r/technology/comments/1sjja5u/hacker_uses_claude_and_chatgpt_to_breach_multiple/"
       },
       {
-        "topic": "US demands Reddit unmask ICE critic, summons firm to grand jury",
+        "topic": "Oracle's new CFO got $26M in stock after layoffs. Employee says an 'algorithm' targeted workers with",
         "posts": "r/technology",
         "category": "r/technology",
-        "url": "https://www.reddit.com/r/technology/comments/1sij8d9/us_demands_reddit_unmask_ice_critic_summons_firm/"
+        "url": "https://www.reddit.com/r/technology/comments/1sjqoi7/oracles_new_cfo_got_26m_in_stock_after_layoffs/"
       }
     ]
   }
