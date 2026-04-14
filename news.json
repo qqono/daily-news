@@ -1,291 +1,291 @@
 {
-  "date": "Tuesday, 14 April 2026",
+  "date": "Wednesday, 15 April 2026",
   "data": {
     "top_headlines": [
       {
-        "headline": "Southport killer's parents failed in 'moral duty' to report son, public inquiry finds",
-        "summary": "Failing to appreciate the danger the killer posed led to \"catastrophic consequences\", an inquiry finds.",
+        "headline": "US Treasury secretary says short-term economic pain worth long-term security",
+        "summary": "US Treasury Secretary said a \"small bit of economic pain\" was worth it to eliminate the threat of Iranian strikes on Western capitals.",
         "source": "BBC",
         "lean": "center-left",
-        "url": "https://www.bbc.com/news/articles/cx2rgyeqv1yo?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.com/news/articles/c4g66p2q075o?at_medium=RSS&at_campaign=rss"
       },
       {
-        "headline": "Hezbollah leader urges Lebanon\u2019s government to pull out of Israel talks",
-        "summary": "Naim Qassem says planned talks in Washington, DC, are a ploy to pressure Hezbollah into laying down its weapons.",
+        "headline": "Fifth woman accuses former US lawmaker Eric Swalwell of sexual misconduct",
+        "summary": "The Democratic representative has resigned his seat in Congress over multiple sexual misconduct allegations.",
         "source": "Al Jazeera",
         "lean": "center-left",
-        "url": "https://www.aljazeera.com/news/2026/4/13/hezbollah-leader-urges-lebanon-government-to-pull-out-of-israel-talks?traffic_source=rss"
+        "url": "https://www.aljazeera.com/news/2026/4/14/fifth-woman-accuses-former-us-lawmaker-eric-swalwell-of-sexual-misconduct?traffic_source=rss"
       },
       {
-        "headline": "Eric Swalwell will resign from Congress as he faces backlash over assault allegations",
-        "summary": "Swalwell's resignation follows allegations of sexual assault and misconduct made by multiple women against the California Democrat.",
+        "headline": "Justice Department says Biden DOJ weaponized law to go after anti-abortion activists",
+        "summary": "The Trump administration has said that enforcement of the FACE Act by the Biden DOJ represents \"the prototypical example\" of the weaponization of the law against conservatives.",
         "source": "NPR",
         "lean": "center-left",
-        "url": "https://www.npr.org/2026/04/13/nx-s1-5784030/eric-swalwell-resigns-from-congress"
+        "url": "https://www.npr.org/2026/04/14/g-s1-117430/doj-biden-weaponization-report"
       }
     ],
     "tech_ai": [
       {
-        "headline": "Retro Rewind re-creates the glorious drudgery of working a '90s video store",
-        "summary": "What the nostalgic throwback lacks in complexity it makes up for in repetitive charm.",
+        "headline": "Sony killing features for antenna, set-top box users of Bravia smart TVs in May",
+        "summary": "Some 2023 and 2024 models are also affected.",
         "source": "Ars Technica",
         "lean": "center-left",
-        "url": "https://arstechnica.com/gaming/2026/04/retro-rewind-re-creates-the-glorious-drudgery-of-working-a-90s-video-store/"
+        "url": "https://arstechnica.com/gadgets/2026/04/sony-killing-features-for-antenna-set-top-box-users-of-bravia-smart-tvs-in-may/"
       },
       {
-        "headline": "The Mercedes EQS returns with massive range and charging gains",
-        "summary": "A year ago, Mercedes-Benz did the prudent thing and paused its EQ lineup of electric vehicles in the US. With customer demand drying up for luxury EVs, and federal incentives getting axed by vengeful Republicans, Mercedes put its first-generation EVs on ice. But then, in January, Mercedes quietly reintroduced the EQS brand in the US, [&#8230;]",
+        "headline": "Microsoft&#8217;s finally giving up on its massive Surface Hub touchscreen displays",
+        "summary": "Microsoft is reportedly ending production of its Surface Hub 3 collaborative office display and canceling plans for a Surface Hub 4, according to Windows Central. The extra-large digital whiteboard that included its own built-in PC was originally announced in 2015 ahead of the launch of Windows 10 and came in two sizes, 50 inches and [&#8230;]",
         "source": "The Verge",
         "lean": "center-left",
-        "url": "https://www.theverge.com/transportation/911196/mercedes-benz-eqs-ev-range-battery-charging-2027"
+        "url": "https://www.theverge.com/tech/912114/microsoft-surface-hub-displays-discontinued"
       },
       {
-        "headline": "Uber and Nuro begin testing premium robotaxi service in San Francisco",
-        "summary": "Uber employees can now hail a Lucid robotaxi as part of the testing.",
+        "headline": "AI data center startup Fluidstack in talks for $1B round at $18B valuation months after hitting $7.5B, says report",
+        "summary": "Fundraising is reportedly flowing for Fluidstack after it secured a $50 billion deal to build data centers for Anthropic.",
         "source": "TechCrunch",
         "lean": "center",
-        "url": "https://techcrunch.com/2026/04/13/uber-nuro-san-francisco-testing-premium-robotaxi-service/"
+        "url": "https://techcrunch.com/2026/04/14/ai-datacenter-startup-fluidstack-in-talks-for-1b-round-at-18b-valuation-months-after-hitting-7-5b-says-report/"
       }
     ],
     "business_finance": [
       {
-        "headline": "Oil Declines as US, Iran Weigh More Talks With Blockade in Place",
-        "summary": "Oil dropped on signs Washington and Tehran may revive peace talks following the start of a US blockade of the Strait of Hormuz.",
+        "headline": "Oil Steadies After Slumping on Moves to Restart US-Iran Talks",
+        "summary": "Oil held a drop, with the US and Iran looking to arrange a second round of peace talks in the coming days, as a blockade of the Strait of Hormuz continued to impede energy supplies vital for the world economy.",
         "source": "Bloomberg",
         "lean": "center",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-13/latest-oil-market-news-and-analysis-for-april-14"
+        "url": "https://www.bloomberg.com/news/articles/2026-04-14/latest-oil-market-news-and-analysis-for-april-15"
       },
       {
-        "headline": "U.S. begins blockade in Strait of Hormuz; Trump warns Iran 'attack ships' to stay away",
-        "summary": "The U.S. blockade would apply to \"any and all Ships trying to enter, or leave, the Strait of Hormuz,\" President Donald Trump said.",
+        "headline": "Meta commits to 1 gigawatt of custom chips with Broadcom as Hock Tan agrees to leave board",
+        "summary": "Meta commits to deploying 1 GW of custom in-house MTIA chips codesigned with Broadcom in sweeping new multiyear deal announced Tuesday",
         "source": "CNBC",
         "lean": "center",
-        "url": "https://www.cnbc.com/2026/04/13/trump-iran-war-strait-of-hormuz-blockade.html"
+        "url": "https://www.cnbc.com/2026/04/14/meta-commits-to-one-gigawatt-of-custom-chips-with-broadcom-as-hock-tan-agrees-to-leave-board.html"
       },
       {
-        "headline": "Oil jumps back above $100 after US-Iran peace talks fail",
-        "summary": "The failure of negotiations at the weekend has raised concerns that the global energy crisis will deepen.",
+        "headline": "'Bit of pain' worth long-term security from Iran, Bessent tells BBC",
+        "summary": "US Treasury Secretary said a \"small bit of economic pain\" was worth it to eliminate the threat of Iranian strikes on Western capitals.",
         "source": "BBC Business",
         "lean": "center-left",
-        "url": "https://www.bbc.com/news/articles/cn781z4lgg4o?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.com/news/articles/c4g66p2q075o?at_medium=RSS&at_campaign=rss"
       }
     ],
     "world_news": [
       {
-        "headline": "Hungary's next PM would pick up if Putin calls and tell him to stop Ukraine war",
-        "summary": "Russia has offered \"pragmatic\" relations, but P\u00e9ter Magyar says he will not call Vladimir Putin himself.",
+        "headline": "Hamas rejects Gaza disarmament plan, Palestinian official says",
+        "summary": "The official tells the BBC that the armed group will not move forward with talks until Israel fully complies with its commitments.",
         "source": "BBC World",
         "lean": "center-left",
-        "url": "https://www.bbc.com/news/articles/cd6lzezp4zvo?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.com/news/articles/cn4vvxxg8lgo?at_medium=RSS&at_campaign=rss"
       },
       {
-        "headline": "Hezbollah leader urges Lebanon\u2019s government to pull out of Israel talks",
-        "summary": "Naim Qassem says planned talks in Washington, DC, are a ploy to pressure Hezbollah into laying down its weapons.",
+        "headline": "Fifth woman accuses former US lawmaker Eric Swalwell of sexual misconduct",
+        "summary": "The Democratic representative has resigned his seat in Congress over multiple sexual misconduct allegations.",
         "source": "Al Jazeera",
         "lean": "center-left",
-        "url": "https://www.aljazeera.com/news/2026/4/13/hezbollah-leader-urges-lebanon-government-to-pull-out-of-israel-talks?traffic_source=rss"
+        "url": "https://www.aljazeera.com/news/2026/4/14/fifth-woman-accuses-former-us-lawmaker-eric-swalwell-of-sexual-misconduct?traffic_source=rss"
       },
       {
-        "headline": "After years of speculation, a reporter claims to have uncovered the founder of Bitcoin",
-        "summary": "After years of speculation, New York Times reporter John Carreyrou explains why he thinks he identified the true founder of Bitcoin.",
+        "headline": "Veteran diplomat offers insights into the war in Iran \u2014 and thoughts on what's next",
+        "summary": "The war entered a new phase when President Trump began a U.S. naval blockade of the Strait of Hormuz. Aaron David Miller of the Carnegie Endowment for International Peace explains what this means.",
         "source": "NPR World",
         "lean": "center-left",
-        "url": "https://www.npr.org/2026/04/13/nx-s1-5778501/after-years-of-speculation-a-reporter-claims-to-have-uncovered-the-founder-of-bitcoin"
+        "url": "https://www.npr.org/2026/04/14/nx-s1-5784072/veteran-diplomat-offers-insights-into-the-war-in-iran-and-thoughts-on-whats-next"
       }
     ],
     "music": [
       {
-        "headline": "Lil Uzi Vert, Playboi Carti & Baby Keem to Headline Chicago\u2019s Summer Smash 2026 as North West Sets Festival Debut",
-        "summary": "The festival is slated for June 10-12 at Seatgeek Stadium.",
+        "headline": "Luther Vandross Estate Reacts to Rock & Roll Hall of Fame Inclusion: \u2018People Reawakened to What Luther Had to Offer\u2019",
+        "summary": "Estate manager David Gottlieb also reflects on what the late singer would have said about winning after first time being nominated.",
         "source": "Billboard",
         "lean": "center",
-        "url": "https://www.billboard.com/music/rb-hip-hop/summer-smash-2026-lineup-lil-uzi-vert-playboi-carti-north-west-1236221930/"
+        "url": "https://www.billboard.com/music/rb-hip-hop/luther-vandross-estate-reacts-rock-roll-hall-fame-nod-1236223029/"
       },
       {
-        "headline": "Jorginho speaks out on Chappell Roan security incident as a \u201cmisunderstanding\u201d",
-        "summary": "\u201cI reacted as any father would\" The post Jorginho speaks out on Chappell Roan security incident as a &#8220;misunderstanding&#8221; appeared first on NME.",
+        "headline": "Launch date for KISS\u2019 Las Vegas avatar show revealed \u2013 set to feature \u201cnew songs\u201d",
+        "summary": "Production will be overseen by Pophouse Entertainment, the company behind ABBA\u2019s acclaimed \u2018Voyage\u2019 show The post Launch date for KISS&#8217; Las Vegas avatar show revealed \u2013 set to feature &#8220;new songs&#8221; appeared first on NME.",
         "source": "NME",
         "lean": "center-left",
-        "url": "https://www.nme.com/news/music/jorginho-speaks-out-on-chappell-roan-security-incident-as-a-misunderstanding-3940096?utm_source=rss&utm_medium=rss&utm_campaign=jorginho-speaks-out-on-chappell-roan-security-incident-as-a-misunderstanding"
+        "url": "https://www.nme.com/news/music/launch-date-for-kiss-las-vegas-avatar-show-revealed-set-to-feature-new-songs-3940345?utm_source=rss&utm_medium=rss&utm_campaign=launch-date-for-kiss-las-vegas-avatar-show-revealed-set-to-feature-new-songs"
       },
       {
-        "headline": "Smokey Robinson Loses Bid to Dismiss Sexual Harassment Claims from Two Jane Doe Accusers",
-        "summary": "\u201cWe continue to vigorously defend Mr. and Mrs. Robinson against these malicious allegations and to pursue our own lawsuit against the plaintiffs,\u201d Robinson's lawyer says",
+        "headline": "Senators Call on Court to Examine \u2018Suspicious Circumstances\u2019 Around Live Nation Settlement",
+        "summary": "Amy Klobuchar, Elizabeth Warren, and more have asked Judge Arun Subramanian to look into the surprise deal, which was reached one week into the antitrust trial",
         "source": "Rolling Stone",
         "lean": "center-left",
-        "url": "https://www.rollingstone.com/music/music-news/smokey-robinson-sexual-harassment-claims-jane-doe-accusers-1235545970/"
+        "url": "https://www.rollingstone.com/music/music-news/live-nation-settlement-senators-judge-examine-deal-1235547206/"
       }
     ],
     "hacker_news": [
       {
-        "title": "Someone Bought 30 WordPress Plugins and Planted a Backdoor in All of Them",
+        "title": "Claude Code Routines",
+        "url": "https://code.claude.com/docs/en/routines",
+        "hn_url": "https://news.ycombinator.com/item?id=47768133",
+        "score": 317,
+        "by": "matthieu_bl",
+        "comments": 203
+      },
+      {
+        "title": "Rare concert recordings are landing on the Internet Archive",
+        "url": "https://techcrunch.com/2026/04/13/thousands-of-rare-concert-recordings-are-landing-on-the-internet-archive-listen-now/",
+        "hn_url": "https://news.ycombinator.com/item?id=47765604",
+        "score": 463,
+        "by": "jrm-veris",
+        "comments": 135
+      },
+      {
+        "title": "The Orange Pi 6 Plus",
+        "url": "https://taoofmac.com/space/reviews/2026/04/11/1900",
+        "hn_url": "https://news.ycombinator.com/item?id=47732535",
+        "score": 84,
+        "by": "rcarmo",
+        "comments": 50
+      },
+      {
+        "title": "Trusted access for the next era of cyber defense",
+        "url": "https://openai.com/index/scaling-trusted-access-for-cyber-defense/",
+        "hn_url": "https://news.ycombinator.com/item?id=47770770",
+        "score": 41,
+        "by": "surprisetalk",
+        "comments": 27
+      },
+      {
+        "title": "5NF and Database Design",
+        "url": "https://kb.databasedesignbook.com/posts/5nf/",
+        "hn_url": "https://news.ycombinator.com/item?id=47767676",
+        "score": 109,
+        "by": "petalmind",
+        "comments": 45
+      },
+      {
+        "title": "Turn your best AI prompts into one-click tools in Chrome",
+        "url": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
+        "hn_url": "https://news.ycombinator.com/item?id=47768339",
+        "score": 69,
+        "by": "xnx",
+        "comments": 37
+      },
+      {
+        "title": "H.R.8250 \u2013 To require operating system providers to verify the age of any user",
+        "url": "https://www.congress.gov/bill/119th-congress/house-bill/8250/all-info",
+        "hn_url": "https://news.ycombinator.com/item?id=47772203",
+        "score": 44,
+        "by": "cft",
+        "comments": 21
+      },
+      {
+        "title": "Let's talk space toilets",
+        "url": "https://mceglowski.substack.com/p/lets-talk-space-toilets",
+        "hn_url": "https://news.ycombinator.com/item?id=47758870",
+        "score": 111,
+        "by": "zdw",
+        "comments": 40
+      },
+      {
+        "title": "I wrote to Flock's privacy contact to opt out of their domestic spying program",
+        "url": "https://honeypot.net/2026/04/14/i-wrote-to-flocks-privacy.html",
+        "hn_url": "https://news.ycombinator.com/item?id=47768813",
+        "score": 426,
+        "by": "speckx",
+        "comments": 179
+      },
+      {
+        "title": "The dangers of California's legislation to censor 3D printing",
+        "url": "https://www.eff.org/deeplinks/2026/04/dangers-californias-legislation-censor-3d-printing",
+        "hn_url": "https://news.ycombinator.com/item?id=47759420",
+        "score": 116,
+        "by": "salkahfi",
+        "comments": 175
+      }
+    ],
+    "hacker_news_top": [
+      {
+        "title": "Someone bought 30 WordPress plugins and planted a backdoor in all of them",
         "url": "https://anchor.host/someone-bought-30-wordpress-plugins-and-planted-a-backdoor-in-all-of-them/",
         "hn_url": "https://news.ycombinator.com/item?id=47755629",
-        "score": 547,
+        "score": 1141,
         "by": "speckx",
-        "comments": 153
+        "comments": 318
+      },
+      {
+        "title": "DaVinci Resolve \u2013 Photo",
+        "url": "https://www.blackmagicdesign.com/products/davinciresolve/photo",
+        "hn_url": "https://news.ycombinator.com/item?id=47760529",
+        "score": 1036,
+        "by": "thebiblelover7",
+        "comments": 262
+      },
+      {
+        "title": "Backblaze has stopped backing up OneDrive and Dropbox folders and maybe others",
+        "url": "https://rareese.com/posts/backblaze/",
+        "hn_url": "https://news.ycombinator.com/item?id=47762864",
+        "score": 894,
+        "by": "rrreese",
+        "comments": 543
       },
       {
         "title": "GitHub Stacked PRs",
         "url": "https://github.github.com/gh-stack/",
         "hn_url": "https://news.ycombinator.com/item?id=47757495",
-        "score": 295,
+        "score": 864,
         "by": "ezekg",
-        "comments": 186
-      },
-      {
-        "title": "Nothing Ever Happens: Polymarket bot that always buys No on non-sports markets",
-        "url": "https://github.com/sterlingcrispin/nothing-ever-happens",
-        "hn_url": "https://news.ycombinator.com/item?id=47753472",
-        "score": 329,
-        "by": "m-hodges",
-        "comments": 152
-      },
-      {
-        "title": "How to make Firefox builds 17% faster",
-        "url": "https://blog.farre.se/posts/2026/04/10/caching-webidl-codegen/",
-        "hn_url": "https://news.ycombinator.com/item?id=47756321",
-        "score": 104,
-        "by": "mbitsnbites",
-        "comments": 8
-      },
-      {
-        "title": "The tech jobs bust is real. Don't blame AI (yet)",
-        "url": "https://economist.com/finance-and-economics/2026/04/13/the-tech-jobs-bust-is-real-dont-blame-ai-yet",
-        "hn_url": "https://news.ycombinator.com/item?id=47757775",
-        "score": 31,
-        "by": "andsoitis",
-        "comments": 5
-      },
-      {
-        "title": "An Introduction to Obsidian",
-        "url": "https://bryanhogan.com/blog/obsidian-introduction",
-        "hn_url": "https://news.ycombinator.com/item?id=47729694",
-        "score": 99,
-        "by": "bryanhogan",
-        "comments": 61
-      },
-      {
-        "title": "(AMD) Build AI Agents That Run Locally",
-        "url": "https://amd-gaia.ai/docs",
-        "hn_url": "https://news.ycombinator.com/item?id=47756772",
-        "score": 48,
-        "by": "galaxyLogic",
-        "comments": 7
-      },
-      {
-        "title": "Show HN: Ithih\u0101sas \u2013 a character explorer for Hindu epics, built in a few hours",
-        "url": "https://www.ithihasas.in",
-        "hn_url": "https://news.ycombinator.com/item?id=47756569",
-        "score": 75,
-        "by": "cvrajeesh",
-        "comments": 22
-      },
-      {
-        "title": "Servo is now available on crates.io",
-        "url": "https://servo.org/blog/2026/04/13/servo-0.1.0-release/",
-        "hn_url": "https://news.ycombinator.com/item?id=47750872",
-        "score": 395,
-        "by": "ffin",
-        "comments": 131
-      },
-      {
-        "title": "Building a CLI for All of Cloudflare",
-        "url": "https://blog.cloudflare.com/cf-cli-local-explorer/",
-        "hn_url": "https://news.ycombinator.com/item?id=47753689",
-        "score": 228,
-        "by": "soheilpro",
-        "comments": 69
-      }
-    ],
-    "hacker_news_top": [
-      {
-        "title": "Tell HN: Docker pull fails in Spain due to football Cloudflare block",
-        "url": "https://news.ycombinator.com/item?id=47738883",
-        "hn_url": "https://news.ycombinator.com/item?id=47738883",
-        "score": 1103,
-        "by": "littlecranky67",
-        "comments": 402
-      },
-      {
-        "title": "I run multiple $10K MRR companies on a $20/month tech stack",
-        "url": "https://stevehanov.ca/blog/how-i-run-multiple-10k-mrr-companies-on-a-20month-tech-stack",
-        "hn_url": "https://news.ycombinator.com/item?id=47736555",
-        "score": 931,
-        "by": "tradertef",
-        "comments": 495
+        "comments": 492
       },
       {
         "title": "All elementary functions from a single binary operator",
         "url": "https://arxiv.org/abs/2603.21852",
         "hn_url": "https://news.ycombinator.com/item?id=47746610",
-        "score": 780,
+        "score": 832,
         "by": "pizza",
-        "comments": 247
+        "comments": 277
       },
       {
-        "title": "Pro Max 5x quota exhausted in 1.5 hours despite moderate usage",
-        "url": "https://github.com/anthropics/claude-code/issues/45756",
-        "hn_url": "https://news.ycombinator.com/item?id=47739260",
-        "score": 722,
-        "by": "cmaster11",
-        "comments": 639
+        "title": "A new spam policy for \u201cback button hijacking\u201d",
+        "url": "https://developers.google.com/search/blog/2026/04/back-button-hijacking",
+        "hn_url": "https://news.ycombinator.com/item?id=47760764",
+        "score": 808,
+        "by": "zdw",
+        "comments": 458
       },
       {
-        "title": "DIY Soft Drinks",
-        "url": "https://blinry.org/diy-soft-drinks/",
-        "hn_url": "https://news.ycombinator.com/item?id=47741701",
-        "score": 699,
-        "by": "_Microft",
-        "comments": 212
+        "title": "jj \u2013 the CLI for Jujutsu",
+        "url": "https://steveklabnik.github.io/jujutsu-tutorial/introduction/what-is-jj-and-why-should-i-care.html",
+        "hn_url": "https://news.ycombinator.com/item?id=47763759",
+        "score": 473,
+        "by": "tigerlily",
+        "comments": 406
       },
       {
-        "title": "Bring Back Idiomatic Design (2023)",
-        "url": "https://essays.johnloeber.com/p/4-bring-back-idiomatic-design",
-        "hn_url": "https://news.ycombinator.com/item?id=47738827",
-        "score": 672,
-        "by": "phil294",
-        "comments": 368
+        "title": "Servo is now available on crates.io",
+        "url": "https://servo.org/blog/2026/04/13/servo-0.1.0-release/",
+        "hn_url": "https://news.ycombinator.com/item?id=47750872",
+        "score": 468,
+        "by": "ffin",
+        "comments": 148
       },
       {
-        "title": "Seven countries now generate nearly all their electricity from renewables (2024)",
-        "url": "https://www.the-independent.com/tech/renewable-energy-solar-nepal-bhutan-iceland-b2533699.html",
-        "hn_url": "https://news.ycombinator.com/item?id=47739313",
-        "score": 647,
-        "by": "mpweiher",
-        "comments": 445
+        "title": "Rare concert recordings are landing on the Internet Archive",
+        "url": "https://techcrunch.com/2026/04/13/thousands-of-rare-concert-recordings-are-landing-on-the-internet-archive-listen-now/",
+        "hn_url": "https://news.ycombinator.com/item?id=47765604",
+        "score": 463,
+        "by": "jrm-veris",
+        "comments": 135
       },
       {
-        "title": "Someone Bought 30 WordPress Plugins and Planted a Backdoor in All of Them",
-        "url": "https://anchor.host/someone-bought-30-wordpress-plugins-and-planted-a-backdoor-in-all-of-them/",
-        "hn_url": "https://news.ycombinator.com/item?id=47755629",
-        "score": 547,
-        "by": "speckx",
-        "comments": 153
-      },
-      {
-        "title": "Anthropic downgraded cache TTL on March 6th",
-        "url": "https://github.com/anthropics/claude-code/issues/46829",
-        "hn_url": "https://news.ycombinator.com/item?id=47736476",
-        "score": 541,
-        "by": "lsdmtme",
-        "comments": 415
-      },
-      {
-        "title": "Google removes \"Doki Doki Literature Club\" from Google Play",
-        "url": "https://bsky.app/profile/serenityforge.com/post/3mj3r4nbiws2t",
-        "hn_url": "https://news.ycombinator.com/item?id=47743730",
-        "score": 508,
-        "by": "super256",
-        "comments": 278
+        "title": "Nothing Ever Happens: Polymarket bot that always buys No on non-sports markets",
+        "url": "https://github.com/sterlingcrispin/nothing-ever-happens",
+        "hn_url": "https://news.ycombinator.com/item?id=47753472",
+        "score": 459,
+        "by": "m-hodges",
+        "comments": 261
       }
     ],
     "x_trending": [
       {
-        "topic": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1509, Part 1 (Thread #1656)",
+        "topic": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1510, Part 1 (Thread #1657)",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1sk02ez/rworldnews_live_thread_russian_invasion_of/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1skxvpk/rworldnews_live_thread_russian_invasion_of/"
       },
       {
         "topic": "/r/WorldNews Discussion Thread: US and Israel launch attack on Iran; Iran retaliates (Thread #15)",
@@ -294,52 +294,52 @@
         "url": "https://www.reddit.com/r/worldnews/comments/1shqn32/rworldnews_discussion_thread_us_and_israel_launch/"
       },
       {
-        "topic": "Russia adds Hungary to 'unfriendly countries' list after Magyar wins",
+        "topic": "In parliament, Polish MP calls Israel \u2018new Third Reich,\u2019 waves Israeli flag with swastika",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1sko21v/russia_adds_hungary_to_unfriendly_countries_list/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1slkxxe/in_parliament_polish_mp_calls_israel_new_third/"
       },
       {
-        "topic": "Stop the killing in Ukraine, new Hungarian PM tells Putin",
+        "topic": "Syringe reuse at Pakistan hospital infects 331 children with HIV",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1skk5cl/stop_the_killing_in_ukraine_new_hungarian_pm/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1sl9lyv/syringe_reuse_at_pakistan_hospital_infects_331/"
       },
       {
-        "topic": "Asking Ukraine to cede land 'unworthy' of Hungary's 1956 resistance, Magyar says",
+        "topic": "Xi Says World Order \u2018Crumbling Into Disarray\u2019 as War Takes Toll",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1skdcrt/asking_ukraine_to_cede_land_unworthy_of_hungarys/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1sl713a/xi_says_world_order_crumbling_into_disarray_as/"
       },
       {
-        "topic": "Hungary Won\u2019t Block \u20ac90 Billion EU Loan to Kyiv, Magyar Says",
+        "topic": "Spain approves plan to give around 500,000 undocumented migrants legal status",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1skelqx/hungary_wont_block_90_billion_eu_loan_to_kyiv/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1slb1cw/spain_approves_plan_to_give_around_500000/"
       },
       {
-        "topic": "U.S. begins blockade of Strait of Hormuz",
+        "topic": "\u2018We were never friends\u2019: Kremlin plays down loss of ally following Orb\u00e1n\u2019s election defeat | Hungary",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1skcbpd/us_begins_blockade_of_strait_of_hormuz/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1slc5jv/we_were_never_friends_kremlin_plays_down_loss_of/"
       },
       {
-        "topic": "\u2018Not a reliable ally\u2019: Japan eyes Nato as Trump erodes faith in US guarantees",
+        "topic": "Estonia unmasks record number of Russian spies",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1skd4oq/not_a_reliable_ally_japan_eyes_nato_as_trump/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1sl4rbw/estonia_unmasks_record_number_of_russian_spies/"
       },
       {
-        "topic": "Man Who Threw Molotov Cocktail At Sam Altman\u2019s Home Claims He Was Following ChatGPT Recipe For Risot",
+        "topic": "23 Major News Sites Have Blocked the Wayback Machine \u2013 Digital History In Danger",
         "posts": "r/technology",
         "category": "r/technology",
-        "url": "https://www.reddit.com/r/technology/comments/1skp97a/man_who_threw_molotov_cocktail_at_sam_altmans/"
+        "url": "https://www.reddit.com/r/technology/comments/1slg08d/23_major_news_sites_have_blocked_the_wayback/"
       },
       {
-        "topic": "Mark Zuckerberg is reportedly building an AI clone to replace him in meetings | The AI version of Zu",
+        "topic": "From Molotov cocktails to data center shutdowns, the AI backlash is turning revolutionary",
         "posts": "r/technology",
         "category": "r/technology",
-        "url": "https://www.reddit.com/r/technology/comments/1skbg09/mark_zuckerberg_is_reportedly_building_an_ai/"
+        "url": "https://www.reddit.com/r/technology/comments/1sll1vt/from_molotov_cocktails_to_data_center_shutdowns/"
       }
     ]
   }
