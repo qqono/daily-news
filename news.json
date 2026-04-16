@@ -1,291 +1,283 @@
 {
-  "date": "Thursday, 16 April 2026",
+  "date": "Friday, 17 April 2026",
   "data": {
     "top_headlines": [
       {
-        "headline": "Mahmood promises action against 'sham lawyers' abusing asylum system after BBC investigation",
-        "summary": "An undercover investigation revealed how law firms and advisers are helping migrants pretend to be gay to stay in the UK",
+        "headline": "Top Foreign Office official to leave post after Mandelson vetting row",
+        "summary": "It comes after it emerged the peer failed security vetting but the Foreign Office still allowed him to take up the post.",
         "source": "BBC",
         "lean": "center-left",
-        "url": "https://www.bbc.com/news/articles/cj944dgwvm8o?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.com/news/articles/c747r3v90k3o?at_medium=RSS&at_campaign=rss"
       },
       {
-        "headline": "Israel bombs homes in southern Lebanon",
-        "summary": "The Israeli army has bombed buildings in southern Lebanon\u2019s Bint Jbeil district.",
+        "headline": "US panel approves Trump\u2019s design for massive arch in Washington, DC",
+        "summary": "The proposed 250-foot arch would tower over other iconic landmarks in Washington, DC, and has attracted scrutiny.",
         "source": "Al Jazeera",
         "lean": "center-left",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/4/15/israel-bombs-homes-in-southern-lebanon?traffic_source=rss"
+        "url": "https://www.aljazeera.com/news/2026/4/16/us-panel-approves-trumps-design-for-massive-arch-in-washington-dc?traffic_source=rss"
       },
       {
-        "headline": "Middle East conflict causes a fluoride shortage for US drinking water",
-        "summary": "Some U.S. water systems are cutting back on fluoride because of a key chemical is in short supply. Israel is one of its main producers.",
+        "headline": "Top five takeaways from Homeland Security budget hearings",
+        "summary": "Lawmakers have been in a stalemate for over 60 days about funding the entire department, which includes agencies that oversee immigration enforcement, disaster relief, cybersecurity and the U.S. Coast Guard.",
         "source": "NPR",
         "lean": "center-left",
-        "url": "https://www.npr.org/2026/04/15/nx-s1-5786697/middle-east-conflict-causes-a-fluoride-shortage-for-us-drinking-water"
+        "url": "https://www.npr.org/2026/04/16/g-s1-117703/trump-immigration-homeland-security-hearings"
       }
     ],
     "tech_ai": [
       {
-        "headline": "\"TotalRecall Reloaded\" tool finds a side entrance to Windows 11's Recall database",
-        "summary": "\"The vault is solid. The delivery truck is not.\"",
+        "headline": "Intel refreshes non-Ultra Core CPUs with new silicon for the first time",
+        "summary": "For the first time in a while, the benefits of new Intel tech will trickle down.",
         "source": "Ars Technica",
         "lean": "center-left",
-        "url": "https://arstechnica.com/gadgets/2026/04/totalrecall-reloaded-tool-finds-a-side-entrance-to-windows-11s-recall-database/"
+        "url": "https://arstechnica.com/gadgets/2026/04/intels-non-ultra-core-cpus-are-new-silicon-this-year-for-a-change/"
       },
       {
-        "headline": "Microsoft counters the MacBook Neo with freebies for students",
-        "summary": "Apple's $599 MacBook Neo ($499 for students) has sent shockwaves through the PC ecosystem, and now Microsoft is responding with deals targeting students in the US. A new \"Microsoft College Offer\" is launching today, which will see the software giant bundle 12 months of free Microsoft 365 Premium and Xbox Game Pass Ultimate with select [&#8230;]",
+        "headline": "Gucci-branded Google smart glasses are coming next year",
+        "summary": "Google is reportedly partnering with Gucci to make a pair of AI smart glasses stylish enough people might actually want to wear them. According to Reuters, Gucci parent company Kering is planning to launch the glasses sometime in 2027. Google's first pair of Android XR glasses, \"Project Aura,\" are expected to launch this year. They [&#8230;]",
         "source": "The Verge",
         "lean": "center-left",
-        "url": "https://www.theverge.com/news/912262/microsoft-macbook-neo-response-college-offer-free-subscriptions"
+        "url": "https://www.theverge.com/gadgets/913523/google-gucci-ai-smart-glasses-2027"
       },
       {
-        "headline": "Amazon-backed X-energy files to raise up to $800M in IPO",
-        "summary": "Nuclear startup X-energy hit the road today to sell prospective investors on its initial public offering.",
+        "headline": "Factory hits $1.5B valuation to build AI coding for enterprises",
+        "summary": "The three-year-old startup raised $150 million led by Khosla Ventures.",
         "source": "TechCrunch",
         "lean": "center",
-        "url": "https://techcrunch.com/2026/04/15/amazon-backed-x-energy-files-to-raise-up-to-800m-in-ipo/"
+        "url": "https://techcrunch.com/2026/04/16/factory-hits-1-5b-valuation-to-build-ai-coding-for-enterprises/"
       }
     ],
     "business_finance": [
       {
-        "headline": "Oil Steady on Signs US, Iran Working Toward Ceasefire Extension",
-        "summary": "Oil steadied on signs the US and Iran may extend a ceasefire and restart talks to end the war that\u2019s rocked energy markets.",
+        "headline": "Gold Heads for Fourth Weekly Gain on Optimism for US-Iran Truce",
+        "summary": "Gold headed for a fourth weekly gain after President Donald Trump expressed optimism that the US and Iran could agree a permanent ceasefire to end the war that\u2019s upended markets and heightened inflation fears.",
         "source": "Bloomberg",
         "lean": "center",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-15/latest-oil-market-news-and-analysis-for-april-16"
+        "url": "https://www.bloomberg.com/news/articles/2026-04-16/gold-steadies-after-trump-expresses-optimism-on-us-iran-truce"
       },
       {
-        "headline": "Regulators are reportedly zeroing in on suspicious trades ahead of market-moving Trump post",
-        "summary": "The information sought includes so-called Tag 50 identifiers, which can be used to determine who was behind the trades.",
+        "headline": "Israel and Lebanon agree to 10-day ceasefire, Trump says",
+        "summary": "Vice President JD Vance, Secretary of State Marco Rubio and Joint Chiefs Chairman Dan Caine will work with Israel and Lebanon, Trump said.",
         "source": "CNBC",
         "lean": "center",
-        "url": "https://www.cnbc.com/2026/04/15/regulators-reportedly-zeroing-in-on-suspicious-trades-ahead-of-trump-post.html"
+        "url": "https://www.cnbc.com/2026/04/16/trump-israel-lebanon-ceasefire-iran-war.html"
       },
       {
-        "headline": "Horse urine perfume: why online bargains may be dangerous",
-        "summary": "Experts warn of hidden risk of counterfeits, while the government consults on stricter product safety rules.",
+        "headline": "Netflix co-founder Reed Hastings to step down as chairman",
+        "summary": "Hastings set up the company in 1997, when it rented DVDs to customers and delivered by post.",
         "source": "BBC Business",
         "lean": "center-left",
-        "url": "https://www.bbc.com/news/articles/c4gjjryvzg9o?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.com/news/articles/cvglzn9e82eo?at_medium=RSS&at_campaign=rss"
       }
     ],
     "world_news": [
       {
-        "headline": "Lyse Doucet: Under fragile ceasefire, Iranians wonder if US deal can be done",
-        "summary": "The BBC's chief international correspondent reports from Iran as diplomatic efforts to avoid a return to war intensify.",
+        "headline": "Israel and Lebanon agree 10-day ceasefire, Trump says",
+        "summary": "The US president invites the two countries' leaders to Washington as Israel's prime minister insists troops will not leave southern Lebanon.",
         "source": "BBC World",
         "lean": "center-left",
-        "url": "https://www.bbc.com/news/articles/c4g44gj7rgno?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.com/news/articles/c8x7w1w9gd2o?at_medium=RSS&at_campaign=rss"
       },
       {
-        "headline": "Israel bombs homes in southern Lebanon",
-        "summary": "The Israeli army has bombed buildings in southern Lebanon\u2019s Bint Jbeil district.",
+        "headline": "US panel approves Trump\u2019s design for massive arch in Washington, DC",
+        "summary": "The proposed 250-foot arch would tower over other iconic landmarks in Washington, DC, and has attracted scrutiny.",
         "source": "Al Jazeera",
         "lean": "center-left",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/4/15/israel-bombs-homes-in-southern-lebanon?traffic_source=rss"
+        "url": "https://www.aljazeera.com/news/2026/4/16/us-panel-approves-trumps-design-for-massive-arch-in-washington-dc?traffic_source=rss"
       },
       {
-        "headline": "Popes have spoken out on politics before. But with Trump and Pope Leo it's different",
-        "summary": "President Trump's attacks on Pope Leo are unprecedented, religious experts told NPR. Here's how the situation differs from other popes' political critiques.",
+        "headline": "Six months after ceasefire with Israel, people in Gaza say recovery hasn't even begun",
+        "summary": "Six months into a ceasefire that promised an end to the war and a surge of aid for Gaza, people say recovery hasn't even yet begun.",
         "source": "NPR World",
         "lean": "center-left",
-        "url": "https://www.npr.org/2026/04/15/nx-s1-5779690/pope-leo-donald-trump-war-iran-vance-history"
+        "url": "https://www.npr.org/2026/04/16/nx-s1-5786615/six-months-after-ceasefire-with-israel-people-in-gaza-say-recovery-hasnt-even-begun"
       }
     ],
     "music": [
       {
-        "headline": "Who Would\u2019ve Thought? Avril Lavigne Covers Alanis Morissette\u2019s \u2018Ironic\u2019 for Canadian Rom-Com Soundtrack",
-        "summary": "Lavigne remained true to the original sound with her rendition.",
+        "headline": "Tennessee Indie Venue Funding Bill Voted Down in State House",
+        "summary": "The legislation would have provided grants to independent venues in the state through a 5% tax on tickets sold on the secondary market.",
         "source": "Billboard",
         "lean": "center",
-        "url": "https://www.billboard.com/music/music-news/avril-lavigne-alanis-morissette-ironic-cover-1236223977/"
+        "url": "https://www.billboard.com/pro/tennessee-indie-venue-funding-bill-voted-down-state-house/"
       },
       {
-        "headline": "Rezz pulls out of Coachella Weekend two: \u201cI continued to push thinking it would be fine\u201d",
-        "summary": "The Ukrainian-Canadian DJ was the first woman to headline the Sahara stage in 2018 The post Rezz pulls out of Coachella Weekend two: &#8220;I continued to push thinking it would be fine&#8221; appeared first on NME.",
+        "headline": "Boomtown given green light until 2030, despite objections from campaigners",
+        "summary": "The festival takes place in the South Downs National Park near Winchester every August The post Boomtown given green light until 2030, despite objections from campaigners appeared first on NME.",
         "source": "NME",
         "lean": "center-left",
-        "url": "https://www.nme.com/news/music/rezz-pulls-out-of-coachella-weekend-two-i-continued-to-push-thinking-it-would-be-fine-3940628?utm_source=rss&utm_medium=rss&utm_campaign=rezz-pulls-out-of-coachella-weekend-two-i-continued-to-push-thinking-it-would-be-fine"
+        "url": "https://www.nme.com/news/music/boomtown-given-green-light-until-2030-despite-objections-from-campaigners-3940810?utm_source=rss&utm_medium=rss&utm_campaign=boomtown-given-green-light-until-2030-despite-objections-from-campaigners"
       },
       {
-        "headline": "Troubled Rock the Country Tour Is Slashing Prices, Losing Jelly Roll at One Stop",
-        "summary": "\"Fuel costs are up and we want to help,\" the festival wrote to fans. \"In response to rising transportation costs, you can enjoy up to 50% off general admission passes to any of 7 small town stops\"",
+        "headline": "G. Love Lost $440,000 in Bitcoin to Scammer: \u2018Getting Robbed Is No Joke\u2019",
+        "summary": "\"It was my own damn fault for not being more diligent,\" artist says",
         "source": "Rolling Stone",
         "lean": "center-left",
-        "url": "https://www.rollingstone.com/music/music-country/rock-the-country-tour-prices-drop-jelly-roll-drops-out-1235548014/"
+        "url": "https://www.rollingstone.com/music/music-news/g-love-bitcoin-scam-robbery-1235548628/"
       }
     ],
     "hacker_news": [
       {
-        "title": "Cybersecurity looks like proof of work now",
-        "url": "https://www.dbreunig.com/2026/04/14/cybersecurity-is-proof-of-work-now.html",
-        "hn_url": "https://news.ycombinator.com/item?id=47769089",
-        "score": 124,
-        "by": "dbreunig",
-        "comments": 56
+        "title": "Claude Opus 4.7",
+        "url": "https://www.anthropic.com/news/claude-opus-4-7",
+        "hn_url": "https://news.ycombinator.com/item?id=47793411",
+        "score": 1330,
+        "by": "meetpateltech",
+        "comments": 971
       },
       {
-        "title": "ChatGPT for Excel",
-        "url": "https://chatgpt.com/apps/spreadsheets/",
-        "hn_url": "https://news.ycombinator.com/item?id=47785397",
-        "score": 39,
-        "by": "armcat",
-        "comments": 11
+        "title": "Codex for almost everything",
+        "url": "https://openai.com/index/codex-for-almost-everything/",
+        "hn_url": "https://news.ycombinator.com/item?id=47796469",
+        "score": 602,
+        "by": "mikeevans",
+        "comments": 333
       },
       {
-        "title": "I made a terminal pager",
-        "url": "https://theleo.zone/posts/pager/",
-        "hn_url": "https://news.ycombinator.com/item?id=47786164",
-        "score": 13,
-        "by": "speckx",
+        "title": "A Better R Programming Experience Thanks to Tree-sitter",
+        "url": "https://ropensci.org/blog/2026/04/02/tree-sitter-overview/",
+        "hn_url": "https://news.ycombinator.com/item?id=47799573",
+        "score": 43,
+        "by": "sebg",
         "comments": 1
+      },
+      {
+        "title": "Guy builds AI driven hardware hacker arm from duct tape, old cam and CNC machine",
+        "url": "https://github.com/gainsec/autoprober",
+        "hn_url": "https://news.ycombinator.com/item?id=47800033",
+        "score": 43,
+        "by": "scaredpelican",
+        "comments": 4
+      },
+      {
+        "title": "Android CLI: Build Android apps 3x faster using any agent",
+        "url": "https://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html",
+        "hn_url": "https://news.ycombinator.com/item?id=47797665",
+        "score": 72,
+        "by": "ingve",
+        "comments": 22
+      },
+      {
+        "title": "Official Clojure Documentary page with Video, Shownotes, and Links",
+        "url": "https://clojure.org/about/documentary",
+        "hn_url": "https://news.ycombinator.com/item?id=47798345",
+        "score": 56,
+        "by": "adityaathalye",
+        "comments": 13
+      },
+      {
+        "title": "Qwen3.6-35B-A3B: Agentic coding power, now open to all",
+        "url": "https://qwen.ai/blog?id=qwen3.6-35b-a3b",
+        "hn_url": "https://news.ycombinator.com/item?id=47792764",
+        "score": 839,
+        "by": "cmitsakis",
+        "comments": 394
+      },
+      {
+        "title": "Show HN: Marky \u2013 A lightweight Markdown viewer for agentic coding",
+        "url": "https://github.com/GRVYDEV/marky",
+        "hn_url": "https://news.ycombinator.com/item?id=47795468",
+        "score": 21,
+        "by": "GRVYDEV",
+        "comments": 5
+      },
+      {
+        "title": "Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7",
+        "url": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/",
+        "hn_url": "https://news.ycombinator.com/item?id=47796830",
+        "score": 241,
+        "by": "simonw",
+        "comments": 57
+      }
+    ],
+    "hacker_news_top": [
+      {
+        "title": "Google broke its promise to me \u2013 now ICE has my data",
+        "url": "https://www.eff.org/deeplinks/2026/04/google-broke-its-promise-me-now-ice-has-my-data",
+        "hn_url": "https://news.ycombinator.com/item?id=47782570",
+        "score": 1663,
+        "by": "Brajeshwar",
+        "comments": 731
+      },
+      {
+        "title": "Claude Opus 4.7",
+        "url": "https://www.anthropic.com/news/claude-opus-4-7",
+        "hn_url": "https://news.ycombinator.com/item?id=47793411",
+        "score": 1330,
+        "by": "meetpateltech",
+        "comments": 971
+      },
+      {
+        "title": "Qwen3.6-35B-A3B: Agentic coding power, now open to all",
+        "url": "https://qwen.ai/blog?id=qwen3.6-35b-a3b",
+        "hn_url": "https://news.ycombinator.com/item?id=47792764",
+        "score": 839,
+        "by": "cmitsakis",
+        "comments": 394
+      },
+      {
+        "title": "IPv6 traffic crosses the 50% mark",
+        "url": "https://www.google.com/intl/en/ipv6/statistics.html?yzh=28197",
+        "hn_url": "https://news.ycombinator.com/item?id=47777894",
+        "score": 766,
+        "by": "Aaronmacaron",
+        "comments": 549
       },
       {
         "title": "The buns in McDonald's Japan's burger photos are all slightly askew",
         "url": "https://www.mcdonalds.co.jp/en/menu/burger/",
         "hn_url": "https://news.ycombinator.com/item?id=47785738",
-        "score": 108,
+        "score": 633,
         "by": "bckygldstn",
-        "comments": 43
-      },
-      {
-        "title": "Google broke its promise to me \u2013 now ICE has my data",
-        "url": "https://www.eff.org/deeplinks/2026/04/google-broke-its-promise-me-now-ice-has-my-data",
-        "hn_url": "https://news.ycombinator.com/item?id=47782570",
-        "score": 916,
-        "by": "Brajeshwar",
-        "comments": 393
-      },
-      {
-        "title": "PiCore - Raspberry Pi Port of Tiny Core Linux",
-        "url": "http://tinycorelinux.net/5.x/armv6/releases/README",
-        "hn_url": "https://news.ycombinator.com/item?id=47784244",
-        "score": 53,
-        "by": "gregsadetsky",
-        "comments": 3
-      },
-      {
-        "title": "God sleeps in the minerals",
-        "url": "https://wchambliss.wordpress.com/2026/03/03/god-sleeps-in-the-minerals/",
-        "hn_url": "https://news.ycombinator.com/item?id=47778475",
-        "score": 421,
-        "by": "speckx",
-        "comments": 90
-      },
-      {
-        "title": "Cal.com is going closed source",
-        "url": "https://cal.com/blog/cal-com-goes-closed-source-why",
-        "hn_url": "https://news.ycombinator.com/item?id=47780456",
-        "score": 161,
-        "by": "Benjamin_Dobell",
-        "comments": 138
-      },
-      {
-        "title": "The Rise of the Em-Dash in Hacker News Comments",
-        "url": "https://boazsobrado.com/blog/2026/04/15/the-rise-of-the-em-dash-in-hacker-news-comments/",
-        "hn_url": "https://news.ycombinator.com/item?id=47786183",
-        "score": 9,
-        "by": "sobradob",
-        "comments": 7
+        "comments": 298
       },
       {
         "title": "Live Nation illegally monopolized ticketing market, jury finds",
         "url": "https://www.bloomberg.com/news/articles/2026-04-15/live-nation-illegally-monopolized-ticketing-market-jury-finds",
         "hn_url": "https://news.ycombinator.com/item?id=47783713",
-        "score": 297,
+        "score": 605,
         "by": "Alex_Bond",
-        "comments": 89
-      }
-    ],
-    "hacker_news_top": [
-      {
-        "title": "DaVinci Resolve \u2013 Photo",
-        "url": "https://www.blackmagicdesign.com/products/davinciresolve/photo",
-        "hn_url": "https://news.ycombinator.com/item?id=47760529",
-        "score": 1120,
-        "by": "thebiblelover7",
-        "comments": 291
+        "comments": 186
       },
       {
-        "title": "Backblaze has stopped backing up OneDrive and Dropbox folders and maybe others",
-        "url": "https://rareese.com/posts/backblaze/",
-        "hn_url": "https://news.ycombinator.com/item?id=47762864",
-        "score": 1100,
-        "by": "rrreese",
-        "comments": 660
+        "title": "Codex for almost everything",
+        "url": "https://openai.com/index/codex-for-almost-everything/",
+        "hn_url": "https://news.ycombinator.com/item?id=47796469",
+        "score": 602,
+        "by": "mikeevans",
+        "comments": 333
       },
       {
-        "title": "Stop Flock",
-        "url": "https://stopflock.com",
-        "hn_url": "https://news.ycombinator.com/item?id=47772012",
-        "score": 938,
-        "by": "cdrnsf",
-        "comments": 284
+        "title": "The local LLM ecosystem doesn\u2019t need Ollama",
+        "url": "https://sleepingrobots.com/dreams/stop-using-ollama/",
+        "hn_url": "https://news.ycombinator.com/item?id=47788385",
+        "score": 593,
+        "by": "Zetaphor",
+        "comments": 197
       },
       {
-        "title": "Google broke its promise to me \u2013 now ICE has my data",
-        "url": "https://www.eff.org/deeplinks/2026/04/google-broke-its-promise-me-now-ice-has-my-data",
-        "hn_url": "https://news.ycombinator.com/item?id=47782570",
-        "score": 916,
-        "by": "Brajeshwar",
-        "comments": 393
-      },
-      {
-        "title": "A new spam policy for \u201cback button hijacking\u201d",
-        "url": "https://developers.google.com/search/blog/2026/04/back-button-hijacking",
-        "hn_url": "https://news.ycombinator.com/item?id=47760764",
-        "score": 897,
-        "by": "zdw",
-        "comments": 504
-      },
-      {
-        "title": "Tell HN: Fiverr left customer files public and searchable",
-        "url": "https://news.ycombinator.com/item?id=47769796",
-        "hn_url": "https://news.ycombinator.com/item?id=47769796",
-        "score": 792,
-        "by": "morpheuskafka",
-        "comments": 223
-      },
-      {
-        "title": "Claude Code Routines",
-        "url": "https://code.claude.com/docs/en/routines",
-        "hn_url": "https://news.ycombinator.com/item?id=47768133",
-        "score": 696,
-        "by": "matthieu_bl",
-        "comments": 396
-      },
-      {
-        "title": "Rare concert recordings are landing on the Internet Archive",
-        "url": "https://techcrunch.com/2026/04/13/thousands-of-rare-concert-recordings-are-landing-on-the-internet-archive-listen-now/",
-        "hn_url": "https://news.ycombinator.com/item?id=47765604",
-        "score": 691,
-        "by": "jrm-veris",
-        "comments": 205
-      },
-      {
-        "title": "I wrote to Flock's privacy contact to opt out of their domestic spying program",
-        "url": "https://honeypot.net/2026/04/14/i-wrote-to-flocks-privacy.html",
-        "hn_url": "https://news.ycombinator.com/item?id=47768813",
-        "score": 651,
+        "title": "God sleeps in the minerals",
+        "url": "https://wchambliss.wordpress.com/2026/03/03/god-sleeps-in-the-minerals/",
+        "hn_url": "https://news.ycombinator.com/item?id=47778475",
+        "score": 549,
         "by": "speckx",
-        "comments": 255
+        "comments": 105
       },
       {
-        "title": "jj \u2013 the CLI for Jujutsu",
-        "url": "https://steveklabnik.github.io/jujutsu-tutorial/introduction/what-is-jj-and-why-should-i-care.html",
-        "hn_url": "https://news.ycombinator.com/item?id=47763759",
-        "score": 537,
-        "by": "tigerlily",
-        "comments": 481
+        "title": "Want to write a compiler? Just read these two papers (2008)",
+        "url": "https://prog21.dadgum.com/30.html",
+        "hn_url": "https://news.ycombinator.com/item?id=47776796",
+        "score": 498,
+        "by": "downbad_",
+        "comments": 154
       }
     ],
     "x_trending": [
       {
-        "topic": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1511, Part 1 (Thread #1658)",
+        "topic": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1512, Part 1 (Thread #1659)",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1slva6f/rworldnews_live_thread_russian_invasion_of/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1smygo6/rworldnews_live_thread_russian_invasion_of/"
       },
       {
         "topic": "/r/WorldNews Discussion Thread: US and Israel launch attack on Iran; Iran retaliates (Thread #15)",
@@ -294,52 +286,52 @@
         "url": "https://www.reddit.com/r/worldnews/comments/1shqn32/rworldnews_discussion_thread_us_and_israel_launch/"
       },
       {
-        "topic": "Iran to execute first woman over anti-regime protests",
+        "topic": "UK transfers about 1 billion dollars in frozen Russian assets to Ukraine",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1smh0ju/iran_to_execute_first_woman_over_antiregime/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1snebny/uk_transfers_about_1_billion_dollars_in_frozen/"
       },
       {
-        "topic": "New World Screwworm detected about 90 miles from the United States",
+        "topic": "Pope: World is being ravaged by a handful of tyrants",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1sm7bdx/new_world_screwworm_detected_about_90_miles_from/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1sn1h85/pope_world_is_being_ravaged_by_a_handful_of/"
       },
       {
-        "topic": "'Xi will give me big, fat hug': Trump says he opened Hormuz for China and the world",
+        "topic": "Italy\u2019s Meloni halts defense pact with Israel",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1sm5bc3/xi_will_give_me_big_fat_hug_trump_says_he_opened/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1sna7dx/italys_meloni_halts_defense_pact_with_israel/"
       },
       {
-        "topic": "Pope Leo, attacked again by Trump, says world needs message of peace",
+        "topic": "Europe has 'maybe 6 weeks of jet fuel left,' energy agency head tells AP",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1sm8vmt/pope_leo_attacked_again_by_trump_says_world_needs/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1sn08h1/europe_has_maybe_6_weeks_of_jet_fuel_left_energy/"
       },
       {
-        "topic": "US stacks three carrier groups and 10 destroyers to blockade Strait of Hormuz",
+        "topic": "Spain imports record amount of Russian gas",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1sm84wm/us_stacks_three_carrier_groups_and_10_destroyers/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1sn4o8x/spain_imports_record_amount_of_russian_gas/"
       },
       {
-        "topic": "Zelenskyy: return of draft-age Ukrainian men from abroad is a matter of fairness",
+        "topic": "Trump says he may go to Islamabad if Iran deal reached",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1sm1l4n/zelenskyy_return_of_draftage_ukrainian_men_from/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1snf239/trump_says_he_may_go_to_islamabad_if_iran_deal/"
       },
       {
-        "topic": "Ticketmaster is an illegal monopoly, jury rules / This verdict is the first step toward a potential ",
+        "topic": "Allbirds stock tumbles after nearly 600% rally as the shoemaker rebrands as an AI company",
         "posts": "r/technology",
         "category": "r/technology",
-        "url": "https://www.reddit.com/r/technology/comments/1smfq4p/ticketmaster_is_an_illegal_monopoly_jury_rules/"
+        "url": "https://www.reddit.com/r/technology/comments/1snfim9/allbirds_stock_tumbles_after_nearly_600_rally_as/"
       },
       {
-        "topic": "Mark Ruffalo Blasts Paramount-Warner Bros. Merger at Senate Hearing: \u2018Don\u2019t Trust Empty Promises fro",
+        "topic": "SpaceX Bought 18% of Tesla Cybertrucks Sold in US During Q4 2025, Data Shows",
         "posts": "r/technology",
         "category": "r/technology",
-        "url": "https://www.reddit.com/r/technology/comments/1smhzbe/mark_ruffalo_blasts_paramountwarner_bros_merger/"
+        "url": "https://www.reddit.com/r/technology/comments/1sn6itx/spacex_bought_18_of_tesla_cybertrucks_sold_in_us/"
       }
     ]
   }
