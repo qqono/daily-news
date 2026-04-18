@@ -1,337 +1,345 @@
 {
-  "date": "Saturday, 18 April 2026",
+  "date": "Sunday, 19 April 2026",
   "data": {
     "top_headlines": [
       {
-        "headline": "Iran says Strait of Hormuz is 'open' but tracking shows few ships moving",
-        "summary": "US President Donald Trump welcomed Tehran's announcement but said the US naval blockade would continue until a peace deal was reached.",
+        "headline": "Strait of Hormuz closed again, Iran says, as ships attacked",
+        "summary": "Iran is blaming a US blockade for the closure, saying it breaches the ceasefire reached between the two countries.",
         "source": "BBC",
         "lean": "center-left",
-        "url": "https://www.bbc.com/news/articles/cwydexp39ddo?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.com/news/articles/cx2631x6nelo?at_medium=RSS&at_campaign=rss"
       },
       {
-        "headline": "Pressure mounts on Peru\u2019s election authorities amid presidential race delay",
-        "summary": "The vote count continues to determine who will join conservative Keiko Fujimori in Peru&#039;s presidential run-off in June.",
+        "headline": "Iran reasserts control of Hormuz Strait as Trump warns against \u2018blackmail\u2019",
+        "summary": "Top negotiator Mohammad Bagher Ghalibaf says US naval blockade of Iran&#039;s ports is &#039;a clumsy and ignorant decision&#039;.",
         "source": "Al Jazeera",
         "lean": "center-left",
-        "url": "https://www.aljazeera.com/news/2026/4/17/pressure-mounts-on-perus-election-authorities-amid-presidential-race-delay?traffic_source=rss"
+        "url": "https://www.aljazeera.com/news/2026/4/18/iran-reasserts-control-of-hormuz-strait-as-trump-warns-against-blackmail?traffic_source=rss"
       },
       {
-        "headline": "Animal activists celebrate their first global 'Sanctuary Day'",
-        "summary": "It's been 40 years since animal advocates founded a sanctuary for farm animals in New York and California, and they say April 17 is their first global sanctuary day.",
+        "headline": "Life jacket worn by a passenger who survived the Titanic auctioned off for over $900,000",
+        "summary": "A life jacket worn by a passenger on the RMS Titanic has sold at auction for 670,000 pounds, which is more than $900,000.",
         "source": "NPR",
         "lean": "center-left",
-        "url": "https://www.npr.org/2026/04/17/nx-s1-5775921/animal-activists-are-celebrating-their-first-global-sanctuary-day"
+        "url": "https://www.npr.org/2026/04/18/nx-s1-5789909/life-jacket-titanic-auction"
       }
     ],
     "tech_ai": [
       {
-        "headline": "US-sanctioned currency exchange says $15 million heist done by \"unfriendly states\"",
-        "summary": "Grinex says needed hacking resources \"available exclusively to ... unfriendly states.\"",
+        "headline": "Great white sharks are overheating",
+        "summary": "The sharks might also be the most physiologically vulnerable to warming waters.",
         "source": "Ars Technica",
         "lean": "center-left",
-        "url": "https://arstechnica.com/security/2026/04/russia-friendly-exchange-says-western-special-service-behind-15-million-cyberattack/"
+        "url": "https://arstechnica.com/science/2026/04/great-white-sharks-are-overheating/"
       },
       {
-        "headline": "OpenAI\u2019s former Sora boss is leaving",
-        "summary": "Last month, OpenAI gave up on its Sora video generation tool, and on Friday, the Sora team's leader, Bill Peebles, announced that he is leaving the company. OpenAI has been shifting its priorities as part of an effort to avoid \"side quests,\" and Peebles' departure is just one of many recent changes as the company [&#8230;]",
+        "headline": "The RAM shortage could last years",
+        "summary": "According to Nikkei Asia, even as suppliers ramp up DRAM production, manufacturers are only expected to meet 60 percent of demand by the end of 2027. SK Group chairman has even said that shortages could last until 2030. The world's largest memory makers - Samsung, SK Hynix, and Micron - are all working to add [&#8230;]",
         "source": "The Verge",
         "lean": "center-left",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/914463/openai-sora-bill-peebles-kevin-weil-leaving-departing"
+        "url": "https://www.theverge.com/ai-artificial-intelligence/914672/the-ram-shortage-could-last-years"
       },
       {
-        "headline": "Sam Altman\u2019s project World looks to scale its human verification empire. First stop: Tinder.",
-        "summary": "World, which has raised eyebrows (but also a lot of interest) with its Orb-centered anonymous verification project, is looking to expand its influence via a bevy of new partnerships.",
+        "headline": "Tesla brings its robotaxi service to Dallas and Houston",
+        "summary": "Tesla is expanding its robotaxi service to Dallas and Houston, according to a social media post from the company. The post says simply that \u201cRobotaxi is now rolling out in Dallas &#38; Houston \ud83e\udd20\u201d and includes a 14-second video showing Tesla vehicles driving without human monitors or drivers in the front seat. The company now [&#8230;]",
         "source": "TechCrunch",
         "lean": "center",
-        "url": "https://techcrunch.com/2026/04/17/sam-altmans-project-world-looks-to-scale-its-human-verification-empire-first-stop-tinder/"
+        "url": "https://techcrunch.com/2026/04/18/tesla-brings-its-robotaxi-service-to-dallas-and-houston/"
       }
     ],
     "business_finance": [
       {
-        "headline": "Geothermal Power Firm Fervo Energy Files for IPO",
-        "summary": "Fervo Energy Co. filed for an initial public offering, disclosing wider losses as it plans to start generating power from its first geothermal project in Utah later this year.",
+        "headline": "War Revives Stagflation Dangers for Global Economy",
+        "summary": "The cumulative global impact of seven weeks of war in the Middle East will begin to emerge in the coming week, in a second round of business surveys from multiple countries.",
         "source": "Bloomberg",
         "lean": "center",
-        "url": "https://www.bloomberg.com/news/articles/2026-04-17/geothermal-power-firm-fervo-files-for-initial-public-offering"
+        "url": "https://www.bloomberg.com/news/articles/2026-04-18/war-revives-stagflation-dangers-for-global-economy"
       },
       {
-        "headline": "Video shows ships turning away from the Strait of Hormuz as confusion persists over whether sea lane is really open",
-        "summary": "The Strait of Hormuz remained effectively closed despite Iran's declaration Friday that it is open, maritime freight and oil analysts told CNBC.",
+        "headline": "Iran says Strait of Hormuz is closed again as vessels attempting to cross come under fire",
+        "summary": "Iranian officials say they have closed the strait because of the U.S.'s ongoing blockade of its ports.",
         "source": "CNBC",
         "lean": "center",
-        "url": "https://www.cnbc.com/2026/04/17/iran-trump-strait-hormuz-oil-tanker-traffic.html"
+        "url": "https://www.cnbc.com/2026/04/18/trump-says-us-has-good-news-on-iran-talks-to-continue.html"
       },
       {
-        "headline": "Oil prices plunge as Iran says Strait of Hormuz 'open' during ceasefire",
-        "summary": "Brent crude sinks by a tenth after Iran says the key waterway is open for commercial ships for the rest of the ceasefire.",
+        "headline": "Mortgage rates show signs of falling after Iran war peak",
+        "summary": "Major lenders make rate reductions as markets take some heart from a possible truce in the Iran war.",
         "source": "BBC Business",
         "lean": "center-left",
-        "url": "https://www.bbc.com/news/articles/ckg045z73z1o?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.com/news/articles/cwyx2q86lgpo?at_medium=RSS&at_campaign=rss"
       }
     ],
     "world_news": [
       {
-        "headline": "Oil prices plunge as Iran says Strait 'open'",
-        "summary": "Brent crude sinks by a tenth after Iran says the key waterway is open for commercial ships for the rest of the ceasefire.",
+        "headline": "Strait of Hormuz closed again, Iran says, as ships attacked",
+        "summary": "Iran is blaming a US blockade for the closure, saying it breaches the ceasefire reached between the two countries.",
         "source": "BBC World",
         "lean": "center-left",
-        "url": "https://www.bbc.com/news/articles/ckg045z73z1o?at_medium=RSS&at_campaign=rss"
+        "url": "https://www.bbc.com/news/articles/cx2631x6nelo?at_medium=RSS&at_campaign=rss"
       },
       {
-        "headline": "Pressure mounts on Peru\u2019s election authorities amid presidential race delay",
-        "summary": "The vote count continues to determine who will join conservative Keiko Fujimori in Peru&#039;s presidential run-off in June.",
+        "headline": "Iran reasserts control of Hormuz Strait as Trump warns against \u2018blackmail\u2019",
+        "summary": "Top negotiator Mohammad Bagher Ghalibaf says US naval blockade of Iran&#039;s ports is &#039;a clumsy and ignorant decision&#039;.",
         "source": "Al Jazeera",
         "lean": "center-left",
-        "url": "https://www.aljazeera.com/news/2026/4/17/pressure-mounts-on-perus-election-authorities-amid-presidential-race-delay?traffic_source=rss"
+        "url": "https://www.aljazeera.com/news/2026/4/18/iran-reasserts-control-of-hormuz-strait-as-trump-warns-against-blackmail?traffic_source=rss"
       },
       {
-        "headline": "Animal activists celebrate their first global 'Sanctuary Day'",
-        "summary": "It's been 40 years since animal advocates founded a sanctuary for farm animals in New York and California, and they say April 17 is their first global sanctuary day.",
+        "headline": "Life jacket worn by a passenger who survived the Titanic auctioned off for over $900,000",
+        "summary": "A life jacket worn by a passenger on the RMS Titanic has sold at auction for 670,000 pounds, which is more than $900,000.",
         "source": "NPR World",
         "lean": "center-left",
-        "url": "https://www.npr.org/2026/04/17/nx-s1-5775921/animal-activists-are-celebrating-their-first-global-sanctuary-day"
+        "url": "https://www.npr.org/2026/04/18/nx-s1-5789909/life-jacket-titanic-auction"
       }
     ],
     "music": [
       {
-        "headline": "How Much Will Taylor Swift Actually Factor Into the Blake Lively v. Justin Baldoni Trial?",
-        "summary": "Billboard is unpacking how exactly the pop superstar's name might come up in the highly anticipated trial next month.",
+        "headline": "Zara Larsson\u2019s \u2018Midnight Sun\u2019 World & \u2018Stateside\u2019 Magic with PinkPantheress | Billboard Women In Music 2026",
+        "summary": "Billboard Women in Music 2026 Breakthrough honoree Zara Larsson opens up about her Midnight Sun lifestyle.\u2026",
         "source": "Billboard",
         "lean": "center",
-        "url": "https://www.billboard.com/pro/taylor-swift-blake-lively-justin-baldoni-trial-factor-in/"
+        "url": "https://www.billboard.com/video/zara-larsson-midnight-sun-stateside-magic/"
       },
       {
-        "headline": "Paul McCartney\u2019s new album to feature collaboration with Ringo Starr",
-        "summary": "They will trade vocals on the nostalgic 'Home To Us', with Ringo also playing drums on the track The post Paul McCartney\u2019s new album to feature collaboration with Ringo Starr appeared first on NME.",
+        "headline": "Talk Talk musicians to reunite to celebrate \u2018The Colour Of Spring\u2019 40th anniversary at one-off London gig",
+        "summary": "They will be joined by Ed Harcourt, Fyfe Dangerfield, Ride's Mark Gardener and members of Zero 7 and Turin Brakes The post Talk Talk musicians to reunite to celebrate &#8216;The Colour Of Spring&#8217; 40th anniversary at one-off London gig appeared first on NME.",
         "source": "NME",
         "lean": "center-left",
-        "url": "https://www.nme.com/news/music/paul-mccartneys-new-album-to-feature-collaboration-with-ringo-starr-3940990?utm_source=rss&utm_medium=rss&utm_campaign=paul-mccartneys-new-album-to-feature-collaboration-with-ringo-starr"
+        "url": "https://www.nme.com/news/music/talk-talk-musicians-to-reunite-to-celebrate-the-colour-of-spring-40th-anniversary-at-one-off-london-gig-3941121?utm_source=rss&utm_medium=rss&utm_campaign=talk-talk-musicians-to-reunite-to-celebrate-the-colour-of-spring-40th-anniversary-at-one-off-london-gig"
       },
       {
-        "headline": "Zayn Malik Says He\u2019s \u2018Unexpectedly Recovering\u2019 in the Hospital",
-        "summary": "The pop star, who did not reveal the reason he was hospitalized, shared the health update via Instagram with a photo of himself in a hospital bed",
+        "headline": "Tory Lanez Sues California Prison System for $100 Million Over Stabbing",
+        "summary": "Rapper was stabbed 16 times by fellow inmate in May 2025 while 10-year sentence in Megan Thee Stallion shooting case",
         "source": "Rolling Stone",
         "lean": "center-left",
-        "url": "https://www.rollingstone.com/music/music-news/zayn-malik-hospital-recovering-1235549673/"
+        "url": "https://www.rollingstone.com/music/music-news/tory-lanez-california-prison-system-lawsuit-stabbing-1235550012/"
       }
     ],
     "hacker_news": [
       {
-        "title": "Claude Design",
-        "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
-        "hn_url": "https://news.ycombinator.com/item?id=47806725",
-        "score": 755,
-        "by": "meetpateltech",
-        "comments": 512
+        "title": "Any Color You Like: NIST Scientists Create 'Any Wavelength' Lasers",
+        "url": "https://www.nist.gov/news-events/news/2026/04/any-color-you-nist-scientists-create-any-wavelength-lasers-tiny-circuits",
+        "hn_url": "https://news.ycombinator.com/item?id=47819453",
+        "score": 67,
+        "by": "rbanffy",
+        "comments": 25
       },
       {
-        "title": "A simplified model of Fil-C",
-        "url": "https://www.corsix.org/content/simplified-model-of-fil-c",
-        "hn_url": "https://news.ycombinator.com/item?id=47810872",
-        "score": 54,
-        "by": "aw1621107",
-        "comments": 19
+        "title": "The electromechanical angle computer inside the B-52 bomber's star tracker",
+        "url": "https://www.righto.com/2026/04/B-52-star-tracker-angle-computer.html",
+        "hn_url": "https://news.ycombinator.com/item?id=47817132",
+        "score": 225,
+        "by": "NelsonMinar",
+        "comments": 69
       },
       {
-        "title": "All 12 moonwalkers had \"lunar hay fever\" from dust smelling like gunpowder (2018)",
-        "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_toxic_side_of_the_Moon",
-        "hn_url": "https://news.ycombinator.com/item?id=47808913",
-        "score": 182,
-        "by": "cybermango",
-        "comments": 99
+        "title": "Thoughts and feelings around Claude Design",
+        "url": "https://samhenri.gold/blog/20260418-claude-design/",
+        "hn_url": "https://news.ycombinator.com/item?id=47818700",
+        "score": 164,
+        "by": "cdrnsf",
+        "comments": 111
       },
       {
-        "title": "Measuring Claude 4.7's tokenizer costs",
-        "url": "https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you",
-        "hn_url": "https://news.ycombinator.com/item?id=47807006",
-        "score": 501,
-        "by": "aray07",
-        "comments": 342
+        "title": "Optimizing Ruby Path Methods",
+        "url": "https://byroot.github.io/ruby/performance/2026/04/18/faster-paths.html",
+        "hn_url": "https://news.ycombinator.com/item?id=47819369",
+        "score": 29,
+        "by": "weaksauce",
+        "comments": 13
       },
       {
-        "title": "Landmark ancient-genome study shows surprise acceleration of human evolution",
-        "url": "https://www.nature.com/articles/d41586-026-01204-5",
-        "hn_url": "https://news.ycombinator.com/item?id=47811283",
-        "score": 12,
-        "by": "unsuspecting",
+        "title": "Modern Common Lisp with FSET",
+        "url": "https://fset.common-lisp.dev/Modern-CL/Top_html/index.html",
+        "hn_url": "https://news.ycombinator.com/item?id=47779659",
+        "score": 46,
+        "by": "larve",
         "comments": 1
       },
       {
-        "title": "I'm spending 3 months coding the old way",
-        "url": "https://miguelconner.substack.com/p/im-coding-by-hand",
-        "hn_url": "https://news.ycombinator.com/item?id=47807583",
-        "score": 88,
-        "by": "evakhoury",
-        "comments": 79
+        "title": "Migrating from DigitalOcean to Hetzner",
+        "url": "https://isayeter.com/posts/digitalocean-to-hetzner-migration/",
+        "hn_url": "https://news.ycombinator.com/item?id=47815774",
+        "score": 646,
+        "by": "yusufusta",
+        "comments": 335
       },
       {
-        "title": "Show HN: Smol machines \u2013 subsecond coldstart, portable virtual machines",
-        "url": "https://github.com/smol-machines/smolvm",
-        "hn_url": "https://news.ycombinator.com/item?id=47808268",
-        "score": 182,
-        "by": "binsquare",
-        "comments": 78
+        "title": "State of Kdenlive",
+        "url": "https://kdenlive.org/news/2026/state-2026/",
+        "hn_url": "https://news.ycombinator.com/item?id=47815118",
+        "score": 318,
+        "by": "f_r_d",
+        "comments": 106
       },
       {
-        "title": "Isaac Asimov: The Last Question (1956)",
-        "url": "https://hex.ooo/library/last_question.html",
-        "hn_url": "https://news.ycombinator.com/item?id=47804965",
-        "score": 584,
-        "by": "ColinWright",
-        "comments": 232
+        "title": "What Is Llms.txt and Does Your Business Need One?",
+        "url": "https://semarkglobal.com/blog/what-is-llms-txt-does-your-business-need-one",
+        "hn_url": "https://news.ycombinator.com/item?id=47820071",
+        "score": 3,
+        "by": "alihassaan",
+        "comments": 1
       },
       {
-        "title": "NASA Force",
-        "url": "https://nasaforce.gov/",
-        "hn_url": "https://news.ycombinator.com/item?id=47807209",
-        "score": 190,
-        "by": "LorenDB",
-        "comments": 208
+        "title": "Traders placed over $1B in perfectly timed bets on the Iran war",
+        "url": "https://www.theguardian.com/world/2026/apr/18/iran-war-bets-ethics-concerns",
+        "hn_url": "https://news.ycombinator.com/item?id=47818305",
+        "score": 176,
+        "by": "trocado",
+        "comments": 107
+      },
+      {
+        "title": "Show HN: MDV \u2013 a Markdown superset for docs, dashboards, and slides with data",
+        "url": "https://github.com/drasimwagan/mdv",
+        "hn_url": "https://news.ycombinator.com/item?id=47816629",
+        "score": 77,
+        "by": "drasim",
+        "comments": 29
       }
     ],
     "hacker_news_top": [
       {
-        "title": "Claude Opus 4.7",
-        "url": "https://www.anthropic.com/news/claude-opus-4-7",
-        "hn_url": "https://news.ycombinator.com/item?id=47793411",
-        "score": 1933,
-        "by": "meetpateltech",
-        "comments": 1414
-      },
-      {
-        "title": "Qwen3.6-35B-A3B: Agentic coding power, now open to all",
-        "url": "https://qwen.ai/blog?id=qwen3.6-35b-a3b",
-        "hn_url": "https://news.ycombinator.com/item?id=47792764",
-        "score": 1233,
-        "by": "cmitsakis",
-        "comments": 514
-      },
-      {
-        "title": "Codex for almost everything",
-        "url": "https://openai.com/index/codex-for-almost-everything/",
-        "hn_url": "https://news.ycombinator.com/item?id=47796469",
-        "score": 985,
-        "by": "mikeevans",
-        "comments": 528
-      },
-      {
         "title": "Claude Design",
         "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
         "hn_url": "https://news.ycombinator.com/item?id=47806725",
-        "score": 755,
+        "score": 1181,
         "by": "meetpateltech",
-        "comments": 512
-      },
-      {
-        "title": "The future of everything is lies, I guess: Where do we go from here?",
-        "url": "https://aphyr.com/posts/420-the-future-of-everything-is-lies-i-guess-where-do-we-go-from-here",
-        "hn_url": "https://news.ycombinator.com/item?id=47792718",
-        "score": 709,
-        "by": "aphyr",
-        "comments": 746
-      },
-      {
-        "title": "The local LLM ecosystem doesn\u2019t need Ollama",
-        "url": "https://sleepingrobots.com/dreams/stop-using-ollama/",
-        "hn_url": "https://news.ycombinator.com/item?id=47788385",
-        "score": 631,
-        "by": "Zetaphor",
-        "comments": 208
+        "comments": 735
       },
       {
         "title": "Isaac Asimov: The Last Question (1956)",
         "url": "https://hex.ooo/library/last_question.html",
         "hn_url": "https://news.ycombinator.com/item?id=47804965",
-        "score": 584,
+        "score": 751,
         "by": "ColinWright",
-        "comments": 232
+        "comments": 295
       },
       {
         "title": "Ban the sale of precise geolocation",
         "url": "https://www.lawfaremedia.org/article/it-is-time-to-ban-the-sale-of-precise-geolocation",
         "hn_url": "https://news.ycombinator.com/item?id=47806304",
-        "score": 553,
+        "score": 736,
         "by": "hn_acker",
-        "comments": 148
+        "comments": 192
       },
       {
         "title": "Measuring Claude 4.7's tokenizer costs",
         "url": "https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you",
         "hn_url": "https://news.ycombinator.com/item?id=47807006",
-        "score": 502,
+        "score": 683,
         "by": "aray07",
-        "comments": 342
+        "comments": 481
       },
       {
-        "title": "Darkbloom \u2013 Private inference on idle Macs",
-        "url": "https://darkbloom.dev",
-        "hn_url": "https://news.ycombinator.com/item?id=47788542",
-        "score": 491,
-        "by": "twapi",
-        "comments": 245
+        "title": "Migrating from DigitalOcean to Hetzner",
+        "url": "https://isayeter.com/posts/digitalocean-to-hetzner-migration/",
+        "hn_url": "https://news.ycombinator.com/item?id=47815774",
+        "score": 646,
+        "by": "yusufusta",
+        "comments": 335
+      },
+      {
+        "title": "Show HN: Smol machines \u2013 subsecond coldstart, portable virtual machines",
+        "url": "https://github.com/smol-machines/smolvm",
+        "hn_url": "https://news.ycombinator.com/item?id=47808268",
+        "score": 440,
+        "by": "binsquare",
+        "comments": 134
+      },
+      {
+        "title": "All 12 moonwalkers had \"lunar hay fever\" from dust smelling like gunpowder (2018)",
+        "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_toxic_side_of_the_Moon",
+        "hn_url": "https://news.ycombinator.com/item?id=47808913",
+        "score": 436,
+        "by": "cybermango",
+        "comments": 251
+      },
+      {
+        "title": "US Bill Mandates On-Device Age Verification",
+        "url": "https://reclaimthenet.org/us-bill-mandates-on-device-age-verification",
+        "hn_url": "https://news.ycombinator.com/item?id=47801991",
+        "score": 394,
+        "by": "ronsor",
+        "comments": 320
+      },
+      {
+        "title": "Opus 4.7 to 4.6 Inflation is ~45%",
+        "url": "https://tokens.billchambers.me/leaderboard",
+        "hn_url": "https://news.ycombinator.com/item?id=47816960",
+        "score": 382,
+        "by": "anabranch",
+        "comments": 401
+      },
+      {
+        "title": "Everything we like is a psyop?",
+        "url": "https://techcrunch.com/2026/04/16/everything-we-like-is-a-psyop/",
+        "hn_url": "https://news.ycombinator.com/item?id=47800738",
+        "score": 338,
+        "by": "evo_9",
+        "comments": 244
       }
     ],
     "x_trending": [
       {
-        "topic": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1513, Part 1 (Thread #1660)",
+        "topic": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1514, Part 1 (Thread #1661)",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1snq4io/rworldnews_live_thread_russian_invasion_of/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1son2ti/rworldnews_live_thread_russian_invasion_of/"
       },
       {
-        "topic": "/r/WorldNews Discussion Thread: US and Israel launch attack on Iran; Iran retaliates (Thread #15)",
+        "topic": "/r/WorldNews Discussion Thread: US and Israel launch attack on Iran; Iran retaliates (Thread #16)",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1shqn32/rworldnews_discussion_thread_us_and_israel_launch/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1son2zz/rworldnews_discussion_thread_us_and_israel_launch/"
       },
       {
-        "topic": "Trump shocked Netanyahu with post declaring Lebanon strikes \"prohibited\"",
+        "topic": "Hezbollah threatens Lebanon\u2019s president: \u2018He will lose his status if he meets Netanyahu\u2019",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1soc7bq/trump_shocked_netanyahu_with_post_declaring/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1sp37zb/hezbollah_threatens_lebanons_president_he_will/"
       },
       {
-        "topic": "'Enough Is Enough': Trump Announces US has Forbidden Israel From Bombing Lebanon Any Longer",
+        "topic": "Macron: French soldier was killed in Lebanon",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1so32vx/enough_is_enough_trump_announces_us_has_forbidden/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1sowpli/macron_french_soldier_was_killed_in_lebanon/"
       },
       {
-        "topic": "Trump says 'thank you' after Iran announces opening of Strait of Hormuz",
+        "topic": "Iranian gunboats fire on tanker in Strait of Hormuz as Iran reimposes restrictions - North Shore New",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1so7sf6/trump_says_thank_you_after_iran_announces_opening/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1sovhn0/iranian_gunboats_fire_on_tanker_in_strait_of/"
       },
       {
-        "topic": "Poland drops Ye concert amid disgust at pro-Nazi remarks",
+        "topic": "US lifts sanctions on Russian oil despite earlier assurances",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1so32nc/poland_drops_ye_concert_amid_disgust_at_pronazi/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1sopm8r/us_lifts_sanctions_on_russian_oil_despite_earlier/"
       },
       {
-        "topic": "Trump tells CBS: Iran agreed to stop supporting Hamas and Hezbollah",
+        "topic": "Trump convenes Iran situation room meeting amid renewed Hormuz crisis",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1socm85/trump_tells_cbs_iran_agreed_to_stop_supporting/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1sp4bjw/trump_convenes_iran_situation_room_meeting_amid/"
       },
       {
-        "topic": "U.S. considers $20 billion cash-for-uranium deal with Iran",
+        "topic": "Ukraine hits 4 'important' Russian oil sites in overnight strikes, military says",
         "posts": "r/worldnews",
         "category": "r/worldnews",
-        "url": "https://www.reddit.com/r/worldnews/comments/1so025n/us_considers_20_billion_cashforuranium_deal_with/"
+        "url": "https://www.reddit.com/r/worldnews/comments/1soxqrc/ukraine_hits_4_important_russian_oil_sites_in/"
       },
       {
-        "topic": "Altman attack suspect suggested \u2018Luigi\u2019ing some tech CEOs\u2019 in online chat",
+        "topic": "Bluetooth tracker hidden in a postcard and mailed to a warship exposed its location \u2014 $5 gadget put ",
         "posts": "r/technology",
         "category": "r/technology",
-        "url": "https://www.reddit.com/r/technology/comments/1so6762/altman_attack_suspect_suggested_luigiing_some/"
+        "url": "https://www.reddit.com/r/technology/comments/1sp3cwj/bluetooth_tracker_hidden_in_a_postcard_and_mailed/"
       },
       {
-        "topic": "Anti-AI sentiment is on the rise\u2014and it\u2019s starting to turn violent",
+        "topic": "Tech CEO accused of running $420M AI business scam",
         "posts": "r/technology",
         "category": "r/technology",
-        "url": "https://www.reddit.com/r/technology/comments/1soe5wg/antiai_sentiment_is_on_the_riseand_its_starting/"
+        "url": "https://www.reddit.com/r/technology/comments/1sp578a/tech_ceo_accused_of_running_420m_ai_business_scam/"
       }
     ]
   }
