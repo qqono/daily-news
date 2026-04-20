@@ -42,16 +42,23 @@ TODAY = datetime.now().strftime("%A, %d %B %Y")
 
 PROMPT = f"""Today is {TODAY}. You are an impartial morning news research assistant.
 
-Search the web and compile a morning news digest. Follow these sourcing guidelines to minimise bias:
-- Prioritise wire services and internationally recognised neutral outlets as primary sources: AP, Reuters, AFP, BBC, Bloomberg, Al Jazeera.
-- Supplement with other outlets to ensure cross-ideological coverage — never rely on a single outlet or ideological cluster for any section.
-- Summarise events using factual, descriptive language. Avoid loaded framing, emotional language, or editorial opinion.
-- For politically contested stories, represent the key dispute neutrally without taking a side.
+Search the web and compile a morning news digest with zero bias and zero overlap between sections.
 
-For each story include a "lean" field rating the primary source's general editorial lean using AllSides/Ad Fontes standards:
+SOURCING GUIDELINES:
+- Wire services first (AP, Reuters, AFP) — use these as primary sources wherever possible.
+- International neutral outlets: Al Jazeera English, DW (Deutsche Welle), France 24, NHK World, PBS NewsHour, RFI, Euronews, ABC Australia.
+- Quality independent/investigative outlets: The Guardian, ProPublica, 404 Media, The Intercept, Der Spiegel (English), South China Morning Post, The Hindu, Haaretz, Kyodo News, The Wire India.
+- Tech & AI specialist outlets: Ars Technica, MIT Technology Review, IEEE Spectrum, The Verge, Wired, 404 Media.
+- Business/Finance specialist outlets: Financial Times, Nikkei Asia, Reuters, Bloomberg, The Economist.
+- Music specialist outlets: Billboard, Pitchfork, The FADER, Stereogum, NME, Consequence.
+- AVOID: Fox News, MSNBC, Daily Mail, Breitbart, Infowars, RT, CGTN, Xinhua, Sputnik, or any outlet with an extreme ideological lean.
+- NEVER use the same outlet more than once across all sections combined.
+- NEVER repeat the same event across sections — every story must cover a genuinely different development.
+
+For each story include a "lean" field using AllSides/Ad Fontes standards:
   "left" | "center-left" | "center" | "center-right" | "right"
 
-Return ONLY valid JSON (no markdown, no code fences) with this exact structure:
+Return ONLY valid JSON (no markdown, no code fences) in this exact structure:
 
 {{
   "top_headlines": [
@@ -81,7 +88,7 @@ Return ONLY valid JSON (no markdown, no code fences) with this exact structure:
   ]
 }}
 
-Use web search to find real, current news from today. Include the 3 biggest headlines of the day plus exactly 3 trending stories each from Tech & AI, Business & Finance, World News, and Music (albums, tours, industry, artists — sources: Billboard, Rolling Stone, Pitchfork, NME, Guardian Music)."""
+Use web search for all 5 sections. The 3 top_headlines must be the most globally significant stories of the day. All 5 sections need exactly 3 stories each, all distinct events and distinct sources."""
 
 
 X_TRENDING_PROMPT = f"""Today is {TODAY}. Search the web and find the top 10 currently trending topics on X (formerly Twitter).
@@ -268,9 +275,125 @@ def fetch_hackernews(feed: str = "topstories", n: int = 10) -> list:
     return stories
 
 
-def save_news_json(data: dict, hn_hot: list, hn_top: list, x_data: list):
+def fetch_github_trending(n: int = 10) -> list:
+    """Scrape github.com/trending for the top n repos."""
+    log.info("Fetching GitHub trending...")
+    url = "https://github.com/trending"
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "Accept-Language": "en-US,en;q=0.9",
+    })
+    try:
+        with urllib.request.urlopen(req, timeout=15) as r:
+            html = r.read().decode("utf-8", errors="replace")
+    except Exception as e:
+        log.warning(f"GitHub trending fetch failed: {e}")
+        return []
+
+    _SKIP = {"sponsors", "trending", "explore", "marketplace", "orgs",
+             "settings", "login", "signup", "features", "about", "contact"}
+    _HTML_ENTITIES = {"&amp;": "&", "&lt;": "<", "&gt;": ">",
+                      "&quot;": '"', "&#39;": "'", "&apos;": "'"}
+
+    def strip_tags(s):
+        s = re.sub(r'<[^>]+>', '', s)
+        s = re.sub(r'\s+', ' ', s).strip()
+        for ent, ch in _HTML_ENTITIES.items():
+            s = s.replace(ent, ch)
+        return s
+
+    repos = []
+    for art in re.findall(r'<article[^>]*Box-row[^>]*>(.*?)</article>', html, re.DOTALL)[:n]:
+        path = None
+        for m in re.finditer(r'href="/([^/"?#]+/[^/"?#]+)"', art):
+            candidate = m.group(1).strip()
+            owner = candidate.split("/")[0]
+            if owner not in _SKIP and candidate.count("/") == 1:
+                path = candidate
+                break
+        if not path:
+            continue
+
+        # GitHub description is in a <p class="col-9 ..."> element
+        desc_m = (re.search(r'<p[^>]*class="[^"]*col-9[^"]*"[^>]*>(.*?)</p>', art, re.DOTALL)
+                  or re.search(r'<p[^>]*>(.*?)</p>', art, re.DOTALL))
+        description = strip_tags(desc_m.group(1)) if desc_m else "No description"
+        # Strip any leading "Sponsor Star owner / repo" artefact
+        description = re.sub(r'^(?:Sponsor\s+)?Star\s+[\w.\-]+\s*/\s*[\w.\-]+\s*', '', description).strip() or "No description"
+
+        today_m = re.search(r'([\d,]+)\s+stars?\s+today', art, re.IGNORECASE)
+        stars_today = today_m.group(1) if today_m else "0"
+
+        lang_m = re.search(r'itemprop="programmingLanguage"[^>]*>\s*([^<]+?)\s*<', art)
+        language = lang_m.group(1).strip() if lang_m else ""
+
+        repos.append({
+            "name":        path,
+            "description": description[:140],
+            "stars_today": stars_today,
+            "language":    language,
+            "url":         f"https://github.com/{path}",
+        })
+
+    log.info(f"Fetched {len(repos)} GitHub trending repos")
+    for i, r in enumerate(repos, 1):
+        log.info(f"  GH {i}: {r['name']} ({r['stars_today']} ★ today) [{r['language']}]")
+    return repos
+
+
+def fetch_reddit_trending(n: int = 10) -> list:
+    """Fetch top posts from r/popular via Reddit's public JSON API."""
+    log.info("Fetching Reddit trending...")
+    # Use old.reddit.com — the modern domain blocks non-browser requests
+    url = f"https://old.reddit.com/r/popular/hot.json?limit={n}"
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept": "application/json, text/html",
+        "Accept-Language": "en-US,en;q=0.9",
+    })
+    try:
+        with urllib.request.urlopen(req, timeout=10) as r:
+            raw = json.loads(r.read())
+    except Exception as e:
+        log.warning(f"Reddit trending fetch failed: {e}")
+        return []
+
+    posts = []
+    for child in raw["data"]["children"][:n]:
+        d = child["data"]
+        # Use d["title"] — the actual post title, NOT d["name"] (the ID like "t3_xxxx")
+        title = d.get("title", "")
+        title = (title.replace("&amp;", "&").replace("&lt;", "<")
+                      .replace("&gt;", ">").replace("&quot;", '"').replace("&#39;", "'"))
+        posts.append({
+            "title":     title,
+            "subreddit": d.get("subreddit_name_prefixed", ""),
+            "score":     d.get("score", 0),
+            "comments":  d.get("num_comments", 0),
+            "url":       d.get("url", ""),
+            "permalink": f"https://reddit.com{d.get('permalink', '')}",
+        })
+
+    log.info(f"Fetched {len(posts)} Reddit posts")
+    for i, p in enumerate(posts, 1):
+        log.info(f"  Reddit {i}: {p['title'][:60]} ({p['subreddit']})")
+    return posts
+
+
+def save_news_json(data: dict, hn_hot: list, hn_top: list, x_data: list,
+                   github_data: list, reddit_data: list):
     out_path = os.path.join(REPO, "news.json")
-    payload = {"date": TODAY, "data": {**data, "hacker_news": hn_hot, "hacker_news_top": hn_top, "x_trending": x_data}}
+    payload = {
+        "date": TODAY,
+        "data": {
+            **data,
+            "hacker_news":     hn_hot,
+            "hacker_news_top": hn_top,
+            "x_trending":      x_data,
+            "github_trending": github_data,
+            "reddit_trending": reddit_data,
+        },
+    }
     with open(out_path, "w") as f:
         json.dump(payload, f, indent=2)
     log.info(f"news.json written to {out_path}")
@@ -348,6 +471,30 @@ def build_html(data: dict) -> str:
 
     x_html = "".join(x_trend_html(t, i+1) for i, t in enumerate(data.get("x_trending", [])))
 
+    def gh_story_html(item: dict, rank: int) -> str:
+        return f"""
+        <div style="display:flex;gap:8px;align-items:flex-start;margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid #e8e8e8;">
+          <div style="font-size:12px;font-weight:700;color:#31748f;min-width:16px;padding-top:1px;">{rank}</div>
+          <div>
+            <a href="{item['url']}" style="font-size:13px;font-weight:600;color:#1a1a1a;text-decoration:none;">{item['name']}</a>
+            <div style="font-size:11px;color:#555;margin-top:2px;">{item['description']}</div>
+            <div style="font-size:11px;color:#999;margin-top:2px;">{item.get('language','') + ' · ' if item.get('language') else ''}★ {item['stars_today']} today</div>
+          </div>
+        </div>"""
+
+    def reddit_story_html(item: dict, rank: int) -> str:
+        return f"""
+        <div style="display:flex;gap:8px;align-items:flex-start;margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid #e8e8e8;">
+          <div style="font-size:12px;font-weight:700;color:#eb6f92;min-width:16px;padding-top:1px;">{rank}</div>
+          <div>
+            <a href="{item['permalink']}" style="font-size:13px;font-weight:600;color:#1a1a1a;text-decoration:none;">{item['title']}</a>
+            <div style="font-size:11px;color:#999;margin-top:2px;">{item['subreddit']} · {item['score']:,} pts · {item['comments']} comments</div>
+          </div>
+        </div>"""
+
+    gh_html     = "".join(gh_story_html(r, i+1) for i, r in enumerate(data.get("github_trending", [])))
+    reddit_html = "".join(reddit_story_html(p, i+1) for i, p in enumerate(data.get("reddit_trending", [])))
+
     return f"""<!DOCTYPE html>
 <html>
 <head><meta charset="UTF-8"></head>
@@ -382,6 +529,14 @@ def build_html(data: dict) -> str:
         <tr><td style="padding:10px 36px;">
           <div style="font-size:11px;font-weight:700;color:#c4a7e7;letter-spacing:1.2px;text-transform:uppercase;margin-bottom:12px;">HN Trending</div>
           {hn_html}
+        </td></tr>
+        <tr><td style="padding:10px 36px;">
+          <div style="font-size:11px;font-weight:700;color:#31748f;letter-spacing:1.2px;text-transform:uppercase;margin-bottom:12px;">GitHub Trending</div>
+          {gh_html}
+        </td></tr>
+        <tr><td style="padding:10px 36px;">
+          <div style="font-size:11px;font-weight:700;color:#eb6f92;letter-spacing:1.2px;text-transform:uppercase;margin-bottom:12px;">Reddit Popular</div>
+          {reddit_html}
         </td></tr>
         <tr><td style="padding:10px 36px 28px;">
           <div style="font-size:11px;font-weight:700;color:#56949f;letter-spacing:1.2px;text-transform:uppercase;margin-bottom:12px;">Trending on X</div>
@@ -418,29 +573,40 @@ if __name__ == "__main__":
     log.info("=" * 60)
 
     try:
-        log.info("Step 1/8: Fetching news")
+        log.info("Step 1/10: Fetching news")
         data = fetch_news()
 
-        log.info("Step 2/8: Fetching HN hot (topstories)")
+        log.info("Step 2/10: Fetching HN hot (topstories)")
         hn_hot = fetch_hackernews(feed="topstories", n=10)
 
-        log.info("Step 3/8: Fetching HN top (beststories)")
+        log.info("Step 3/10: Fetching HN top (beststories)")
         hn_top = fetch_hackernews(feed="beststories", n=10)
 
-        log.info("Step 4/8: Fetching X trending")
+        log.info("Step 4/10: Fetching X trending")
         x_data = fetch_x_trending()
 
-        log.info("Step 5/8: Saving news.json")
-        save_news_json(data, hn_hot, hn_top, x_data)
+        log.info("Step 5/10: Fetching GitHub trending")
+        github_data = fetch_github_trending(n=10)
 
-        log.info("Step 6/8: Pushing to GitHub")
+        log.info("Step 6/10: Fetching Reddit trending")
+        reddit_data = fetch_reddit_trending(n=10)
+
+        log.info("Step 7/10: Saving news.json")
+        save_news_json(data, hn_hot, hn_top, x_data, github_data, reddit_data)
+
+        log.info("Step 8/10: Pushing to GitHub")
         git_push()
 
-        log.info("Step 7/8: Deploying to Netlify")
+        log.info("Step 9/10: Deploying to Netlify")
         netlify_deploy()
 
-        log.info("Step 8/8: Sending email")
-        full_data = {**data, "hacker_news": hn_hot, "hacker_news_top": hn_top, "x_trending": x_data}
+        log.info("Step 10/10: Sending email")
+        full_data = {
+            **data,
+            "hacker_news": hn_hot, "hacker_news_top": hn_top,
+            "x_trending": x_data, "github_trending": github_data,
+            "reddit_trending": reddit_data,
+        }
         html = build_html(full_data)
         send_email(html)
 

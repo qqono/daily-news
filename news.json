@@ -341,6 +341,160 @@
         "category": "r/technology",
         "url": "https://www.reddit.com/r/technology/comments/1spyiju/palantir_posts_minimanifesto_denouncing/"
       }
+    ],
+    "github_trending": [
+      {
+        "name": "Fincept-Corporation/FinceptTerminal",
+        "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed f",
+        "stars_today": "1,254",
+        "language": "Python",
+        "url": "https://github.com/Fincept-Corporation/FinceptTerminal"
+      },
+      {
+        "name": "thunderbird/thunderbolt",
+        "description": "AI You Control: Choose your models. Own your data. Eliminate vendor lock-in.",
+        "stars_today": "695",
+        "language": "TypeScript",
+        "url": "https://github.com/thunderbird/thunderbolt"
+      },
+      {
+        "name": "tractorjuice/arc-kit",
+        "description": "Enterprise Architecture Governance & Vendor Procurement Toolkit",
+        "stars_today": "263",
+        "language": "HTML",
+        "url": "https://github.com/tractorjuice/arc-kit"
+      },
+      {
+        "name": "openai/openai-agents-python",
+        "description": "A lightweight, powerful framework for multi-agent workflows",
+        "stars_today": "752",
+        "language": "Python",
+        "url": "https://github.com/openai/openai-agents-python"
+      },
+      {
+        "name": "pingdotgg/t3code",
+        "description": "No description",
+        "stars_today": "109",
+        "language": "TypeScript",
+        "url": "https://github.com/pingdotgg/t3code"
+      },
+      {
+        "name": "paperless-ngx/paperless-ngx",
+        "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
+        "stars_today": "393",
+        "language": "Python",
+        "url": "https://github.com/paperless-ngx/paperless-ngx"
+      },
+      {
+        "name": "ruvnet/RuView",
+        "description": "\u03c0 RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection \u2014 ",
+        "stars_today": "149",
+        "language": "Rust",
+        "url": "https://github.com/ruvnet/RuView"
+      },
+      {
+        "name": "EvoMap/evolver",
+        "description": "The GEP-Powered Self-Evolution Engine for AI Agents. Genome Evolution Protocol. | evomap.ai",
+        "stars_today": "527",
+        "language": "JavaScript",
+        "url": "https://github.com/EvoMap/evolver"
+      },
+      {
+        "name": "BasedHardware/omi",
+        "description": "AI that sees your screen, listens to your conversations and tells you what to do",
+        "stars_today": "685",
+        "language": "Dart",
+        "url": "https://github.com/BasedHardware/omi"
+      },
+      {
+        "name": "Donchitos/Claude-Code-Game-Studios",
+        "description": "Turn Claude Code into a full game dev studio \u2014 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hi",
+        "stars_today": "704",
+        "language": "Shell",
+        "url": "https://github.com/Donchitos/Claude-Code-Game-Studios"
+      }
+    ],
+    "reddit_trending": [
+      {
+        "title": "sat on a bench and it left a bruise on both cheeks. SFW censoring.",
+        "subreddit": "r/mildlyinfuriating",
+        "score": 28476,
+        "comments": 1904,
+        "url": "https://www.reddit.com/gallery/1sqch66",
+        "permalink": "https://reddit.com/r/mildlyinfuriating/comments/1sqch66/sat_on_a_bench_and_it_left_a_bruise_on_both/"
+      },
+      {
+        "title": "Rare Birth of Rhino Calf Captured in the Wild\u2728",
+        "subreddit": "r/mildyinteresting",
+        "score": 13733,
+        "comments": 1127,
+        "url": "https://v.redd.it/0rgiii2hd9wg1",
+        "permalink": "https://reddit.com/r/mildyinteresting/comments/1sqcvpr/rare_birth_of_rhino_calf_captured_in_the_wild/"
+      },
+      {
+        "title": "Reid Wiseman shares \u201cEarthset\u201d video from Artemis II, filmed on an iPhone: \u201cOnly one chance in this lifetime\u201d",
+        "subreddit": "r/interestingasfuck",
+        "score": 29874,
+        "comments": 910,
+        "url": "https://v.redd.it/allhk9k8r8wg1",
+        "permalink": "https://reddit.com/r/interestingasfuck/comments/1sqa4g4/reid_wiseman_shares_earthset_video_from_artemis/"
+      },
+      {
+        "title": "Gawd damn dad\ud83d\ude2d",
+        "subreddit": "r/SipsTea",
+        "score": 14321,
+        "comments": 515,
+        "url": "https://i.redd.it/bjsjuv2n99wg1.jpeg",
+        "permalink": "https://reddit.com/r/SipsTea/comments/1sqcetg/gawd_damn_dad/"
+      },
+      {
+        "title": "My unused basement",
+        "subreddit": "r/malelivingspace",
+        "score": 16019,
+        "comments": 1906,
+        "url": "https://www.reddit.com/gallery/1sqbnpf",
+        "permalink": "https://reddit.com/r/malelivingspace/comments/1sqbnpf/my_unused_basement/"
+      },
+      {
+        "title": "Facts or nah",
+        "subreddit": "r/SipsTea",
+        "score": 24103,
+        "comments": 3362,
+        "url": "https://v.redd.it/kahn34hha5wg1",
+        "permalink": "https://reddit.com/r/SipsTea/comments/1spsb8x/facts_or_nah/"
+      },
+      {
+        "title": "Trump Tells Iran to Sign Deal With U.S. or \u2018The Whole Country is Going to Get Blown Up\u2019",
+        "subreddit": "r/worldnews",
+        "score": 24956,
+        "comments": 3146,
+        "url": "https://ca.news.yahoo.com/trump-tells-iran-sign-deal-130033422.html",
+        "permalink": "https://reddit.com/r/worldnews/comments/1spt51y/trump_tells_iran_to_sign_deal_with_us_or_the/"
+      },
+      {
+        "title": "What was the first game you bought on Steam?",
+        "subreddit": "r/Steam",
+        "score": 5708,
+        "comments": 2751,
+        "url": "https://i.redd.it/wg5z4zht97wg1.jpeg",
+        "permalink": "https://reddit.com/r/Steam/comments/1sq2u63/what_was_the_first_game_you_bought_on_steam/"
+      },
+      {
+        "title": "US draft update: Major tech company [Palantir] urges universal national service",
+        "subreddit": "r/technology",
+        "score": 18902,
+        "comments": 2702,
+        "url": "https://www.newsweek.com/us-draft-update-major-tech-company-urges-universal-national-service-11850885",
+        "permalink": "https://reddit.com/r/technology/comments/1sq6at4/us_draft_update_major_tech_company_palantir_urges/"
+      },
+      {
+        "title": "Same brand, new slogan",
+        "subreddit": "r/mildlyinteresting",
+        "score": 17170,
+        "comments": 1324,
+        "url": "https://i.redd.it/th7hhnnjo8wg1.jpeg",
+        "permalink": "https://reddit.com/r/mildlyinteresting/comments/1sq9si7/same_brand_new_slogan/"
+      }
     ]
   }
 }

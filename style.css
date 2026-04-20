@@ -447,53 +447,8 @@ main {
   .article.spanning { grid-column: 1 / -1; }
 }
 
-/* ── X Trending ──────────────────────────────────────────── */
-.x-divider {
-  border: none;
-  border-top: 1px solid var(--overlay);
-  margin: 0.85rem 0;
-}
-
-.x-item {
-  display: flex;
-  gap: 0.55rem;
-  align-items: flex-start;
-  padding: 0.5rem 0.65rem;
-  background: var(--surface);
-  border: 1px solid var(--overlay);
-  border-radius: 6px;
-  text-decoration: none;
-  color: var(--text);
-  transition: background 0.15s ease, border-color 0.2s ease;
-  margin-bottom: 0.3rem;
-}
-
-.x-item:hover {
-  background: var(--overlay);
-  border-color: var(--foam);
-}
-
-.x-rank {
-  font-size: 0.65rem;
-  font-weight: 700;
-  color: var(--foam);
-  min-width: 1rem;
-  padding-top: 1px;
-  flex-shrink: 0;
-}
-
-.x-topic {
-  font-size: 0.78rem;
-  font-weight: 600;
-  color: var(--text);
-  line-height: 1.3;
-}
-
-.x-meta {
-  font-size: 0.65rem;
-  color: var(--muted);
-  margin-top: 2px;
-}
+/* ── label-foam for legacy compat ────────────────────────────── */
+.label-foam { color: var(--foam); }
 
 /* ── Home page ───────────────────────────────────────────── */
 .home-main {
@@ -650,49 +605,74 @@ main {
 
 .submit-btn:hover { opacity: 0.82; }
 
-/* ── HN pager ────────────────────────────────────────────── */
-.hn-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 0.75rem;
-}
-
-.hn-label {
-  margin-bottom: 0 !important;
-  border-bottom: none !important;
-  padding-bottom: 0 !important;
-}
-
-.hn-tabs {
+/* ── Section pager tabs (main column) ───────────────────────── */
+.section-tabs {
   display: flex;
   gap: 2px;
-  background: var(--overlay);
-  border-radius: 6px;
-  padding: 2px;
+  background: var(--surface);
+  border: 1px solid var(--overlay);
+  border-radius: 10px;
+  padding: 3px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  flex-shrink: 0;
 }
+.section-tabs::-webkit-scrollbar { display: none; }
 
-.hn-tab {
+.section-tab {
+  flex: 1;
+  min-width: 0;
   background: none;
   border: none;
-  border-radius: 4px;
-  padding: 0.18rem 0.5rem;
-  font-size: 0.63rem;
+  border-radius: 7px;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.68rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--muted);
   cursor: pointer;
   font-family: inherit;
+  white-space: nowrap;
   transition: background 0.15s ease, color 0.15s ease;
 }
 
-.hn-tab.active {
-  background: var(--surface);
-  color: var(--iris);
+.section-tab.active {
+  background: var(--overlay);
 }
 
-/* ── HN Sidebar ──────────────────────────────────────────── */
+/* ── Sidebar tabs ────────────────────────────────────────────── */
+.sidebar-tabs {
+  display: flex;
+  gap: 2px;
+  background: var(--overlay);
+  border-radius: 6px;
+  padding: 2px;
+  flex-shrink: 0;
+}
+
+.sidebar-tab {
+  flex: 1;
+  background: none;
+  border: none;
+  border-radius: 4px;
+  padding: 0.2rem 0.35rem;
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  cursor: pointer;
+  font-family: inherit;
+  white-space: nowrap;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.sidebar-tab.active {
+  background: var(--surface);
+}
+
+/* ── Sidebar container & panel ───────────────────────────────── */
 #hn-container {
   display: flex;
   flex-direction: column;
@@ -703,14 +683,24 @@ main {
   #hn-container {
     position: sticky;
     top: 4.5rem;
+    max-height: calc(100vh - 5rem);
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--overlay) transparent;
   }
 }
 
-.hn-item {
+.sidebar-panel {
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+/* ── Shared sidebar item ─────────────────────────────────────── */
+.sidebar-item {
   display: flex;
   gap: 0.6rem;
   align-items: flex-start;
-  padding: 0.65rem 0.75rem;
+  padding: 0.6rem 0.7rem;
   background: var(--surface);
   border: 1px solid var(--overlay);
   border-radius: 8px;
@@ -719,32 +709,47 @@ main {
   transition: background 0.15s ease, border-color 0.2s ease, transform 0.15s ease;
 }
 
-.hn-item:hover {
-  background: var(--overlay);
-  border-color: var(--iris);
-  transform: translateX(2px);
-}
+.hn-item:hover    { background: var(--overlay); border-color: var(--iris); transform: translateX(2px); }
+.gh-item:hover    { background: var(--overlay); border-color: var(--pine); transform: translateX(2px); }
+.reddit-item:hover{ background: var(--overlay); border-color: var(--love); transform: translateX(2px); }
+.x-item:hover     { background: var(--overlay); border-color: var(--foam); transform: translateX(2px); }
 
-.hn-rank {
-  font-size: 0.7rem;
+/* Rank numbers */
+.s-rank {
+  font-size: 0.68rem;
   font-weight: 700;
-  color: var(--iris);
   min-width: 1.1rem;
   padding-top: 1px;
   flex-shrink: 0;
 }
+.s-rank.iris { color: var(--iris); }
+.s-rank.pine { color: var(--pine); }
+.s-rank.love { color: var(--love); }
+.s-rank.foam { color: var(--foam); }
 
-.hn-title {
-  font-size: 0.8rem;
+/* Shared text */
+.s-title {
+  font-size: 0.79rem;
   font-weight: 500;
   line-height: 1.4;
   color: var(--text);
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.2rem;
 }
 
-.hn-meta {
-  font-size: 0.68rem;
+.s-meta {
+  font-size: 0.65rem;
   color: var(--muted);
+  line-height: 1.3;
+}
+
+/* GitHub-specific */
+.gh-name { font-weight: 600; }
+
+.gh-desc {
+  font-size: 0.72rem;
+  color: var(--subtle);
+  line-height: 1.35;
+  margin-bottom: 0.2rem;
 }
 
 /* ── Footer ──────────────────────────────────────────────── */
